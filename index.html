@@ -9,29 +9,34 @@
 </head>
 <body>
 
-<main id="loginScreen" class="login-screen">
+<main id="loginScreen" class="login-screen" style="display:none">
     <header class="login-page-header">
         <button class="login-page-home" type="button" onclick="continueAsGuest()">🏠 Home</button>
         <div class="login-page-title">IELTS Spelling Trainer</div>
     </header>
-    <form id="loginForm" class="login-card" novalidate>
+    <form id="loginForm" class="login-card" data-mode="signin" novalidate>
         <div class="login-mark" aria-hidden="true"></div>
-        <h1>User Sign In</h1>
-        <label for="loginPhone">Phone number</label>
-        <input id="loginPhone" name="phone" type="tel" inputmode="tel" autocomplete="tel" maxlength="24" placeholder="Phone number without country code" required>
+        <h1 id="loginTitle">User Sign In</h1>
+        <label for="loginEmail">Email address</label>
+        <input id="loginEmail" name="email" type="email" inputmode="email" autocomplete="email" maxlength="254" placeholder="Enter your email" required>
         <label for="loginPassword">Password</label>
         <div class="password-field">
-            <input id="loginPassword" name="password" type="password" autocomplete="current-password" placeholder="Enter your password" required>
+            <input id="loginPassword" name="password" type="password" autocomplete="current-password" minlength="6" placeholder="Enter your password" required>
             <button id="togglePasswordButton" class="password-toggle" type="button" onclick="togglePasswordVisibility()" aria-label="Show password" aria-pressed="false">Show</button>
         </div>
-        <label class="remember-option"><input id="rememberLogin" type="checkbox"> Remember me</label>
+        <div id="confirmPasswordGroup" hidden>
+            <label for="confirmPassword">Confirm password</label>
+            <input id="confirmPassword" name="confirmPassword" type="password" autocomplete="new-password" minlength="6" placeholder="Re-enter your password">
+        </div>
+        <label id="rememberOption" class="remember-option"><input id="rememberLogin" type="checkbox"> Remember me</label>
         <p id="loginError" class="login-error" role="alert" aria-live="polite"></p>
-        <button class="login-submit" type="submit">Log in</button>
-        <div class="premium-notice"><strong>Premium access</strong><br>Contact the administrator to receive your login details.</div>
+        <button id="loginSubmit" class="login-submit" type="submit">Log in</button>
+        <div class="auth-switch"><span id="authModePrompt">New to IELTS Spelling Trainer?</span> <button id="authModeToggle" type="button" onclick="setAuthMode('signup')">Create account</button></div>
+        <div id="signupNotice" class="premium-notice" hidden>New accounts start with ordinary access. The administrator can upgrade access later.</div>
     </form>
 </main>
 
-<div id="appContainer" class="app-container" style="display:none">
+<div id="appContainer" class="app-container" style="display:block">
     <div class="header">
         <div class="nav-controls">
             <button class="home-btn" onclick="showView('home')">🏠 HOME</button>
@@ -107,7 +112,7 @@
     </div>
     <div id="premium" class="view">
         <h2>⭐ Premium</h2>
-        <p>Premium features will be available here in a future update.</p>
+        <p>Your account access: <strong id="premiumAccessStatus">Guest access</strong>.</p><p>Premium features will appear here when enabled.</p>
         <p>For access information, contact the administrator.</p>
         <button class="btn" onclick="showView('home')">Back to Home</button>
     </div>
@@ -115,7 +120,7 @@
         <h2>👤 User Profile</h2>
         <section class="profile-section">
             <h3>1. User Profile</h3>
-            <p>Add your personal details and learning purpose. Your profile is stored on this device.</p>
+            <p>Add your personal details and learning purpose to personalize your account.</p>
             <form id="userProfileForm" onsubmit="saveUserProfile(event)">
                 <div class="profile-fields">
                     <label>First name<input id="profileFirstName" type="text" maxlength="60" autocomplete="given-name"></label>
@@ -135,8 +140,8 @@
         </section>
         <section class="user-data-section">
             <h3>2. User Data</h3>
-            <div class="local-data-warning"><strong>Your data is stored on this device only.</strong> It is not uploaded to a server. If you switch devices or clear saved site data, your profile and practice data may be lost. Export a JSON backup and keep it somewhere safe.</div>
-            <p>The backup includes your profile, mistakes, Need Revision words, Word Learned list, practice history, and settings. It does not include the word library.</p>
+            <div class="local-data-warning"><strong>Account profile details sync when you are signed in.</strong> Practice progress such as mistakes, revision words, learned words, history, and settings is still stored on this device. Export a JSON backup to keep a copy.</div>
+            <p>The backup includes your profile, mistakes, Need Revision words, Word Learned list, practice history, and settings. It does not include the word library. Your profile is synced to your signed-in account; practice progress is not.</p>
             <button class="btn btn-primary" type="button" onclick="exportUserData()">Export User Data (.json)</button>
             <button class="btn" type="button" onclick="document.getElementById('userDataImportFile').click()">Import User Data (.json)</button>
             <input id="userDataImportFile" type="file" accept=".json,application/json" hidden onchange="importUserData(event)">
@@ -241,7 +246,7 @@
 <script src="js/typing-climb.js"></script>
 <script src="js/library.js"></script>
 <script src="js/bootstrap.js"></script>
-<script src="js/login.js"></script>
+<script type="module" src="js/login.js"></script>
 <script src="js/site-menu.js"></script>
 <script src="js/user-profile.js"></script>
 </body>

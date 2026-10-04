@@ -7,7 +7,7 @@ function renderUserProfile() {
     document.getElementById('profileLearningPurpose').value = profile.learningPurpose || '';
 }
 
-function saveUserProfile(event) {
+async function saveUserProfile(event) {
     event.preventDefault();
     data.userProfile = {
         firstName: document.getElementById('profileFirstName').value.trim(),
@@ -18,7 +18,17 @@ function saveUserProfile(event) {
     };
     save();
     updateLoginStatusUI();
-    alert('Profile saved on this device.');
+    if (window.currentFirebaseUser && typeof window.saveFirebaseUserProfile === 'function') {
+        try {
+            await window.saveFirebaseUserProfile(data.userProfile);
+            alert('Profile saved and synced to your account.');
+        } catch (error) {
+            console.error('Profile could not be synced.', error);
+            alert('Profile saved on this device, but could not sync. Check your internet connection and Firestore rules.');
+        }
+    } else {
+        alert('Profile saved on this device. Sign in to sync profile details to your account.');
+    }
 }
 
 function exportUserData() {

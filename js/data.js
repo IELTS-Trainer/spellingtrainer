@@ -6,6 +6,7 @@
     data.userProfile = Object.assign({firstName:'',lastName:'',nationality:'',city:'',learningPurpose:''}, data.userProfile || {});
     data.settings = Object.assign({syllableRounds:3,mistakeLimit:10,showHistoryOnHome:true,historyHomeCount:5,showMistakesOnHome:true,mistakesHomeCount:15}, data.settings || {});
     if(!data.library||!Object.keys(data.library).length)data.library=starterLibrary;
+    window.appData = data;
 
     let session = { words: [], index: 0, mode: '' };
     let typingSession={words:[],index:0,level:1,category:'',score:0,mistakes:0};

@@ -71,3 +71,10 @@
     .profile-fields { grid-template-columns: 1fr; }
     .profile-purpose { grid-column: auto; }
 }
+
+.auth-switch { display:flex; justify-content:center; align-items:center; gap:6px; margin-top:13px; color:#475569; font-size:.9rem; text-align:center; }
+.auth-switch button { border:0; padding:4px; background:transparent; color:#004a99; font:inherit; font-weight:750; cursor:pointer; }
+.auth-switch button:hover { text-decoration:underline; }
+.auth-switch button:disabled { opacity:.55; cursor:wait; }
+.login-submit:disabled { opacity:.7; cursor:wait; }
+.login-card [hidden] { display:none !important; }

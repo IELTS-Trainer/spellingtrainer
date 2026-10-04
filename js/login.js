@@ -1,138 +1,305 @@
-/* Browser-side status: 0 = guest, 1 = signed in, 2 = admin. */
-const rememberedStatus = Number(localStorage.getItem('ielts_login_status')) || 0;
-const sessionStatus = Number(sessionStorage.getItem('ielts_login_status')) || 0;
-const rememberedLogin = rememberedStatus === 1 || rememberedStatus === 2;
-window.loginStatus = [1, 2].includes(rememberedStatus) ? rememberedStatus : ([1, 2].includes(sessionStatus) ? sessionStatus : 0);
-localStorage.removeItem('ielts_login_name');
-sessionStorage.removeItem('ielts_login_name');
-const ADMIN_PHONE_MARKER = '7147069'; // Checked after excluding the first two digits and final digit.
+import {
+    browserLocalPersistence,
+    browserSessionPersistence,
+    createUserWithEmailAndPassword,
+    onAuthStateChanged,
+    setPersistence,
+    signInWithEmailAndPassword,
+    signOut
+} from "https://www.gstatic.com/firebasejs/12.19.0/firebase-auth.js";
+import {
+    addDoc,
+    collection,
+    doc,
+    getDoc,
+    serverTimestamp,
+    setDoc,
+    updateDoc
+} from "https://www.gstatic.com/firebasejs/12.19.0/firebase-firestore.js";
+import { auth, db } from "./firebase-client.js";
 
-function normalizeLoginPhone(phone) {
-    const rawPhone = String(phone).trim();
-    let digits = rawPhone.replace(/\D/g, '');
-    // A leading + indicates a country code; per the app's rule, drop its first two digits.
-    if (rawPhone.startsWith('+')) digits = digits.slice(2);
-    return digits.length === 11 ? digits : null;
-}
+const loginForm = document.getElementById("loginForm");
+const loginScreen = document.getElementById("loginScreen");
+const appContainer = document.getElementById("appContainer");
+const loginError = document.getElementById("loginError");
+const authEnsureTasks = new Map();
 
-function makePasswordFromPhone(phone) {
-    const digits = normalizeLoginPhone(phone);
-    if (!digits) return null;
+window.loginStatus = 0;
+window.accountAccessLevel = "ordinary";
+window.currentFirebaseUser = null;
+window.firebaseDisplayName = "User";
 
-    // Digits are counted from the left, including the first digit.
-    const middleReversed = digits.slice(4, 7).split('').reverse(); // positions 7, 6, 5
-    let generated = 'S'
-        + digits[8] + '0'
-        + middleReversed[0] + '1'
-        + digits[10] + '&'
-        + middleReversed[1] + '$'
-        + digits[2] + '@'
-        + middleReversed[2] + '*';
-
-    return generated.replace(/[1-4]/g, digit => String.fromCharCode(64 + Number(digit)));
-}
-
-function setLoginState(value) {
-    window.loginStatus = [1, 2].includes(Number(value)) ? Number(value) : 0;
-    if (window.loginStatus && document.getElementById('rememberLogin').checked) {
-        localStorage.setItem('ielts_login_status', String(window.loginStatus));
-        sessionStorage.removeItem('ielts_login_status');
-    } else if (window.loginStatus) {
-        sessionStorage.setItem('ielts_login_status', String(window.loginStatus));
-        localStorage.removeItem('ielts_login_status');
-    } else {
-        localStorage.removeItem('ielts_login_status');
-        sessionStorage.removeItem('ielts_login_status');
-    }
-    updateLoginStatusUI();
-    if (!window.loginStatus) {
-        const passwordInput = document.getElementById('loginPassword');
-        passwordInput.value = '';
-        passwordInput.type = 'password';
-        document.getElementById('togglePasswordButton').textContent = 'Show';
-        document.getElementById('togglePasswordButton').setAttribute('aria-label', 'Show password');
-        document.getElementById('togglePasswordButton').setAttribute('aria-pressed', 'false');
-        document.getElementById('loginError').textContent = '';
-    }
+function getLocalDisplayName() {
+    const profile = window.appData && window.appData.userProfile ? window.appData.userProfile : {};
+    return [profile.firstName, profile.lastName].filter(Boolean).join(" ").trim();
 }
 
 function updateLoginStatusUI() {
-    const loginMenuItem = document.getElementById('loginMenuItem');
-    const userMenuItem = document.getElementById('userMenuItem');
-    const profile = data.userProfile || {};
-    const displayName = [profile.firstName, profile.lastName].filter(Boolean).join(' ').trim() || 'User';
-    if (loginMenuItem) loginMenuItem.hidden = window.loginStatus !== 0;
+    const loggedIn = Boolean(window.currentFirebaseUser);
+    const loginMenuItem = document.getElementById("loginMenuItem");
+    const userMenuItem = document.getElementById("userMenuItem");
+    const adminLink = document.getElementById("adminControlLink");
+    const localName = getLocalDisplayName();
+    const name = window.firebaseDisplayName || localName || "User";
+
+    if (loginMenuItem) loginMenuItem.hidden = loggedIn;
     if (userMenuItem) {
-        userMenuItem.hidden = window.loginStatus === 0;
-        userMenuItem.textContent = (window.loginStatus === 2 ? '🛡️ ' : '👤 ') + displayName + (window.loginStatus === 2 ? ' · Admin' : '');
+        userMenuItem.hidden = !loggedIn;
+        userMenuItem.textContent = (window.loginStatus === 2 ? "🛡️ " : "👤 ") + name
+            + (window.loginStatus === 2 ? " · Admin" : "");
     }
-    const adminControlLink = document.getElementById('adminControlLink');
-    if (adminControlLink) adminControlLink.style.display = window.loginStatus === 2 ? 'block' : 'none';
+    if (adminLink) adminLink.style.display = window.loginStatus === 2 ? "block" : "none";
+
+    const premiumStatus = document.getElementById("premiumAccessStatus");
+    if (premiumStatus) {
+        premiumStatus.textContent = window.loginStatus === 2
+            ? "Administrator access"
+            : (window.accountAccessLevel === "premium" ? "Premium access" : (loggedIn ? "Ordinary access" : "Guest access"));
+    }
 }
 
-function togglePasswordVisibility() {
-    const passwordInput = document.getElementById('loginPassword');
-    const toggleButton = document.getElementById('togglePasswordButton');
-    const isVisible = passwordInput.type === 'text';
-    passwordInput.type = isVisible ? 'password' : 'text';
-    toggleButton.textContent = isVisible ? 'Show' : 'Hide';
-    toggleButton.setAttribute('aria-label', isVisible ? 'Show password' : 'Hide password');
-    toggleButton.setAttribute('aria-pressed', String(!isVisible));
+function accountDefaults(user) {
+    return {
+        email: user.email || "",
+        displayName: "User",
+        accessLevel: "ordinary",
+        createdAt: serverTimestamp(),
+        updatedAt: serverTimestamp()
+    };
 }
 
-function handleHomeLoginStatus() {
-    if (typeof closeSiteMenu === 'function') closeSiteMenu();
-    if (window.loginStatus === 1) logoutUser();
-    else openLoginPage();
+async function ensureAccountDocument(user) {
+    if (authEnsureTasks.has(user.uid)) return authEnsureTasks.get(user.uid);
+
+    const task = (async () => {
+        const accountRef = doc(db, "users", user.uid);
+        let snapshot = await getDoc(accountRef);
+        if (!snapshot.exists()) {
+            await setDoc(accountRef, accountDefaults(user));
+            snapshot = await getDoc(accountRef);
+        }
+        return snapshot.exists() ? snapshot.data() : {};
+    })();
+
+    authEnsureTasks.set(user.uid, task);
+    try {
+        return await task;
+    } finally {
+        authEnsureTasks.delete(user.uid);
+    }
+}
+
+async function checkAdminAccount(user) {
+    const adminSnapshot = await getDoc(doc(db, "admins", user.uid));
+    return adminSnapshot.exists() && adminSnapshot.data().enabled === true;
+}
+
+async function recordLogin(user, eventType) {
+    try {
+        await addDoc(collection(db, "loginEvents"), {
+            uid: user.uid,
+            email: user.email || "",
+            displayName: window.firebaseDisplayName || getLocalDisplayName() || "User",
+            eventType,
+            timestamp: serverTimestamp(),
+            userAgent: navigator.userAgent.slice(0, 500)
+        });
+    } catch (error) {
+        console.warn("Login activity could not be saved. Check the Firestore rules.", error);
+    }
+}
+
+function setAuthMode(mode) {
+    const isSignUp = mode === "signup";
+    loginForm.dataset.mode = isSignUp ? "signup" : "signin";
+    document.getElementById("loginTitle").textContent = isSignUp ? "Create Account" : "User Sign In";
+    document.getElementById("loginSubmit").textContent = isSignUp ? "Create account" : "Log in";
+    document.getElementById("confirmPasswordGroup").hidden = !isSignUp;
+    document.getElementById("rememberOption").hidden = isSignUp;
+    document.getElementById("authModePrompt").textContent = isSignUp ? "Already have an account?" : "New to IELTS Spelling Trainer?";
+    document.getElementById("authModeToggle").textContent = isSignUp ? "Sign in" : "Create account";
+    document.getElementById("signupNotice").hidden = !isSignUp;
+    document.getElementById("loginPassword").autocomplete = isSignUp ? "new-password" : "current-password";
+    document.getElementById("loginPassword").setAttribute("minlength", "6");
+    loginError.textContent = "";
 }
 
 function openLoginPage() {
-    document.getElementById('loginError').textContent = '';
-    document.getElementById('loginScreen').style.display = 'grid';
-    document.getElementById('appContainer').style.display = 'none';
-    document.getElementById('loginPhone').focus();
+    setAuthMode("signin");
+    loginScreen.style.display = "grid";
+    appContainer.style.display = "none";
+    document.getElementById("loginEmail").focus();
 }
 
 function continueAsGuest() {
-    document.getElementById('loginScreen').style.display = 'none';
-    document.getElementById('appContainer').style.display = 'block';
-    showView('home');
+    loginScreen.style.display = "none";
+    appContainer.style.display = "block";
+    if (typeof window.showView === "function") window.showView("home");
 }
 
-document.getElementById('loginForm').addEventListener('submit', event => {
+function togglePasswordVisibility() {
+    const input = document.getElementById("loginPassword");
+    const button = document.getElementById("togglePasswordButton");
+    const visible = input.type === "text";
+    input.type = visible ? "password" : "text";
+    button.textContent = visible ? "Show" : "Hide";
+    button.setAttribute("aria-label", visible ? "Show password" : "Hide password");
+    button.setAttribute("aria-pressed", String(!visible));
+}
+
+function friendlyAuthError(error) {
+    const messages = {
+        "auth/invalid-email": "Enter a valid email address.",
+        "auth/invalid-credential": "The email or password is incorrect.",
+        "auth/user-not-found": "The email or password is incorrect.",
+        "auth/wrong-password": "The email or password is incorrect.",
+        "auth/email-already-in-use": "An account already exists with this email. Try signing in.",
+        "auth/weak-password": "Choose a stronger password with at least 6 characters.",
+        "auth/too-many-requests": "Too many attempts. Please wait a little and try again.",
+        "auth/network-request-failed": "Could not connect. Check your internet connection and try again.",
+        "auth/operation-not-allowed": "Email/Password sign-in is not enabled in Firebase yet."
+    };
+    return messages[error.code] || "Could not complete that request. Check the details and try again.";
+}
+
+function setFormBusy(busy) {
+    document.getElementById("loginSubmit").disabled = busy;
+    document.getElementById("authModeToggle").disabled = busy;
+    document.getElementById("loginSubmit").textContent = busy
+        ? "Please wait…"
+        : (loginForm.dataset.mode === "signup" ? "Create account" : "Log in");
+}
+
+loginForm.addEventListener("submit", async event => {
     event.preventDefault();
-    const phone = document.getElementById('loginPhone').value;
-    const password = document.getElementById('loginPassword').value;
-    const normalizedPhone = normalizeLoginPhone(phone);
-    const expected = makePasswordFromPhone(phone);
-    const error = document.getElementById('loginError');
+    loginError.textContent = "";
 
-    if (!expected) {
-        setLoginState(0);
-        error.textContent = 'Enter a valid 11-digit phone number.';
-        return;
-    }
-    if (password !== expected) {
-        setLoginState(0);
-        error.textContent = 'The phone number or password is incorrect.';
+    const email = document.getElementById("loginEmail").value.trim();
+    const password = document.getElementById("loginPassword").value;
+    const isSignUp = loginForm.dataset.mode === "signup";
+
+    if (isSignUp && password !== document.getElementById("confirmPassword").value) {
+        loginError.textContent = "The passwords do not match.";
         return;
     }
 
-    error.textContent = '';
-    document.getElementById('loginPassword').value = '';
-    const isAdmin = normalizedPhone.slice(2, -1).includes(ADMIN_PHONE_MARKER);
-    setLoginState(isAdmin ? 2 : 1);
-    continueAsGuest();
+    setFormBusy(true);
+    try {
+        await setPersistence(auth, document.getElementById("rememberLogin").checked
+            ? browserLocalPersistence
+            : browserSessionPersistence);
+
+        if (isSignUp) {
+            const credential = await createUserWithEmailAndPassword(auth, email, password);
+            await ensureAccountDocument(credential.user);
+            await recordLogin(credential.user, "sign_up");
+        } else {
+            const credential = await signInWithEmailAndPassword(auth, email, password);
+            await recordLogin(credential.user, "sign_in");
+        }
+
+        document.getElementById("loginPassword").value = "";
+        document.getElementById("confirmPassword").value = "";
+        continueAsGuest();
+    } catch (error) {
+        loginError.textContent = friendlyAuthError(error);
+    } finally {
+        setFormBusy(false);
+    }
 });
 
-function logoutUser() {
-    setLoginState(0);
-    document.getElementById('loginPhone').value = '';
-    continueAsGuest();
+function handleHomeLoginStatus() {
+    if (typeof window.closeSiteMenu === "function") window.closeSiteMenu();
+    openLoginPage();
 }
 
-// Login is optional: always open the app at Home, retaining the saved status if logged in.
-document.getElementById('loginScreen').style.display = 'none';
-document.getElementById('appContainer').style.display = 'block';
-document.getElementById('rememberLogin').checked = rememberedLogin;
-updateLoginStatusUI();
+function logoutUser() {
+    signOut(auth).then(continueAsGuest).catch(error => {
+        console.error("Sign out failed.", error);
+        alert("Could not sign out. Please try again.");
+    });
+}
+
+async function saveFirebaseUserProfile(profile) {
+    const user = auth.currentUser;
+    if (!user) return false;
+
+    const firstName = String(profile.firstName || "").trim().slice(0, 60);
+    const lastName = String(profile.lastName || "").trim().slice(0, 60);
+    const displayName = [firstName, lastName].filter(Boolean).join(" ").trim() || "User";
+    await updateDoc(doc(db, "users", user.uid), {
+        firstName,
+        lastName,
+        nationality: String(profile.nationality || "").trim().slice(0, 80),
+        city: String(profile.city || "").trim().slice(0, 80),
+        learningPurpose: ["IELTS", "Academic"].includes(profile.learningPurpose) ? profile.learningPurpose : "",
+        displayName,
+        updatedAt: serverTimestamp()
+    });
+    window.firebaseDisplayName = displayName;
+    updateLoginStatusUI();
+    return true;
+}
+
+window.updateLoginStatusUI = updateLoginStatusUI;
+window.openLoginPage = openLoginPage;
+window.continueAsGuest = continueAsGuest;
+window.togglePasswordVisibility = togglePasswordVisibility;
+window.handleHomeLoginStatus = handleHomeLoginStatus;
+window.logoutUser = logoutUser;
+window.setAuthMode = setAuthMode;
+window.saveFirebaseUserProfile = saveFirebaseUserProfile;
+window.firebaseAuth = auth;
+
+onAuthStateChanged(auth, async user => {
+    window.currentFirebaseUser = user;
+    if (!user) {
+        window.loginStatus = 0;
+        window.accountAccessLevel = "ordinary";
+        window.firebaseDisplayName = "User";
+        updateLoginStatusUI();
+        if (location.hash === "#login") {
+            openLoginPage();
+            history.replaceState(null, "", location.pathname + location.search);
+        }
+        return;
+    }
+
+    window.loginStatus = 1;
+    window.accountAccessLevel = "ordinary";
+    loginScreen.style.display = "none";
+    appContainer.style.display = "block";
+    if (location.hash === "#login") history.replaceState(null, "", location.pathname + location.search);
+    updateLoginStatusUI();
+
+    try {
+        const isAdmin = await checkAdminAccount(user);
+        const account = await ensureAccountDocument(user);
+        const profile = {
+            firstName: String(account.firstName || ""),
+            lastName: String(account.lastName || ""),
+            nationality: String(account.nationality || ""),
+            city: String(account.city || ""),
+            learningPurpose: String(account.learningPurpose || "")
+        };
+        window.firebaseDisplayName = account.displayName
+            || [profile.firstName, profile.lastName].filter(Boolean).join(" ").trim()
+            || "User";
+        window.accountAccessLevel = isAdmin
+            ? "admin"
+            : (account.accessLevel === "premium" ? "premium" : "ordinary");
+        window.loginStatus = isAdmin ? 2 : 1;
+
+        if (window.appData) {
+            window.appData.userProfile = Object.assign(window.appData.userProfile || {}, profile);
+            if (typeof window.save === "function") window.save();
+        }
+    } catch (error) {
+        console.error("Could not load account permissions. Check Firestore rules.", error);
+        window.firebaseDisplayName = user.email || "User";
+        window.loginStatus = 1;
+        window.accountAccessLevel = "ordinary";
+    }
+
+    updateLoginStatusUI();
+});

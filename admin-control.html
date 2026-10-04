@@ -9,25 +9,79 @@
         .admin-header { display:flex; align-items:center; justify-content:space-between; gap:16px; padding:16px 20px; background:#004a99; color:#fff; }
         .admin-header h1 { margin:0; font-size:1.2rem; }
         .admin-home { color:#fff; text-decoration:none; padding:8px 12px; border-radius:6px; background:#ffffff25; font-weight:700; }
-        .admin-content { padding:28px; }
-        .admin-placeholder { margin-top:20px; padding:24px; border:1px solid #dbe4ef; border-radius:12px; background:#f8fafc; color:#475569; }
+        .admin-content { padding:24px; }
+        .admin-section { margin:20px 0; padding:20px; border:1px solid #dbe4ef; border-radius:12px; background:#fff; }
+        .admin-section h2 { margin-top:0; }
+        .admin-section-header { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+        .admin-table-wrap { overflow-x:auto; }
+        .admin-table { width:100%; border-collapse:collapse; min-width:650px; }
+        .admin-table th,.admin-table td { padding:10px; border-bottom:1px solid #e2e8f0; text-align:left; vertical-align:top; }
+        .admin-table th { color:#475569; font-size:.88rem; }
+        .admin-table select { margin:0; min-width:125px; }
+        .admin-muted { color:#64748b; font-size:.9rem; line-height:1.5; }
+        .admin-message { padding:12px; border-radius:8px; background:#eff6ff; color:#1e3a8a; }
+        .admin-error { color:#b91c1c; }
+        .admin-toolbar { display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
+        .admin-dialog { width:min(1000px,calc(100% - 32px)); max-height:80vh; padding:20px; border:0; border-radius:14px; box-shadow:0 20px 60px #0f172a55; }
+        .admin-dialog::backdrop { background:#0f172a99; }
+        .admin-dialog-header { display:flex; justify-content:space-between; align-items:center; gap:12px; }
+        .admin-dialog-header h2 { margin:0; }
+        .admin-close { border:1px solid #cbd5e1; border-radius:7px; background:#fff; padding:7px 11px; cursor:pointer; }
+        @media(max-width:600px) { .admin-content{padding:14px}.admin-section{padding:14px}.admin-header{padding:12px}.admin-header h1{font-size:1rem} }
     </style>
-    <script>
-        const isAdmin = Number(localStorage.getItem('ielts_login_status')) === 2 || Number(sessionStorage.getItem('ielts_login_status')) === 2;
-        if (!isAdmin) window.location.replace('index.html');
-    </script>
 </head>
 <body>
     <div class="app-container">
         <header class="admin-header">
             <a class="admin-home" href="index.html">🏠 Home</a>
             <h1>Admin Control</h1>
-            <span aria-hidden="true">🛡️</span>
+            <button class="admin-home" id="adminLogout" type="button">Log out</button>
         </header>
         <main class="admin-content">
-            <h2>Admin Control</h2>
-            <div class="admin-placeholder">This page is reserved for the administrator. Admin tools can be added here later.</div>
+            <p id="adminStatus" class="admin-message" role="status">Checking administrator access…</p>
+            <div id="adminContent" hidden>
+                <section class="admin-section">
+                    <div class="admin-section-header">
+                        <h2>Recent logins</h2>
+                        <button class="btn" id="showAllLogins" type="button">Show all details</button>
+                    </div>
+                    <p class="admin-muted">Showing the latest 10 sign-in events. Device details are approximate; this page does not collect IP addresses.</p>
+                    <p id="loginCount" class="admin-muted"></p>
+                    <div class="admin-table-wrap">
+                        <table class="admin-table">
+                            <thead><tr><th>Name</th><th>Email</th><th>Event</th><th>Date and time</th><th>Browser/device</th></tr></thead>
+                            <tbody id="recentLoginRows"><tr><td colspan="5">Loading login activity…</td></tr></tbody>
+                        </table>
+                    </div>
+                </section>
+                <section class="admin-section">
+                    <h2>User access</h2>
+                    <p class="admin-muted">New accounts start as Ordinary. Change an account to Premium here. The current administrator account is protected.</p>
+                    <div class="admin-table-wrap">
+                        <table class="admin-table">
+                            <thead><tr><th>Name</th><th>Email</th><th>Access</th></tr></thead>
+                            <tbody id="userRows"><tr><td colspan="3">Loading accounts…</td></tr></tbody>
+                        </table>
+                    </div>
+                    <p id="userAccessMessage" class="admin-muted" aria-live="polite"></p>
+                </section>
+            </div>
         </main>
     </div>
+
+    <dialog id="allLoginsDialog" class="admin-dialog">
+        <div class="admin-dialog-header">
+            <h2>All login details</h2>
+            <button class="admin-close" id="closeAllLogins" type="button">Close</button>
+        </div>
+        <p class="admin-muted">Login events include email, account name, time, and an approximate browser/device description. IP addresses are not collected by this page.</p>
+        <div class="admin-table-wrap">
+            <table class="admin-table">
+                <thead><tr><th>Name</th><th>Email</th><th>Event</th><th>Date and time</th><th>Browser/device</th></tr></thead>
+                <tbody id="allLoginRows"></tbody>
+            </table>
+        </div>
+    </dialog>
+    <script type="module" src="js/admin-control.js"></script>
 </body>
 </html>
