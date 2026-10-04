@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Control · IELTS Spelling Trainer</title>
+    <link rel="stylesheet" href="css/app.css">
+    <style>
+        .admin-header { display:flex; align-items:center; justify-content:space-between; gap:16px; padding:16px 20px; background:#004a99; color:#fff; }
+        .admin-header h1 { margin:0; font-size:1.2rem; }
+        .admin-home { color:#fff; text-decoration:none; padding:8px 12px; border-radius:6px; background:#ffffff25; font-weight:700; }
+        .admin-content { padding:28px; }
+        .admin-placeholder { margin-top:20px; padding:24px; border:1px solid #dbe4ef; border-radius:12px; background:#f8fafc; color:#475569; }
+    </style>
+    <script>
+        const isAdmin = Number(localStorage.getItem('ielts_login_status')) === 2 || Number(sessionStorage.getItem('ielts_login_status')) === 2;
+        if (!isAdmin) window.location.replace('index.html');
+    </script>
+</head>
+<body>
+    <div class="app-container">
+        <header class="admin-header">
+            <a class="admin-home" href="index.html">🏠 Home</a>
+            <h1>Admin Control</h1>
+            <span aria-hidden="true">🛡️</span>
+        </header>
+        <main class="admin-content">
+            <h2>Admin Control</h2>
+            <div class="admin-placeholder">This page is reserved for the administrator. Admin tools can be added here later.</div>
+        </main>
+    </div>
+</body>
+</html>

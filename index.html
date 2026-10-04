@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IELTS Spelling Trainer</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+
+<main id="loginScreen" class="login-screen">
+    <header class="login-page-header">
+        <button class="login-page-home" type="button" onclick="continueAsGuest()">🏠 Home</button>
+        <div class="login-page-title">IELTS Spelling Trainer</div>
+    </header>
+    <form id="loginForm" class="login-card" novalidate>
+        <div class="login-mark" aria-hidden="true"></div>
+        <h1>User Sign In</h1>
+        <label for="loginPhone">Phone number</label>
+        <input id="loginPhone" name="phone" type="tel" inputmode="tel" autocomplete="tel" maxlength="24" placeholder="Phone number without country code" required>
+        <label for="loginPassword">Password</label>
+        <div class="password-field">
+            <input id="loginPassword" name="password" type="password" autocomplete="current-password" placeholder="Enter your password" required>
+            <button id="togglePasswordButton" class="password-toggle" type="button" onclick="togglePasswordVisibility()" aria-label="Show password" aria-pressed="false">Show</button>
+        </div>
+        <label class="remember-option"><input id="rememberLogin" type="checkbox"> Remember me</label>
+        <p id="loginError" class="login-error" role="alert" aria-live="polite"></p>
+        <button class="login-submit" type="submit">Log in</button>
+        <div class="premium-notice"><strong>Premium access</strong><br>Contact the administrator to receive your login details.</div>
+    </form>
+</main>
+
+<div id="appContainer" class="app-container" style="display:none">
+    <div class="header">
+        <div class="nav-controls">
+            <button class="home-btn" onclick="showView('home')">🏠 HOME</button>
+            <h2 id="headerTitle" style="margin:0; font-size: 1.2rem;">IELTS Spelling Trainer</h2>
+            <div id="headerStats" style="font-size: 0.8rem; text-align: right; line-height: 1.2; margin-right:42px"></div>
+            <button id="menuToggle" class="menu-toggle" type="button" onclick="toggleSiteMenu(event)" aria-label="Open menu" aria-expanded="false" aria-controls="siteMenu">⋮</button>
+        </div>
+        <nav id="siteMenu" class="site-menu" aria-label="Main menu" hidden>
+            <button id="loginMenuItem" type="button" onclick="handleHomeLoginStatus()">🔑 Login</button>
+            <button id="userMenuItem" type="button" onclick="openUserPage()" hidden>👤 Learner</button>
+            <button type="button" onclick="openSettingsFromMenu()">⚙️ Settings</button>
+            <button type="button" onclick="openHistoryFromMenu()">🕒 History</button>
+            <button type="button" onclick="openLearnedWordsFromMenu()">🎓 Word Learned</button>
+            <button type="button" onclick="openPremiumFromMenu()">⭐ Premium</button>
+        </nav>
+    </div>
+
+    <div id="home" class="view active">
+        <div class="grid">
+            <div class="card" onclick="openTypingSetup()"><h3>⌨️ Typing Climb</h3><p>Type words to climb — two levels</p></div>
+            <div class="card" onclick="openVoiceSetup()"><h3>🔊 Voice Mode Practice</h3><p>Topic practice or random mix</p></div>
+            <div class="card" onclick="openMistakeLevels()"><h3>⚠️ Last Mistakes</h3><p id="mistakeSub">0 words pending</p></div>
+            <div class="card" onclick="startMode('revision')"><h3>📚 Need Revision</h3><p id="revisionSub">0 words mastered</p></div>
+            <div class="card" onclick="showView('library')"><h3>🗃️ Word Library</h3><p>Edit, Update, Delete</p></div>
+        </div>
+        <div class="history-section" id="mistakesHomeSection">
+            <div class="history-title"><span>⚠️ Last Mistakes</span><button class="history-action" onclick="practiceDashboardMistakes()">Practice these words</button></div>
+            <div id="dashboardMistakeList"><p style="color:#94a3b8;font-size:.9rem">No mistaken words yet.</p></div>
+        </div>
+        <div class="history-section" id="historyHomeSection">
+            <div class="history-title">🕒 Recent Practice History</div>
+            <div id="historyList"><p style="color:#94a3b8;font-size:.9rem">No recent activity yet.</p></div>
+        </div>
+        <a id="adminControlLink" class="btn btn-primary" href="admin-control.html" style="display:none;text-align:center;text-decoration:none;box-sizing:border-box">🛡️ Admin Control</a>
+    </div>
+
+    <div id="practiceSetup" class="view">
+        <h2>Select Category</h2>
+        <select id="catSelect"></select>
+        <button class="btn btn-primary" onclick="startMode('regular')">Start Training</button>
+    </div>
+    <div id="voiceSetup" class="view">
+        <h2>🔊 Voice Mode Practice</h2>
+        <p>Choose a topic or practise a shuffled mix from every topic.</p>
+        <div class="typing-setup-grid">
+            <div class="card mode-card" data-level="1" onclick="showVoiceCategory()"><h3>Level 1 · Topic Practice</h3><p>Practise words from one selected topic.</p></div>
+            <div class="card mode-card" data-level="2" onclick="startMode('random')"><h3>Level 2 · Random Mix</h3><p>Words from every topic, shuffled.</p></div>
+        </div>
+        <div id="voiceCategoryBox" style="display:none;margin-top:20px"><strong>Choose a topic</strong><select id="voiceCategory"></select><button class="btn btn-primary" onclick="startMode('regular')">Start Level 1</button></div>
+        <button class="btn" onclick="showView('home')">Back</button>
+    </div>
+    <div id="settings" class="view">
+        <h2>⚙️ Settings</h2>
+        <label for="settingSyllableRounds"><strong>Syllable practice rounds after a mistake</strong></label>
+        <input id="settingSyllableRounds" type="number" min="1" max="10" step="1">
+        <p style="color:#64748b;margin-top:0">After these syllable rounds, you will type the complete word.</p>
+        <label for="settingMistakeLimit"><strong>Random Mix mistake limit</strong></label>
+        <input id="settingMistakeLimit" type="number" min="1" max="100" step="1">
+        <p style="color:#64748b;margin-top:0">Applies to Level 2 in Typing Climb and Voice Mode.</p>
+        <label class="settings-toggle"><input id="settingShowHistory" type="checkbox">Show Recent Practice History on Home</label>
+        <label class="settings-field-label" for="settingHistoryCount">Number of history items to show</label>
+        <input id="settingHistoryCount" type="number" min="1" max="200" step="1">
+        <label class="settings-toggle"><input id="settingShowMistakes" type="checkbox">Show Last Mistakes on Home</label>
+        <label class="settings-field-label" for="settingMistakeCount">Number of mistaken words to show</label>
+        <input id="settingMistakeCount" type="number" min="1" max="200" step="1">
+        <button class="btn btn-primary" onclick="saveSettings()">Save Settings</button>
+        <button class="btn" onclick="showView('home')">Back to Home</button>
+    </div>
+    <div id="historyPage" class="view">
+        <h2>🕒 Recent Practice History</h2>
+        <div id="historyPageList"><p style="color:#94a3b8;font-size:.9rem">No recent activity yet.</p></div>
+        <button class="btn" onclick="showView('home')">Back to Home</button>
+    </div>
+    <div id="premium" class="view">
+        <h2>⭐ Premium</h2>
+        <p>Premium features will be available here in a future update.</p>
+        <p>For access information, contact the administrator.</p>
+        <button class="btn" onclick="showView('home')">Back to Home</button>
+    </div>
+    <div id="userPage" class="view">
+        <h2>👤 User Profile</h2>
+        <section class="profile-section">
+            <h3>1. User Profile</h3>
+            <p>Add your personal details and learning purpose. Your profile is stored on this device.</p>
+            <form id="userProfileForm" onsubmit="saveUserProfile(event)">
+                <div class="profile-fields">
+                    <label>First name<input id="profileFirstName" type="text" maxlength="60" autocomplete="given-name"></label>
+                    <label>Last name<input id="profileLastName" type="text" maxlength="60" autocomplete="family-name"></label>
+                    <label>Nationality<input id="profileNationality" type="text" maxlength="80" autocomplete="country-name"></label>
+                    <label>City<input id="profileCity" type="text" maxlength="80" autocomplete="address-level2"></label>
+                    <label class="profile-purpose">Purpose of learning spelling
+                        <select id="profileLearningPurpose">
+                            <option value="">Choose a purpose</option>
+                            <option value="IELTS">IELTS</option>
+                            <option value="Academic">Academic</option>
+                        </select>
+                    </label>
+                </div>
+                <button class="btn btn-primary" type="submit">Save Profile</button>
+            </form>
+        </section>
+        <section class="user-data-section">
+            <h3>2. User Data</h3>
+            <div class="local-data-warning"><strong>Your data is stored on this device only.</strong> It is not uploaded to a server. If you switch devices or clear saved site data, your profile and practice data may be lost. Export a JSON backup and keep it somewhere safe.</div>
+            <p>The backup includes your profile, mistakes, Need Revision words, Word Learned list, practice history, and settings. It does not include the word library.</p>
+            <button class="btn btn-primary" type="button" onclick="exportUserData()">Export User Data (.json)</button>
+            <button class="btn" type="button" onclick="document.getElementById('userDataImportFile').click()">Import User Data (.json)</button>
+            <input id="userDataImportFile" type="file" accept=".json,application/json" hidden onchange="importUserData(event)">
+        </section>
+        <button class="btn" onclick="showView('home')">Back to Home</button>
+        <button class="btn profile-logout" onclick="logoutUser()">Log out</button>
+    </div>
+    <div id="learnedWordsPage" class="view">
+        <h2>🎓 Word Learned</h2>
+        <p><strong id="learnedWordCount">0</strong> words completed from Need Revision.</p>
+        <div id="learnedWordList"><p style="color:#94a3b8;font-size:.9rem">No learned words yet. Words will appear here after you complete them from Need Revision.</p></div>
+        <button class="btn" onclick="showView('home')">Back to Home</button>
+    </div>
+
+    <div id="mistakeLevels" class="view">
+        <h2>⚠️ Last Mistakes</h2>
+        <p>Choose how you want to practise your mistaken words.</p>
+        <div class="typing-setup-grid">
+            <div class="card mode-card" data-level="1" onclick="startSyllableMistakes()"><h3>Syllable Practice</h3><p>Type each syllable separately, then continue to the next word.</p></div>
+            <div class="card mode-card" data-level="2" onclick="startMode('review')"><h3>Voice Mode</h3><p>Listen to each word and spell it, as before.</p></div>
+        </div>
+        <button class="btn" onclick="showView('home')">Back</button>
+    </div>
+    <div id="syllableGame" class="view">
+        <div class="syllable-panel">
+            <div id="syllablePopupBody">
+                <div style="display:flex;justify-content:space-between;font-weight:bold;color:var(--primary)"><span>Syllable Practice</span><span id="syllableProgress"></span></div>
+                <div class="syllable-stage"><h2 id="syllableWholeWord"></h2><div id="syllableDisplay" class="syllable-row"></div><p id="syllablePrompt"></p></div>
+                <input id="syllableInput" type="text" autocomplete="off" placeholder="Type this syllable">
+                <div id="syllableFeedback" class="typing-feedback" aria-live="polite"></div>
+                <button class="btn btn-primary" onclick="checkSyllable()">Check syllable</button>
+                <button class="btn" onclick="endSyllablePractice()">End practice</button>
+            </div>
+            <div id="syllablePopupComplete" style="display:none;text-align:center">
+                <h2>Syllable practice complete!</h2>
+                <p id="syllablePopupSummary"></p>
+                <button class="btn btn-primary" onclick="endSyllablePractice()">Close</button>
+            </div>
+            <div class="syllable-progress-wrap">
+                <div id="syllableOverallProgressText">Words completed: 0/0</div>
+                <div class="syllable-progress-track"><div id="syllableOverallProgress" class="syllable-progress-fill" role="progressbar" aria-label="Words completed" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div></div>
+            </div>
+        </div>
+    </div>
+    <div id="syllableResults" class="view">
+        <h2>Syllable practice complete!</h2><p id="syllableResultsSummary"></p>
+        <button class="btn btn-primary" onclick="startSyllableMistakes()">Practise Last Mistakes again</button>
+        <button class="btn" onclick="startMode('review')">Continue in Voice Mode</button>
+        <button class="btn" onclick="showView('home')">Go home</button>
+    </div>
+    <div id="typingSetup" class="view"><h2>⌨️ Typing Climb</h2><p>Type each displayed word correctly to climb to the next platform.</p><div class="typing-setup-grid"><div class="card" onclick="selectTypingLevel(1)"><h3>Level 1 · Topic Practice</h3><p>Choose a category; unlimited retries.</p></div><div class="card" onclick="selectTypingLevel(2)"><h3>Level 2 · Random Mix</h3><p>All topics; game ends after 10 mistakes.</p></div></div><div id="typingCategoryBox" style="display:none;margin-top:20px"><strong>Choose a topic</strong><select id="typingCategory"></select><button class="btn btn-primary" onclick="beginTypingGame(1)">Start Level 1</button></div><button class="btn" onclick="showView('home')">Back</button></div><div id="typingGame" class="view"><div id="typingPlayArea"><div class="typing-score"><span id="typingModeLabel"></span><span>Score: <span id="typingScore">0</span> · Mistakes: <span id="typingMistakes">0</span><span id="typingLimit"></span></span></div><div class="typing-stage"><div class="typing-word" id="typingWord"></div><p class="typing-hint">Type the word exactly as shown, then press Enter</p><div class="platform-track" id="platformTrack"></div><div id="climber" class="climber">🤖</div></div><input type="text" id="typingInput" autocomplete="off" placeholder="Type the word here…"><div id="typingFeedback" class="typing-feedback"></div><button class="btn btn-primary" onclick="submitTypingWord()">Submit word</button><button class="btn" onclick="endTypingGame()">End game</button></div><div id="typingTopicResults" style="display:none"><h2>Topic complete!</h2><p id="typingResultsTopic"></p><button id="replayTopicButton" class="btn btn-primary">Play this topic again</button><label for="nextTypingCategory">Change topic</label><select id="nextTypingCategory"></select><button id="startSelectedTopicButton" class="btn">Start selected topic</button><button class="btn" onclick="practiceTypingMistakes()">Practice mistakes</button><button class="btn" onclick="beginTypingGame(2)">Go to Level 2</button><button class="btn" onclick="endTypingGame()">Go home</button></div></div><div id="typingGameOver" style="display:none;position:fixed;inset:0;background:#0f172acc;z-index:2000;align-items:center;justify-content:center;padding:20px"><div style="background:white;border-radius:12px;padding:24px;max-width:420px;width:100%;text-align:center"><h2 id="typingGameOverTitle">Game over</h2><p id="typingGameOverMessage"></p><button class="btn btn-primary" onclick="beginTypingGame(2)">Play again</button><button class="btn" onclick="practiceTypingMistakes()">Practice mistakes</button><button class="btn" onclick="closeTypingGameOver()">Home</button></div></div>
+    <div id="game" class="view">
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+            <span id="gameTitle" style="font-weight:bold; color:var(--primary)">Practice</span>
+            <span id="gameProgress">0/0</span>
+        </div>
+        <div id="correctionHint" class="correction-box">
+            <div style="font-size: 0.8rem;">STUDY THE CORRECT SPELLING:</div>
+            <div id="correctWordDisplay" style="font-size: 1.8rem; font-weight: bold; letter-spacing: 2px;"></div>
+        </div>
+        <div class="speaker-box">
+            <span id="speakerIcon" style="font-size:40px; cursor:pointer;" onclick="sayWord()">🔊</span>
+            <p>Listen and type correctly to proceed</p>
+        </div>
+        <input type="text" id="userInput" autocomplete="off" placeholder="Your answer...">
+        <div id="feedback" style="min-height: 24px; text-align: center; font-weight: bold;"></div>
+        <button class="btn btn-primary" onclick="checkAnswer()">Check Word</button>
+    </div>
+
+    <div id="library" class="view">
+        <h2>Manage Library</h2>
+        <input type="text" id="libCatName" placeholder="Category Name">
+        <textarea id="libWords" rows="8" placeholder="Words (one per line)"></textarea>
+        <button class="btn btn-primary" onclick="saveLibrary()">Save to Library</button>
+        <div id="libraryList"></div>
+        <div style="margin-top:20px; border-top:2px dashed #ccc; padding-top:20px;">
+            <h3>Data Backup</h3>
+            <button class="btn" style="background:#059669; color:white" onclick="exportData()">Export Data (.json)</button>
+            <input type="file" id="importFile" accept=".json" onchange="importData(event)">
+        </div>
+    </div>
+</div>
+    <div id="errorSyllableModal" class="error-syllable-modal" role="dialog" aria-modal="true" aria-labelledby="errorSyllableTitle">
+        <div class="error-syllable-panel">
+            <h2 id="errorSyllableTitle">Let's practise the syllables</h2>
+            <p id="errorSyllableWord" style="font-size:1.35rem;font-weight:bold"></p>
+            <div id="errorSyllableDisplay" class="syllable-row"></div>
+            <p id="errorSyllablePrompt"></p>
+            <input id="errorSyllableInput" type="text" autocomplete="off" placeholder="Type this syllable">
+            <div id="errorSyllableFeedback" class="typing-feedback" aria-live="polite"></div>
+            <button class="btn btn-primary" onclick="checkErrorSyllable()">Check syllable</button>
+        </div>
+    </div>
+
+
+<script src="js/data.js"></script>
+<script src="js/app-core.js"></script>
+<script src="js/dashboard.js"></script>
+<script src="js/voice-mode.js"></script>
+<script src="js/syllable-practice.js"></script>
+<script src="js/mistake-practice.js"></script>
+<script src="js/typing-climb.js"></script>
+<script src="js/library.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/login.js"></script>
+<script src="js/site-menu.js"></script>
+<script src="js/user-profile.js"></script>
+</body>
+</html>
