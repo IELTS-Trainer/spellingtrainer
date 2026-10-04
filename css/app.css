@@ -80,3 +80,36 @@
 .feature-upgrade-actions { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:18px; }
 .feature-upgrade-actions .btn { margin:0; }
 @media(max-width:560px) { .library-category-row { align-items:flex-start; flex-direction:column; } .library-category-actions { width:100%; } .library-category-actions button { flex:1; } .library-backup-actions { grid-template-columns:1fr; } }
+/* Typing Climb setup instructions and bottom navigation */
+.view.typing-setup-view.active {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 64px);
+  box-sizing: border-box;
+}
+.typing-setup-content { flex: 1 0 auto; }
+.typing-instructions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+.typing-instruction-card {
+  padding: 16px 18px;
+  border: 1px solid #dbe4ef;
+  border-radius: 12px;
+  background: #f8fafc;
+}
+.typing-instruction-card h3 { margin: 0 0 10px; color: #16416a; }
+.typing-instruction-card ol { margin: 0; padding-left: 22px; }
+.typing-instruction-card li { margin: 7px 0; line-height: 1.45; }
+.typing-setup-footer {
+  flex: 0 0 auto;
+  margin-top: auto;
+  padding-top: 22px;
+  border-top: 1px solid #e2e8f0;
+}
+.typing-setup-footer .btn { width: 100%; }
+@media (max-width: 640px) {
+  .typing-instructions { grid-template-columns: 1fr; }
+}
