@@ -221,18 +221,37 @@
 
     <div id="library" class="view">
         <h2>Manage Library</h2>
-        <input type="text" id="libCatName" placeholder="Category Name">
-        <textarea id="libWords" rows="8" placeholder="Words (one per line)"></textarea>
-        <button class="btn btn-primary" onclick="saveLibrary()">Save to Library</button>
-        <div id="libraryList"></div>
-        <div style="margin-top:20px; border-top:2px dashed #ccc; padding-top:20px;">
-            <h3>Data Backup</h3>
-            <button class="btn" style="background:#059669; color:white" onclick="exportData()">Export Data (.json)</button>
-            <input type="file" id="importFile" accept=".json" onchange="importData(event)">
+        <div class="library-form-fields">
+            <input type="text" id="libCatName" placeholder="Category name (e.g., Nature and Environment)" aria-label="Category name">
+            <textarea id="libWords" rows="8" placeholder="Words (one per line)" aria-label="Words, one per line"></textarea>
+            <div id="libraryExampleHint" class="library-example-hint" aria-hidden="true">
+                <span class="example-caption">Example topic</span>
+                <strong>Nature and Environment</strong>
+                <span>mountain · waterfall · peninsula</span>
+            </div>
         </div>
+        <button id="saveLibraryButton" class="btn btn-primary" onclick="saveLibrary()">Save to Library</button>
+        <div id="libraryList"></div>
+        <section class="library-backup-section">
+            <h3>Data Backup</h3>
+            <p>Move a library or backup between devices. CSV files should have two columns: category and word, one word per row.</p>
+            <div class="library-backup-actions">
+                <button id="backupImportButton" class="library-backup-button" type="button" onclick="startImportData()">Import data (.json, .csv)</button>
+                <button id="backupExportButton" class="library-backup-button" type="button" onclick="exportData()">Export data as JSON</button>
+            </div>
+            <input type="file" id="importFile" accept=".json,.csv,application/json,text/csv" hidden>
+        </section>
     </div>
 </div>
-    <div id="errorSyllableModal" class="error-syllable-modal" role="dialog" aria-modal="true" aria-labelledby="errorSyllableTitle">
+    <dialog id="libraryPremiumDialog" class="feature-upgrade-dialog" aria-labelledby="libraryPremiumTitle">
+        <div class="feature-upgrade-icon" aria-hidden="true">⭐</div>
+        <h2 id="libraryPremiumTitle">Premium feature</h2>
+        <p id="libraryPremiumDescription"></p>
+        <div class="feature-upgrade-actions">
+            <button id="libraryPremiumClose" class="btn" type="button">Maybe later</button>
+            <button id="libraryPremiumGet" class="btn btn-primary" type="button">Get Premium</button>
+        </div>
+    </dialog>    <div id="errorSyllableModal" class="error-syllable-modal" role="dialog" aria-modal="true" aria-labelledby="errorSyllableTitle">
         <div class="error-syllable-panel">
             <h2 id="errorSyllableTitle">Let's practise the syllables</h2>
             <p id="errorSyllableWord" style="font-size:1.35rem;font-weight:bold"></p>

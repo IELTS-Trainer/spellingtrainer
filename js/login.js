@@ -58,6 +58,7 @@ function updateLoginStatusUI() {
             ? "Administrator access"
             : (window.accountAccessLevel === "premium" ? "Premium access" : (loggedIn ? "Ordinary access" : "Guest access"));
     }
+    if (typeof window.renderLibrary === "function") window.renderLibrary();
 }
 
 function accountDefaults(user) {
