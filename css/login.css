@@ -78,3 +78,10 @@
 .auth-switch button:disabled { opacity:.55; cursor:wait; }
 .login-submit:disabled { opacity:.7; cursor:wait; }
 .login-card [hidden] { display:none !important; }
+.login-options { display:flex; justify-content:space-between; align-items:center; gap:12px; min-height:28px; }
+.login-card .login-options .remember-option { margin:8px 0 4px; }
+.forgot-password { border:0; padding:5px 0; background:transparent; color:#004a99; font:inherit; font-size:.88rem; cursor:pointer; }
+.forgot-password:hover { text-decoration:underline; }
+.forgot-password:disabled { opacity:.55; cursor:wait; }
+.login-error.is-success { color:#166534; }
+.login-field-note { display:block; margin:0 0 4px; color:#64748b; font-size:.82rem; line-height:1.4; }

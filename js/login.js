@@ -3,6 +3,7 @@ import {
     browserSessionPersistence,
     createUserWithEmailAndPassword,
     onAuthStateChanged,
+    sendPasswordResetEmail,
     setPersistence,
     signInWithEmailAndPassword,
     signOut
@@ -23,6 +24,7 @@ const loginScreen = document.getElementById("loginScreen");
 const appContainer = document.getElementById("appContainer");
 const loginError = document.getElementById("loginError");
 const authEnsureTasks = new Map();
+let pendingSignupPhone = "";
 
 window.loginStatus = 0;
 window.accountAccessLevel = "ordinary";
@@ -63,6 +65,7 @@ function accountDefaults(user) {
         email: user.email || "",
         displayName: "User",
         accessLevel: "ordinary",
+        phoneNumber: pendingSignupPhone,
         createdAt: serverTimestamp(),
         updatedAt: serverTimestamp()
     };
@@ -115,12 +118,16 @@ function setAuthMode(mode) {
     document.getElementById("loginTitle").textContent = isSignUp ? "Create Account" : "User Sign In";
     document.getElementById("loginSubmit").textContent = isSignUp ? "Create account" : "Log in";
     document.getElementById("confirmPasswordGroup").hidden = !isSignUp;
+    document.getElementById("signupPhoneGroup").hidden = !isSignUp;
+    document.getElementById("signupPhone").required = isSignUp;
     document.getElementById("rememberOption").hidden = isSignUp;
+    document.getElementById("forgotPasswordButton").hidden = isSignUp;
     document.getElementById("authModePrompt").textContent = isSignUp ? "Already have an account?" : "New to IELTS Spelling Trainer?";
     document.getElementById("authModeToggle").textContent = isSignUp ? "Sign in" : "Create account";
     document.getElementById("signupNotice").hidden = !isSignUp;
     document.getElementById("loginPassword").autocomplete = isSignUp ? "new-password" : "current-password";
     document.getElementById("loginPassword").setAttribute("minlength", "6");
+    loginError.classList.remove("is-success");
     loginError.textContent = "";
 }
 
@@ -170,13 +177,44 @@ function setFormBusy(busy) {
         : (loginForm.dataset.mode === "signup" ? "Create account" : "Log in");
 }
 
+async function sendPasswordReset() {
+    loginError.classList.remove("is-success");
+    loginError.textContent = "";
+    const email = document.getElementById("loginEmail").value.trim();
+    if (!email) {
+        loginError.textContent = "Enter your email address first, then choose Forgot password?";
+        document.getElementById("loginEmail").focus();
+        return;
+    }
+
+    const button = document.getElementById("forgotPasswordButton");
+    button.disabled = true;
+    try {
+        await sendPasswordResetEmail(auth, email);
+        loginError.classList.add("is-success");
+        loginError.textContent = "If an account exists for this email, a password reset link has been sent.";
+    } catch (error) {
+        loginError.textContent = friendlyAuthError(error);
+    } finally {
+        button.disabled = false;
+    }
+}
+
+document.getElementById("forgotPasswordButton").addEventListener("click", sendPasswordReset);
+
 loginForm.addEventListener("submit", async event => {
     event.preventDefault();
+    loginError.classList.remove("is-success");
     loginError.textContent = "";
 
     const email = document.getElementById("loginEmail").value.trim();
     const password = document.getElementById("loginPassword").value;
     const isSignUp = loginForm.dataset.mode === "signup";
+
+    if (isSignUp && !document.getElementById("signupPhone").value.trim()) {
+        loginError.textContent = "Enter a phone number to create your account.";
+        return;
+    }
 
     if (isSignUp && password !== document.getElementById("confirmPassword").value) {
         loginError.textContent = "The passwords do not match.";
@@ -190,6 +228,7 @@ loginForm.addEventListener("submit", async event => {
             : browserSessionPersistence);
 
         if (isSignUp) {
+            pendingSignupPhone = document.getElementById("signupPhone").value.trim().slice(0, 30);
             const credential = await createUserWithEmailAndPassword(auth, email, password);
             await ensureAccountDocument(credential.user);
             await recordLogin(credential.user, "sign_up");
@@ -204,6 +243,7 @@ loginForm.addEventListener("submit", async event => {
     } catch (error) {
         loginError.textContent = friendlyAuthError(error);
     } finally {
+        pendingSignupPhone = "";
         setFormBusy(false);
     }
 });

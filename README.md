@@ -30,3 +30,7 @@ The login activity view shows email, display name, event type, timestamp, and an
 - `js/admin-control.js` — administrator checks and user access controls
 - `js/user-profile.js` — profile form and JSON personal-data backup
 - `js/data.js` — vocabulary and local practice state
+
+## Account signup
+
+Account creation now requires a phone number, stored as an unverified contact detail in users/{uid}. No SMS is sent. This field is included in the existing profile-document creation write. Admin Control displays the saved number. Sign-in also includes a password-reset link; Firebase sends a reset email to the address entered.

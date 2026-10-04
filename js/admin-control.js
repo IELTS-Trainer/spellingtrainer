@@ -110,7 +110,8 @@ async function renderUsers() {
         const snapshot = await getDocs(collection(db, "users"));
         if (snapshot.empty) {
             const row = document.createElement("tr");
-            cell(row, "No user profiles have been created yet.");
+            const emptyCell = cell(row, "No user profiles have been created yet.");
+            emptyCell.colSpan = 4;
             rows.appendChild(row);
             return;
         }
@@ -123,6 +124,7 @@ async function renderUsers() {
                 || "User";
             cell(row, displayName);
             cell(row, account.email || "—");
+            cell(row, account.phoneNumber || "—");
             const accessCell = document.createElement("td");
             const select = document.createElement("select");
             select.setAttribute("aria-label", "Access level for " + (account.email || displayName));
@@ -162,7 +164,8 @@ async function renderUsers() {
     } catch (error) {
         console.error("Could not load users.", error);
         const row = document.createElement("tr");
-        cell(row, "Could not load accounts. Check the deployed Firestore rules.");
+        const errorCell = cell(row, "Could not load accounts. Check the deployed Firestore rules.");
+        errorCell.colSpan = 4;
         rows.appendChild(row);
     }
 }

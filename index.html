@@ -19,6 +19,11 @@
         <h1 id="loginTitle">User Sign In</h1>
         <label for="loginEmail">Email address</label>
         <input id="loginEmail" name="email" type="email" inputmode="email" autocomplete="email" maxlength="254" placeholder="Enter your email" required>
+        <div id="signupPhoneGroup" hidden>
+            <label for="signupPhone">Phone number</label>
+            <input id="signupPhone" name="phone" type="tel" inputmode="tel" autocomplete="tel" maxlength="30" placeholder="Enter your phone number">
+            <small class="login-field-note">Saved with your account. No verification code will be sent.</small>
+        </div>
         <label for="loginPassword">Password</label>
         <div class="password-field">
             <input id="loginPassword" name="password" type="password" autocomplete="current-password" minlength="6" placeholder="Enter your password" required>
@@ -28,7 +33,10 @@
             <label for="confirmPassword">Confirm password</label>
             <input id="confirmPassword" name="confirmPassword" type="password" autocomplete="new-password" minlength="6" placeholder="Re-enter your password">
         </div>
-        <label id="rememberOption" class="remember-option"><input id="rememberLogin" type="checkbox"> Remember me</label>
+        <div class="login-options">
+            <label id="rememberOption" class="remember-option"><input id="rememberLogin" type="checkbox"> Remember me</label>
+            <button id="forgotPasswordButton" class="forgot-password" type="button">Forgot password?</button>
+        </div>
         <p id="loginError" class="login-error" role="alert" aria-live="polite"></p>
         <button id="loginSubmit" class="login-submit" type="submit">Log in</button>
         <div class="auth-switch"><span id="authModePrompt">New to IELTS Spelling Trainer?</span> <button id="authModeToggle" type="button" onclick="setAuthMode('signup')">Create account</button></div>
