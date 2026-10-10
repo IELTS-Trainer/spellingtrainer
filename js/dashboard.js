@@ -84,3 +84,45 @@
     }
 
     
+
+function renderDashboardBookmarks() {
+    const homeList = document.getElementById('dashboardBookmarkList');
+    const pageList = document.getElementById('bookmarkPageList');
+    const words = Array.isArray(data.bookmarks) ? data.bookmarks : [];
+    const counter = document.getElementById('bookmarkSub');
+    if (counter) counter.textContent = words.length + (words.length === 1 ? ' word saved' : ' words saved');
+    const render = (target, values) => {
+        if (!target) return;
+        target.replaceChildren();
+        if (!values.length) {
+            const empty = document.createElement('p');
+            empty.style.cssText = 'color:#94a3b8;font-size:.9rem';
+            empty.textContent = 'No bookmarked words yet.';
+            target.appendChild(empty);
+            return;
+        }
+        values.slice().reverse().forEach(word => {
+            const row = document.createElement('div');
+            row.className = 'history-item';
+            const text = document.createElement('span');
+            text.textContent = word;
+            const remove = document.createElement('button');
+            remove.type = 'button';
+            remove.className = 'history-action';
+            remove.textContent = 'Remove';
+            remove.addEventListener('click', () => {
+                data.bookmarks = data.bookmarks.filter(item => item.toLocaleLowerCase() !== word.toLocaleLowerCase());
+                save();
+            });
+            row.append(text, remove);
+            target.appendChild(row);
+        });
+    };
+    render(homeList, words.slice(-5));
+    render(pageList, words);
+}
+function practiceBookmarkedWords() {
+    const words = Array.isArray(data.bookmarks) ? [...data.bookmarks] : [];
+    if (!words.length) return alert('No bookmarked words to practise yet.');
+    startSyllableMistakes(words, 'Home · Bookmarked Words', true);
+}

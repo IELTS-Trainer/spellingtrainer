@@ -86,6 +86,7 @@ let syllableSession = { words: [], index: 0, syllables: [], syllableIndex: 0, ro
         syllableSession.round = 1;
         syllableSession.phase = 'syllables';
         document.getElementById('syllableWholeWord').textContent = word;
+        renderWordTools('syllableWordTools', word);
         document.getElementById('syllableProgress').textContent = (syllableSession.index + 1) + '/' + syllableSession.words.length;
         document.getElementById('syllableInput').value = '';
         document.getElementById('syllableFeedback').textContent = '';

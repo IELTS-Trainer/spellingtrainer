@@ -8,3 +8,7 @@ document.getElementById('userInput').addEventListener('keypress', e => {
     renderHistory();
     renderDashboardMistakes();
     document.querySelectorAll('.grid .card').forEach((card, index) => card.setAttribute('aria-label', 'Feature ' + (index + 1)));
+
+renderDashboardBookmarks();
+
+refreshSharedLibrary();

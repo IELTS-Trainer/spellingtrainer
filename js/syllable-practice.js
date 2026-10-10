@@ -10,6 +10,7 @@ let errorSyllableState = { word: '', syllables: [], index: 0, round: 1, phase: '
             onComplete: onComplete
         };
         document.getElementById('errorSyllableWord').textContent = word;
+        renderWordTools('errorSyllableWordTools', word);
         document.getElementById('errorSyllableFeedback').textContent = '';
         document.querySelector('#errorSyllableModal .btn-primary').textContent = 'Check syllable';
         document.getElementById('errorSyllableModal').style.display = 'flex';

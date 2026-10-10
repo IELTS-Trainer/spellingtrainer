@@ -38,6 +38,7 @@ function exportUserData() {
         exportedAt: new Date().toISOString(),
         profile: data.userProfile || {},
         mistakes: data.mistakes || {},
+        bookmarks: data.bookmarks || [],
         revision: data.revision || [],
         learned: data.learned || [],
         history: data.history || [],
@@ -74,7 +75,7 @@ function importUserData(event) {
             if (!backup.settings || typeof backup.settings !== 'object' || Array.isArray(backup.settings)) {
                 throw new Error('The settings section is missing or invalid.');
             }
-            if (!confirm('Import this backup? It will replace your profile and practice data. Your word library will stay unchanged.')) return;
+            if (!confirm('Import this backup? It will replace your profile and practice data, including bookmarks. Your word library will stay unchanged.')) return;
 
             const cleanStrings = values => [...new Set(values.filter(value => typeof value === 'string'))];
             data.userProfile = {
@@ -84,6 +85,7 @@ function importUserData(event) {
                 city: String(backup.profile.city || '').slice(0, 80),
                 learningPurpose: ['IELTS', 'Academic'].includes(backup.profile.learningPurpose) ? backup.profile.learningPurpose : ''
             };
+            data.bookmarks = Array.isArray(backup.bookmarks) ? [...new Set(backup.bookmarks.filter(word => typeof word === 'string' && word.trim()).map(word => word.trim()))] : [];
             data.mistakes = Object.fromEntries(Object.entries(backup.mistakes)
                 .filter(([word, count]) => typeof word === 'string' && Number.isFinite(Number(count)))
                 .map(([word, count]) => [word, Math.max(0, Math.floor(Number(count)))]));

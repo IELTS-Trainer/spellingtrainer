@@ -6,9 +6,9 @@ function beginTypingGame(level, requestedCategory) {
         if (level === 1) {
             category = requestedCategory || document.getElementById('typingCategory').value || typingSession.category;
             if (!category || !data.library[category] || !data.library[category].length) return alert('Choose a category with words.');
-            words = [...data.library[category]];
+            words = libraryWords(category);
         } else {
-            words = Object.values(data.library || {}).flat().sort(() => Math.random() - 0.5);
+            words = allLibraryWords().sort(() => Math.random() - 0.5);
             if (!words.length) return alert('Add words first.');
         }
         typingSession = {words, index:0, level, category, score:0, mistakes:0};
@@ -38,6 +38,7 @@ function showTypingWord() {
         }
         document.getElementById('typingInput').disabled = false;
         document.getElementById('typingWord').textContent = typingSession.words[typingSession.index];
+        renderWordTools('typingWordTools', typingSession.words[typingSession.index]);
         document.getElementById('typingInput').value = '';
         document.getElementById('typingFeedback').textContent = '';
         document.getElementById('typingInput').focus();

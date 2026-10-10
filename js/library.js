@@ -31,7 +31,7 @@ function clearLibraryForm() {
 
 function saveLibrary() {
     const name = document.getElementById("libCatName").value.trim();
-    const words = document.getElementById("libWords").value.split("\n").map(word => word.trim()).filter(Boolean);
+    const words = document.getElementById("libWords").value.split("\n").map(line => normalizeLibraryEntry(line)).filter(entry => entry.word);
     if (!name || words.length === 0) return alert("Enter a category name and at least one word.");
     if (!data.library || typeof data.library !== "object") data.library = {};
     if (!editingCategory && Object.prototype.hasOwnProperty.call(data.library, name) && !hasLibraryPremiumAccess()) {
@@ -79,6 +79,12 @@ function renderLibrary() {
         const name = document.createElement("strong");
         name.textContent = category;
         info.append(name, document.createTextNode(" (" + data.library[category].length + " words)"));
+        if (Array.isArray(data.newLibraryCategories) && data.newLibraryCategories.includes(category)) {
+            const badge = document.createElement("span");
+            badge.className = "shared-library-new-badge";
+            badge.textContent = "New";
+            info.appendChild(badge);
+        }
 
         const actions = document.createElement("div");
         actions.className = "library-category-actions";
@@ -105,7 +111,7 @@ function editCat(category) {
     if (!Object.prototype.hasOwnProperty.call(data.library, category)) return;
     editingCategory = category;
     document.getElementById("libCatName").value = category;
-    document.getElementById("libWords").value = data.library[category].join("\n");
+    document.getElementById("libWords").value = data.library[category].map(entry => entry.word + (entry.meaning ? ", " + entry.meaning : "")).join("\n");
     document.getElementById("saveLibraryButton").textContent = "Update Library";
     updateLibraryExampleHint();
     document.getElementById("libCatName").focus();
@@ -156,15 +162,21 @@ async function exportData() {
 function sanitizeLibrary(candidate) {
     if (!candidate || typeof candidate !== "object" || Array.isArray(candidate)) throw new Error("The file must contain a category-to-words list.");
     const clean = {};
-    Object.entries(candidate).forEach(([category, words]) => {
+    Object.entries(candidate).forEach(([category, entries]) => {
         const name = String(category).trim();
-        if (!name || !Array.isArray(words)) throw new Error("Each category must contain a list of words.");
-        clean[name] = [...new Set(words.filter(word => typeof word === "string").map(word => word.trim()).filter(Boolean))];
+        if (!name || !Array.isArray(entries)) throw new Error("Each category must contain a list of words.");
+        const normalized = entries.map(normalizeLibraryEntry).filter(entry => entry.word);
+        const seen = new Set();
+        clean[name] = normalized.filter(entry => {
+            const key = entry.word.toLocaleLowerCase();
+            if (seen.has(key)) return false;
+            seen.add(key);
+            return true;
+        });
     });
     if (!Object.keys(clean).length) throw new Error("No word categories were found in this file.");
     return clean;
 }
-
 function parseCsvRows(text) {
     const rows = [];
     let row = [];
@@ -200,13 +212,13 @@ function libraryFromCsv(text) {
     rows.slice(start).forEach((values, index) => {
         const category = String(values[0] || "").trim();
         const word = String(values[1] || "").trim();
+        const meaning = String(values[2] || "").trim();
         if (!category || !word) throw new Error("CSV row " + (index + start + 1) + " needs a category and a word.");
         if (!library[category]) library[category] = [];
-        library[category].push(word);
+        library[category].push({word, meaning});
     });
     return sanitizeLibrary(library);
 }
-
 function importData(event) {
     if (!hasLibraryPremiumAccess()) {
         showLibraryPremiumPrompt("Importing data");

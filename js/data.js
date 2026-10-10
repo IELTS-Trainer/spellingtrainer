@@ -6,6 +6,130 @@
     data.userProfile = Object.assign({firstName:'',lastName:'',nationality:'',city:'',learningPurpose:''}, data.userProfile || {});
     data.settings = Object.assign({syllableRounds:3,mistakeLimit:10,showHistoryOnHome:true,historyHomeCount:5,showMistakesOnHome:true,mistakesHomeCount:15}, data.settings || {});
     if(!data.library||!Object.keys(data.library).length)data.library=starterLibrary;
+    function normalizeLibraryEntry(entry) {
+        if (typeof entry === 'string') {
+            const comma = entry.indexOf(',');
+            return {word:(comma < 0 ? entry : entry.slice(0, comma)).trim(), meaning:comma < 0 ? '' : entry.slice(comma + 1).trim()};
+        }
+        if (!entry || typeof entry !== 'object') return {word:'', meaning:''};
+        return {word:String(entry.word || '').trim(), meaning:String(entry.meaning || entry.banglaMeaning || '').trim()};
+    }
+    function normalizeLibrary(candidate) {
+        const normalized = {};
+        Object.entries(candidate || {}).forEach(([category, entries]) => {
+            if (!Array.isArray(entries)) return;
+            normalized[category] = entries.map(normalizeLibraryEntry).filter(entry => entry.word);
+        });
+        return normalized;
+    }
+    function wordText(entry) { return normalizeLibraryEntry(entry).word; }
+    function wordMeaning(entry) { return normalizeLibraryEntry(entry).meaning; }
+    function libraryWords(category) { return (data.library?.[category] || []).map(wordText); }
+    function allLibraryWords() { return Object.values(data.library || {}).flat().map(wordText); }
+    function findWordMeaning(word) {
+        const key = String(word || '').trim().toLocaleLowerCase();
+        for (const entries of Object.values(data.library || {})) {
+            const match = entries.find(entry => wordText(entry).toLocaleLowerCase() === key && wordMeaning(entry));
+            if (match) return wordMeaning(match);
+        }
+        return '';
+    }
+    data.library = normalizeLibrary(data.library && Object.keys(data.library).length ? data.library : starterLibrary);
+    data.bookmarks = Array.isArray(data.bookmarks) ? [...new Set(data.bookmarks.map(wordText).filter(Boolean))] : [];
+    function isWordBookmarked(word) { return data.bookmarks.some(item => item.toLocaleLowerCase() === String(word).toLocaleLowerCase()); }
+    function toggleWordBookmark(word) {
+        const existing = data.bookmarks.findIndex(item => item.toLocaleLowerCase() === String(word).toLocaleLowerCase());
+        if (existing >= 0) data.bookmarks.splice(existing, 1); else data.bookmarks.push(String(word));
+        save();
+        renderWordTools('voiceWordTools', word);
+        renderWordTools('typingWordTools', word);
+        renderWordTools('syllableWordTools', word);
+        renderWordTools('errorSyllableWordTools', word);
+    }
+    function renderWordTools(containerId, word) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        container.replaceChildren();
+        if (!word) return;
+        const bookmark = document.createElement('button');
+        bookmark.type = 'button'; bookmark.className = 'word-tool-button';
+        bookmark.textContent = (isWordBookmarked(word) ? '🔖 Saved' : '🔖 Bookmark');
+        bookmark.setAttribute('aria-pressed', String(isWordBookmarked(word)));
+        bookmark.addEventListener('click', () => toggleWordBookmark(word));
+        container.appendChild(bookmark);
+        const meaning = findWordMeaning(word);
+        if (meaning) {
+            const toggle = document.createElement('button');
+            toggle.type = 'button'; toggle.className = 'word-tool-button'; toggle.textContent = 'বাংলা meaning';
+            toggle.setAttribute('aria-expanded', 'false');
+            const detail = document.createElement('span'); detail.className = 'word-meaning'; detail.hidden = true; detail.textContent = meaning;
+            toggle.addEventListener('click', () => { detail.hidden = !detail.hidden; toggle.setAttribute('aria-expanded', String(!detail.hidden)); toggle.textContent = detail.hidden ? 'বাংলা meaning' : 'Hide meaning'; });
+            container.append(toggle, detail);
+        }
+    }
+    async function refreshSharedLibrary() {
+        try {
+            const url = new URL('./data/library.json', window.location.href);
+            url.searchParams.set('refresh', String(Date.now()));
+            const response = await fetch(url.toString(), {cache:'no-store'});
+            if (!response.ok) throw new Error('HTTP ' + response.status);
+            const payload = await response.json();
+            const remote = normalizeLibrary(payload.categories || payload.library || payload);
+            if (!Object.keys(remote).length) throw new Error('The shared library file contains no categories.');
+
+            const previousNames = Array.isArray(data.sharedLibraryCategories)
+                ? data.sharedLibraryCategories
+                : Object.keys(starterLibrary);
+            const previousSnapshot = data.sharedLibrarySnapshot || Object.fromEntries(
+                previousNames.filter(name => data.library[name]).map(name => [name, data.library[name]])
+            );
+            const newCategories = Object.keys(remote).filter(name => !previousNames.includes(name));
+            const updatedCategories = Object.keys(remote).filter(name =>
+                previousNames.includes(name) &&
+                JSON.stringify(previousSnapshot[name] || []) !== JSON.stringify(remote[name])
+            );
+            const removedCategories = previousNames.filter(name => !Object.prototype.hasOwnProperty.call(remote, name));
+            const notices = [
+                ...newCategories.map(name => ({name, status:'new'})),
+                ...updatedCategories.map(name => ({name, status:'updated'})),
+                ...removedCategories.map(name => ({name, status:'removed'}))
+            ];
+
+            const personalCategories = Object.fromEntries(Object.entries(data.library || {})
+                .filter(([name]) => !previousNames.includes(name)));
+            data.library = Object.assign({}, personalCategories, remote);
+            data.sharedLibraryCategories = Object.keys(remote);
+            data.sharedLibrarySnapshot = remote;
+            data.sharedLibraryVersion = Number(payload.version) || 1;
+            if (notices.length) data.newLibraryCategories = newCategories;
+            save();
+            if (notices.length) showLibraryUpdateNotice(notices);
+        } catch (error) {
+            console.info('Using the saved library; shared updates are unavailable.', error);
+        }
+    }
+
+    function showLibraryUpdateNotice(items) {
+        const dialog = document.getElementById('libraryUpdateDialog');
+        const list = document.getElementById('libraryUpdateList');
+        const labels = {new:'New', updated:'Updated', removed:'Removed'};
+        list.replaceChildren();
+        items.forEach(item => {
+            const row = document.createElement('li');
+            row.textContent = item.name + ' — ' + labels[item.status];
+            list.appendChild(row);
+        });
+        document.getElementById('libraryUpdateSummary').textContent =
+            items.length === 1 ? 'A word category changed:' : 'Word categories changed:';
+        if (dialog && typeof dialog.showModal === 'function') dialog.showModal();
+        else alert('Shared word categories changed: ' + items.map(item => item.name).join(', '));
+    }
+
+    function closeLibraryUpdateNotice() {
+        const dialog = document.getElementById('libraryUpdateDialog');
+        if (dialog && dialog.open) dialog.close();
+    }
+
     window.appData = data;
 
     let session = { words: [], index: 0, mode: '' };

@@ -113,3 +113,10 @@
 @media (max-width: 640px) {
   .typing-instructions { grid-template-columns: 1fr; }
 }
+.word-tools { display:flex; align-items:center; justify-content:flex-end; flex-wrap:wrap; gap:8px; min-height:34px; margin:8px 0; }
+.word-tool-button { border:1px solid #dbe3ed; border-radius:7px; background:#fff; color:#16416a; padding:7px 10px; font:inherit; font-size:.9rem; cursor:pointer; }
+.word-tool-button:hover { background:#eff6ff; border-color:#93c5fd; }
+.word-meaning { flex-basis:100%; text-align:right; color:#334155; font-size:1rem; font-weight:600; }
+.shared-library-new-badge { display:inline-block; margin-left:8px; padding:2px 7px; border-radius:999px; background:#dcfce7; color:#166534; font-size:.72rem; font-weight:750; vertical-align:middle; }
+.library-update-list { margin:10px 0 18px; padding-left:22px; color:#334155; }
+.library-update-list li { margin:7px 0; }

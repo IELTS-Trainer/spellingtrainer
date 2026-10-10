@@ -3,6 +3,7 @@
         updateDashboardCounts();
         renderHistory();
         renderDashboardMistakes();
+        renderDashboardBookmarks();
     }
 
     function trimPracticeHistory() {
@@ -16,9 +17,10 @@
         document.getElementById(id).classList.add('active');
         document.getElementById('correctionHint').style.display = 'none';
         
-        const titles = { 'home': 'IELTS Spelling Trainer', 'practiceSetup': 'Select Category', 'voiceSetup':'Voice Mode Practice', 'settings':'Settings', 'historyPage':'History', 'learnedWordsPage':'Word Learned', 'userPage':'User', 'premium':'Premium', 'game': 'Exam Mode', 'library': 'Word Library',typingSetup:'Typing Climb',typingGame:'Typing Climb',mistakeLevels:'Last Mistakes',syllableGame:'Syllable Practice',syllableResults:'Syllable Practice' };
+        const titles = { 'home': 'IELTS Spelling Trainer', 'practiceSetup': 'Select Category', 'voiceSetup':'Voice Mode Practice', 'settings':'Settings', 'historyPage':'History', 'learnedWordsPage':'Word Learned', 'userPage':'User', 'premium':'Premium', 'game': 'Exam Mode', 'library': 'Word Library',bookmarksPage:'Bookmarked words',typingSetup:'Typing Climb',typingGame:'Typing Climb',mistakeLevels:'Last Mistakes',syllableGame:'Syllable Practice',syllableResults:'Syllable Practice' };
         document.getElementById('headerTitle').innerText = titles[id] || 'IELTS Hub';
-        if(id === 'home') { renderHistory(); renderDashboardMistakes(); }
+        if(id === 'home') { renderHistory(); renderDashboardMistakes(); renderDashboardBookmarks(); }
+        if(id === 'bookmarksPage') renderDashboardBookmarks();
         if(id === 'learnedWordsPage') renderLearnedWords();
         if(id === 'userPage') { renderUserProfile(); updateLoginStatusUI(); }
         if(id === 'library') renderLibrary();

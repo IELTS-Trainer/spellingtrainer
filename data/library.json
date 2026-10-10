@@ -1,0 +1,5820 @@
+{
+  "version": 3,
+  "updatedAt": "2026-10-10T06:26:51.035Z",
+  "categories": {
+    "Days and Months": [
+      {
+        "word": "Monday",
+        "meaning": ""
+      },
+      {
+        "word": "Tuesday",
+        "meaning": ""
+      },
+      {
+        "word": "Wednesday",
+        "meaning": ""
+      },
+      {
+        "word": "Thursday",
+        "meaning": ""
+      },
+      {
+        "word": "Friday",
+        "meaning": ""
+      },
+      {
+        "word": "Saturday",
+        "meaning": ""
+      },
+      {
+        "word": "Sunday",
+        "meaning": ""
+      },
+      {
+        "word": "weekdays",
+        "meaning": ""
+      },
+      {
+        "word": "weekend",
+        "meaning": ""
+      },
+      {
+        "word": "January",
+        "meaning": ""
+      },
+      {
+        "word": "February",
+        "meaning": ""
+      },
+      {
+        "word": "March",
+        "meaning": ""
+      },
+      {
+        "word": "April",
+        "meaning": ""
+      },
+      {
+        "word": "May",
+        "meaning": ""
+      },
+      {
+        "word": "June",
+        "meaning": ""
+      },
+      {
+        "word": "July",
+        "meaning": ""
+      },
+      {
+        "word": "August",
+        "meaning": ""
+      },
+      {
+        "word": "September",
+        "meaning": ""
+      },
+      {
+        "word": "October",
+        "meaning": ""
+      },
+      {
+        "word": "November",
+        "meaning": ""
+      },
+      {
+        "word": "December",
+        "meaning": ""
+      }
+    ],
+    "Money matters": [
+      {
+        "word": "cash",
+        "meaning": ""
+      },
+      {
+        "word": "debit",
+        "meaning": ""
+      },
+      {
+        "word": "credit card",
+        "meaning": ""
+      },
+      {
+        "word": "cheque",
+        "meaning": ""
+      },
+      {
+        "word": "in advance",
+        "meaning": ""
+      },
+      {
+        "word": "annual fee",
+        "meaning": ""
+      },
+      {
+        "word": "monthly membership",
+        "meaning": ""
+      },
+      {
+        "word": "interest rate",
+        "meaning": ""
+      },
+      {
+        "word": "deposit",
+        "meaning": ""
+      },
+      {
+        "word": "tuition fees",
+        "meaning": ""
+      },
+      {
+        "word": "poverty",
+        "meaning": ""
+      },
+      {
+        "word": "bank statement",
+        "meaning": ""
+      },
+      {
+        "word": "money management",
+        "meaning": ""
+      },
+      {
+        "word": "current account",
+        "meaning": ""
+      },
+      {
+        "word": "student account",
+        "meaning": ""
+      },
+      {
+        "word": "withdraw",
+        "meaning": ""
+      },
+      {
+        "word": "low-risk investment",
+        "meaning": ""
+      },
+      {
+        "word": "mortgage",
+        "meaning": ""
+      },
+      {
+        "word": "grace period",
+        "meaning": ""
+      },
+      {
+        "word": "budget deficit",
+        "meaning": ""
+      },
+      {
+        "word": "retail voucher",
+        "meaning": ""
+      },
+      {
+        "word": "coupon",
+        "meaning": ""
+      },
+      {
+        "word": "counterfeit money",
+        "meaning": ""
+      },
+      {
+        "word": "public money",
+        "meaning": ""
+      },
+      {
+        "word": "taxpayers' money",
+        "meaning": ""
+      },
+      {
+        "word": "debt",
+        "meaning": ""
+      },
+      {
+        "word": "interest-free credit",
+        "meaning": ""
+      },
+      {
+        "word": "purchase",
+        "meaning": ""
+      },
+      {
+        "word": "partial refund",
+        "meaning": ""
+      },
+      {
+        "word": "annuity",
+        "meaning": ""
+      },
+      {
+        "word": "non-refundable",
+        "meaning": ""
+      },
+      {
+        "word": "MasterCard",
+        "meaning": ""
+      },
+      {
+        "word": "VISA",
+        "meaning": ""
+      },
+      {
+        "word": "distribution costs",
+        "meaning": ""
+      },
+      {
+        "word": "income",
+        "meaning": ""
+      },
+      {
+        "word": "finance department",
+        "meaning": ""
+      },
+      {
+        "word": "family finances",
+        "meaning": ""
+      },
+      {
+        "word": "duty-free store",
+        "meaning": ""
+      }
+    ],
+    "Subjects": [
+      {
+        "word": "science",
+        "meaning": ""
+      },
+      {
+        "word": "politics",
+        "meaning": ""
+      },
+      {
+        "word": "history",
+        "meaning": ""
+      },
+      {
+        "word": "biology",
+        "meaning": ""
+      },
+      {
+        "word": "architecture",
+        "meaning": ""
+      },
+      {
+        "word": "law",
+        "meaning": ""
+      },
+      {
+        "word": "geography",
+        "meaning": ""
+      },
+      {
+        "word": "archaeology",
+        "meaning": ""
+      },
+      {
+        "word": "literature",
+        "meaning": ""
+      },
+      {
+        "word": "business management",
+        "meaning": ""
+      },
+      {
+        "word": "agriculture",
+        "meaning": ""
+      },
+      {
+        "word": "statistics",
+        "meaning": ""
+      },
+      {
+        "word": "mathematics",
+        "meaning": ""
+      },
+      {
+        "word": "logic",
+        "meaning": ""
+      },
+      {
+        "word": "physics",
+        "meaning": ""
+      },
+      {
+        "word": "psychology",
+        "meaning": ""
+      },
+      {
+        "word": "anthropology",
+        "meaning": ""
+      },
+      {
+        "word": "economics",
+        "meaning": ""
+      },
+      {
+        "word": "philosophy",
+        "meaning": ""
+      },
+      {
+        "word": "performing arts",
+        "meaning": ""
+      },
+      {
+        "word": "visual arts",
+        "meaning": ""
+      },
+      {
+        "word": "chemistry",
+        "meaning": ""
+      },
+      {
+        "word": "humanities",
+        "meaning": ""
+      }
+    ],
+    "Education": [
+      {
+        "word": "course outline",
+        "meaning": ""
+      },
+      {
+        "word": "group discussion",
+        "meaning": ""
+      },
+      {
+        "word": "handout",
+        "meaning": ""
+      },
+      {
+        "word": "written work",
+        "meaning": ""
+      },
+      {
+        "word": "report writing",
+        "meaning": ""
+      },
+      {
+        "word": "research",
+        "meaning": ""
+      },
+      {
+        "word": "Proofreading",
+        "meaning": ""
+      },
+      {
+        "word": "experiment",
+        "meaning": ""
+      },
+      {
+        "word": "experience",
+        "meaning": ""
+      },
+      {
+        "word": "reference",
+        "meaning": ""
+      },
+      {
+        "word": "textbook",
+        "meaning": ""
+      },
+      {
+        "word": "dictionary",
+        "meaning": ""
+      },
+      {
+        "word": "laptop",
+        "meaning": ""
+      },
+      {
+        "word": "printer",
+        "meaning": ""
+      },
+      {
+        "word": "student advisor",
+        "meaning": ""
+      },
+      {
+        "word": "teamwork",
+        "meaning": ""
+      },
+      {
+        "word": "module",
+        "meaning": ""
+      },
+      {
+        "word": "topic",
+        "meaning": ""
+      },
+      {
+        "word": "assessment",
+        "meaning": ""
+      },
+      {
+        "word": "library",
+        "meaning": ""
+      },
+      {
+        "word": "department",
+        "meaning": ""
+      },
+      {
+        "word": "computer centre",
+        "meaning": ""
+      },
+      {
+        "word": "classroom",
+        "meaning": ""
+      },
+      {
+        "word": "lecture",
+        "meaning": ""
+      },
+      {
+        "word": "tutor",
+        "meaning": ""
+      },
+      {
+        "word": "main hall",
+        "meaning": ""
+      },
+      {
+        "word": "attendance",
+        "meaning": ""
+      },
+      {
+        "word": "deadline",
+        "meaning": ""
+      },
+      {
+        "word": "give a talk",
+        "meaning": ""
+      },
+      {
+        "word": "speech",
+        "meaning": ""
+      },
+      {
+        "word": "computer laboratory",
+        "meaning": ""
+      },
+      {
+        "word": "certificate",
+        "meaning": ""
+      },
+      {
+        "word": "diploma",
+        "meaning": ""
+      },
+      {
+        "word": "placement test",
+        "meaning": ""
+      },
+      {
+        "word": "overseas students",
+        "meaning": ""
+      },
+      {
+        "word": "full-time",
+        "meaning": ""
+      },
+      {
+        "word": "facilities",
+        "meaning": ""
+      },
+      {
+        "word": "college",
+        "meaning": ""
+      },
+      {
+        "word": "dining room",
+        "meaning": ""
+      },
+      {
+        "word": "specialist",
+        "meaning": ""
+      },
+      {
+        "word": "knowledge",
+        "meaning": ""
+      },
+      {
+        "word": "international",
+        "meaning": ""
+      },
+      {
+        "word": "accommodation",
+        "meaning": ""
+      },
+      {
+        "word": "home stay",
+        "meaning": ""
+      },
+      {
+        "word": "primary",
+        "meaning": ""
+      },
+      {
+        "word": "secondary",
+        "meaning": ""
+      },
+      {
+        "word": "intermediate",
+        "meaning": ""
+      },
+      {
+        "word": "media room",
+        "meaning": ""
+      },
+      {
+        "word": "resources room",
+        "meaning": ""
+      },
+      {
+        "word": "staff",
+        "meaning": ""
+      },
+      {
+        "word": "commencement",
+        "meaning": ""
+      },
+      {
+        "word": "dissertation",
+        "meaning": ""
+      },
+      {
+        "word": "leaflet",
+        "meaning": ""
+      },
+      {
+        "word": "faculty",
+        "meaning": ""
+      },
+      {
+        "word": "pupils",
+        "meaning": ""
+      },
+      {
+        "word": "pencil",
+        "meaning": ""
+      },
+      {
+        "word": "feedback",
+        "meaning": ""
+      },
+      {
+        "word": "tasks",
+        "meaning": ""
+      },
+      {
+        "word": "outcomes",
+        "meaning": ""
+      },
+      {
+        "word": "advanced",
+        "meaning": ""
+      },
+      {
+        "word": "introductory",
+        "meaning": ""
+      },
+      {
+        "word": "extra background",
+        "meaning": ""
+      },
+      {
+        "word": "higher education",
+        "meaning": ""
+      },
+      {
+        "word": "guidelines",
+        "meaning": ""
+      },
+      {
+        "word": "post-secondary",
+        "meaning": ""
+      },
+      {
+        "word": "supervisor",
+        "meaning": ""
+      },
+      {
+        "word": "bachelor's degree",
+        "meaning": ""
+      },
+      {
+        "word": "compound",
+        "meaning": ""
+      },
+      {
+        "word": "vocabulary",
+        "meaning": ""
+      },
+      {
+        "word": "student support services",
+        "meaning": ""
+      },
+      {
+        "word": "student retention",
+        "meaning": ""
+      },
+      {
+        "word": "publication",
+        "meaning": ""
+      },
+      {
+        "word": "foreign students",
+        "meaning": ""
+      },
+      {
+        "word": "schedule",
+        "meaning": ""
+      },
+      {
+        "word": "school reunion",
+        "meaning": ""
+      },
+      {
+        "word": "registrar's office",
+        "meaning": ""
+      },
+      {
+        "word": "stationery",
+        "meaning": ""
+      }
+    ],
+    "Marketing": [
+      {
+        "word": "catalogue",
+        "meaning": ""
+      },
+      {
+        "word": "interview",
+        "meaning": ""
+      },
+      {
+        "word": "newsletter",
+        "meaning": ""
+      },
+      {
+        "word": "competition",
+        "meaning": ""
+      },
+      {
+        "word": "TV program",
+        "meaning": ""
+      },
+      {
+        "word": "strategies",
+        "meaning": ""
+      },
+      {
+        "word": "research method",
+        "meaning": ""
+      },
+      {
+        "word": "entertainment industry",
+        "meaning": ""
+      },
+      {
+        "word": "leadership",
+        "meaning": ""
+      },
+      {
+        "word": "management",
+        "meaning": ""
+      },
+      {
+        "word": "display",
+        "meaning": ""
+      },
+      {
+        "word": "products",
+        "meaning": ""
+      },
+      {
+        "word": "customer",
+        "meaning": ""
+      },
+      {
+        "word": "special offer",
+        "meaning": ""
+      },
+      {
+        "word": "collecting data",
+        "meaning": ""
+      },
+      {
+        "word": "questionnaire",
+        "meaning": ""
+      },
+      {
+        "word": "survey",
+        "meaning": ""
+      },
+      {
+        "word": "mass media",
+        "meaning": ""
+      },
+      {
+        "word": "statistic",
+        "meaning": ""
+      },
+      {
+        "word": "profit margin",
+        "meaning": ""
+      },
+      {
+        "word": "poll",
+        "meaning": ""
+      },
+      {
+        "word": "business card",
+        "meaning": ""
+      },
+      {
+        "word": "training",
+        "meaning": ""
+      },
+      {
+        "word": "trainee",
+        "meaning": ""
+      },
+      {
+        "word": "merchandise",
+        "meaning": ""
+      },
+      {
+        "word": "manufacture",
+        "meaning": ""
+      },
+      {
+        "word": "recruitment",
+        "meaning": ""
+      }
+    ],
+    "Health": [
+      {
+        "word": "yoga",
+        "meaning": ""
+      },
+      {
+        "word": "tai-chi",
+        "meaning": ""
+      },
+      {
+        "word": "keep-fit",
+        "meaning": ""
+      },
+      {
+        "word": "salad bar",
+        "meaning": ""
+      },
+      {
+        "word": "vegetarian",
+        "meaning": ""
+      },
+      {
+        "word": "outdoor activities",
+        "meaning": ""
+      },
+      {
+        "word": "leisure time",
+        "meaning": ""
+      },
+      {
+        "word": "disease",
+        "meaning": ""
+      },
+      {
+        "word": "meal",
+        "meaning": ""
+      },
+      {
+        "word": "protein",
+        "meaning": ""
+      },
+      {
+        "word": "balanced diet",
+        "meaning": ""
+      },
+      {
+        "word": "food pyramid",
+        "meaning": ""
+      },
+      {
+        "word": "vitamin",
+        "meaning": ""
+      },
+      {
+        "word": "carbohydrates",
+        "meaning": ""
+      },
+      {
+        "word": "rice",
+        "meaning": ""
+      },
+      {
+        "word": "pasta",
+        "meaning": ""
+      },
+      {
+        "word": "potatoes",
+        "meaning": ""
+      },
+      {
+        "word": "pizza",
+        "meaning": ""
+      },
+      {
+        "word": "tomatoes",
+        "meaning": ""
+      },
+      {
+        "word": "bread",
+        "meaning": ""
+      },
+      {
+        "word": "cereals",
+        "meaning": ""
+      },
+      {
+        "word": "minerals",
+        "meaning": ""
+      },
+      {
+        "word": "zinc",
+        "meaning": ""
+      },
+      {
+        "word": "meat",
+        "meaning": ""
+      },
+      {
+        "word": "seafood",
+        "meaning": ""
+      },
+      {
+        "word": "eggs",
+        "meaning": ""
+      },
+      {
+        "word": "beans",
+        "meaning": ""
+      },
+      {
+        "word": "milk",
+        "meaning": ""
+      },
+      {
+        "word": "cheese",
+        "meaning": ""
+      },
+      {
+        "word": "yoghurt",
+        "meaning": ""
+      },
+      {
+        "word": "fruit",
+        "meaning": ""
+      },
+      {
+        "word": "vegetables",
+        "meaning": ""
+      },
+      {
+        "word": "citrus fruits",
+        "meaning": ""
+      },
+      {
+        "word": "green pepper",
+        "meaning": ""
+      },
+      {
+        "word": "blackcurrant",
+        "meaning": ""
+      },
+      {
+        "word": "nuts",
+        "meaning": ""
+      },
+      {
+        "word": "egg yolk",
+        "meaning": ""
+      },
+      {
+        "word": "liver",
+        "meaning": ""
+      },
+      {
+        "word": "medicine",
+        "meaning": ""
+      },
+      {
+        "word": "treatment",
+        "meaning": ""
+      },
+      {
+        "word": "remedy",
+        "meaning": ""
+      },
+      {
+        "word": "nursing care",
+        "meaning": ""
+      },
+      {
+        "word": "nursery",
+        "meaning": ""
+      },
+      {
+        "word": "regular exercise",
+        "meaning": ""
+      }
+    ],
+    "Nature and Environment": [
+      {
+        "word": "field",
+        "meaning": ""
+      },
+      {
+        "word": "footbridge",
+        "meaning": ""
+      },
+      {
+        "word": "environment",
+        "meaning": ""
+      },
+      {
+        "word": "waterfall",
+        "meaning": ""
+      },
+      {
+        "word": "river",
+        "meaning": ""
+      },
+      {
+        "word": "mountain",
+        "meaning": ""
+      },
+      {
+        "word": "forest",
+        "meaning": ""
+      },
+      {
+        "word": "village",
+        "meaning": ""
+      },
+      {
+        "word": "coast",
+        "meaning": ""
+      },
+      {
+        "word": "reef",
+        "meaning": ""
+      },
+      {
+        "word": "lake",
+        "meaning": ""
+      },
+      {
+        "word": "valley",
+        "meaning": ""
+      },
+      {
+        "word": "hill",
+        "meaning": ""
+      },
+      {
+        "word": "cliff",
+        "meaning": ""
+      },
+      {
+        "word": "island",
+        "meaning": ""
+      },
+      {
+        "word": "peninsula",
+        "meaning": ""
+      },
+      {
+        "word": "earthquake",
+        "meaning": ""
+      },
+      {
+        "word": "avalanche",
+        "meaning": ""
+      },
+      {
+        "word": "tornado",
+        "meaning": ""
+      },
+      {
+        "word": "typhoon",
+        "meaning": ""
+      },
+      {
+        "word": "desertification",
+        "meaning": ""
+      },
+      {
+        "word": "volcano",
+        "meaning": ""
+      },
+      {
+        "word": "disaster",
+        "meaning": ""
+      },
+      {
+        "word": "catastrophe",
+        "meaning": ""
+      },
+      {
+        "word": "erosion",
+        "meaning": ""
+      },
+      {
+        "word": "landslides",
+        "meaning": ""
+      },
+      {
+        "word": "storm",
+        "meaning": ""
+      },
+      {
+        "word": "flood",
+        "meaning": ""
+      },
+      {
+        "word": "hurricane",
+        "meaning": ""
+      },
+      {
+        "word": "pond",
+        "meaning": ""
+      },
+      {
+        "word": "jungle",
+        "meaning": ""
+      },
+      {
+        "word": "oasis",
+        "meaning": ""
+      },
+      {
+        "word": "dam",
+        "meaning": ""
+      },
+      {
+        "word": "canyon",
+        "meaning": ""
+      },
+      {
+        "word": "greenhouse effect",
+        "meaning": ""
+      },
+      {
+        "word": "acid rain",
+        "meaning": ""
+      },
+      {
+        "word": "global warming",
+        "meaning": ""
+      },
+      {
+        "word": "carbon dioxide",
+        "meaning": ""
+      },
+      {
+        "word": "burning fossil",
+        "meaning": ""
+      },
+      {
+        "word": "exhaust fumes",
+        "meaning": ""
+      },
+      {
+        "word": "deforestation",
+        "meaning": ""
+      },
+      {
+        "word": "nitrogen oxide",
+        "meaning": ""
+      },
+      {
+        "word": "smog",
+        "meaning": ""
+      },
+      {
+        "word": "climate",
+        "meaning": ""
+      },
+      {
+        "word": "pollution",
+        "meaning": ""
+      },
+      {
+        "word": "temperature",
+        "meaning": ""
+      },
+      {
+        "word": "power plants",
+        "meaning": ""
+      },
+      {
+        "word": "landfill",
+        "meaning": ""
+      },
+      {
+        "word": "cattle",
+        "meaning": ""
+      },
+      {
+        "word": "wind turbine",
+        "meaning": ""
+      },
+      {
+        "word": "solar power",
+        "meaning": ""
+      },
+      {
+        "word": "hydroelectric power",
+        "meaning": ""
+      },
+      {
+        "word": "renewable",
+        "meaning": ""
+      },
+      {
+        "word": "source of energy",
+        "meaning": ""
+      },
+      {
+        "word": "reliable",
+        "meaning": ""
+      },
+      {
+        "word": "solar panels",
+        "meaning": ""
+      },
+      {
+        "word": "environmentally friendly",
+        "meaning": ""
+      },
+      {
+        "word": "oxygen",
+        "meaning": ""
+      },
+      {
+        "word": "chemical-free",
+        "meaning": ""
+      },
+      {
+        "word": "desert",
+        "meaning": ""
+      },
+      {
+        "word": "degradation",
+        "meaning": ""
+      },
+      {
+        "word": "vegetation",
+        "meaning": ""
+      },
+      {
+        "word": "sea level",
+        "meaning": ""
+      },
+      {
+        "word": "ocean currents",
+        "meaning": ""
+      },
+      {
+        "word": "soil conditioner",
+        "meaning": ""
+      },
+      {
+        "word": "coal",
+        "meaning": ""
+      },
+      {
+        "word": "fossil fuels",
+        "meaning": ""
+      },
+      {
+        "word": "Firewood",
+        "meaning": ""
+      },
+      {
+        "word": "drought",
+        "meaning": ""
+      },
+      {
+        "word": "contaminated",
+        "meaning": ""
+      }
+    ],
+    "Animal Kingdom": [
+      {
+        "word": "birds of prey",
+        "meaning": ""
+      },
+      {
+        "word": "seabirds",
+        "meaning": ""
+      },
+      {
+        "word": "poultry and game",
+        "meaning": ""
+      },
+      {
+        "word": "mammals",
+        "meaning": ""
+      },
+      {
+        "word": "cetacean",
+        "meaning": ""
+      },
+      {
+        "word": "whale",
+        "meaning": ""
+      },
+      {
+        "word": "primates",
+        "meaning": ""
+      },
+      {
+        "word": "rodents",
+        "meaning": ""
+      },
+      {
+        "word": "fish",
+        "meaning": ""
+      },
+      {
+        "word": "amphibian",
+        "meaning": ""
+      },
+      {
+        "word": "reptile",
+        "meaning": ""
+      },
+      {
+        "word": "insects",
+        "meaning": ""
+      },
+      {
+        "word": "octopus",
+        "meaning": ""
+      },
+      {
+        "word": "phylum",
+        "meaning": ""
+      },
+      {
+        "word": "class",
+        "meaning": ""
+      },
+      {
+        "word": "order",
+        "meaning": ""
+      },
+      {
+        "word": "family",
+        "meaning": ""
+      },
+      {
+        "word": "genus",
+        "meaning": ""
+      },
+      {
+        "word": "species",
+        "meaning": ""
+      },
+      {
+        "word": "livestock",
+        "meaning": ""
+      },
+      {
+        "word": "creature",
+        "meaning": ""
+      },
+      {
+        "word": "lion",
+        "meaning": ""
+      },
+      {
+        "word": "penguin",
+        "meaning": ""
+      }
+    ],
+    "Architecture and Homes": [
+      {
+        "word": "dome",
+        "meaning": ""
+      },
+      {
+        "word": "palace",
+        "meaning": ""
+      },
+      {
+        "word": "fort",
+        "meaning": ""
+      },
+      {
+        "word": "castle",
+        "meaning": ""
+      },
+      {
+        "word": "glasshouse",
+        "meaning": ""
+      },
+      {
+        "word": "pyramid",
+        "meaning": ""
+      },
+      {
+        "word": "log cabin",
+        "meaning": ""
+      },
+      {
+        "word": "lighthouse",
+        "meaning": ""
+      },
+      {
+        "word": "hut",
+        "meaning": ""
+      },
+      {
+        "word": "skyscraper",
+        "meaning": ""
+      },
+      {
+        "word": "sculpture",
+        "meaning": ""
+      },
+      {
+        "word": "semi-detached house",
+        "meaning": ""
+      },
+      {
+        "word": "duplex",
+        "meaning": ""
+      },
+      {
+        "word": "terraced house",
+        "meaning": ""
+      },
+      {
+        "word": "town house",
+        "meaning": ""
+      },
+      {
+        "word": "row house",
+        "meaning": ""
+      },
+      {
+        "word": "bungalow",
+        "meaning": ""
+      },
+      {
+        "word": "thatched cottage",
+        "meaning": ""
+      },
+      {
+        "word": "mobile home",
+        "meaning": ""
+      },
+      {
+        "word": "houseboat",
+        "meaning": ""
+      },
+      {
+        "word": "block of flats",
+        "meaning": ""
+      },
+      {
+        "word": "apartment building",
+        "meaning": ""
+      },
+      {
+        "word": "condominium",
+        "meaning": ""
+      },
+      {
+        "word": "chimney",
+        "meaning": ""
+      },
+      {
+        "word": "bedroom",
+        "meaning": ""
+      },
+      {
+        "word": "basement",
+        "meaning": ""
+      },
+      {
+        "word": "landlord",
+        "meaning": ""
+      },
+      {
+        "word": "tenant",
+        "meaning": ""
+      },
+      {
+        "word": "rent",
+        "meaning": ""
+      },
+      {
+        "word": "lease",
+        "meaning": ""
+      },
+      {
+        "word": "neighborhood",
+        "meaning": ""
+      },
+      {
+        "word": "suburb",
+        "meaning": ""
+      },
+      {
+        "word": "sofa",
+        "meaning": ""
+      },
+      {
+        "word": "coffee table",
+        "meaning": ""
+      },
+      {
+        "word": "dormitory",
+        "meaning": ""
+      },
+      {
+        "word": "storey",
+        "meaning": ""
+      },
+      {
+        "word": "kitchen",
+        "meaning": ""
+      },
+      {
+        "word": "refrigerator",
+        "meaning": ""
+      },
+      {
+        "word": "microwave",
+        "meaning": ""
+      },
+      {
+        "word": "ground floor",
+        "meaning": ""
+      },
+      {
+        "word": "oven",
+        "meaning": ""
+      },
+      {
+        "word": "hallway",
+        "meaning": ""
+      },
+      {
+        "word": "insurance",
+        "meaning": ""
+      }
+    ],
+    "Transport and Vehicles": [
+      {
+        "word": "cargo plane",
+        "meaning": ""
+      },
+      {
+        "word": "shipment",
+        "meaning": ""
+      },
+      {
+        "word": "container ship",
+        "meaning": ""
+      },
+      {
+        "word": "boat",
+        "meaning": ""
+      },
+      {
+        "word": "lifeboat",
+        "meaning": ""
+      },
+      {
+        "word": "ferry",
+        "meaning": ""
+      },
+      {
+        "word": "hovercraft",
+        "meaning": ""
+      },
+      {
+        "word": "hydrofoil",
+        "meaning": ""
+      },
+      {
+        "word": "liner",
+        "meaning": ""
+      },
+      {
+        "word": "canal boat",
+        "meaning": ""
+      },
+      {
+        "word": "narrowboat",
+        "meaning": ""
+      },
+      {
+        "word": "dinghy sailing",
+        "meaning": ""
+      },
+      {
+        "word": "sailboat",
+        "meaning": ""
+      },
+      {
+        "word": "paddle steamer",
+        "meaning": ""
+      },
+      {
+        "word": "cabin cruiser",
+        "meaning": ""
+      },
+      {
+        "word": "rowing boat",
+        "meaning": ""
+      },
+      {
+        "word": "rowboat",
+        "meaning": ""
+      },
+      {
+        "word": "kayak",
+        "meaning": ""
+      },
+      {
+        "word": "canoe",
+        "meaning": ""
+      },
+      {
+        "word": "punt",
+        "meaning": ""
+      },
+      {
+        "word": "gondola",
+        "meaning": ""
+      },
+      {
+        "word": "aircraft",
+        "meaning": ""
+      },
+      {
+        "word": "helicopter",
+        "meaning": ""
+      },
+      {
+        "word": "seaplane",
+        "meaning": ""
+      },
+      {
+        "word": "airship",
+        "meaning": ""
+      },
+      {
+        "word": "hot-air balloon",
+        "meaning": ""
+      },
+      {
+        "word": "airport",
+        "meaning": ""
+      },
+      {
+        "word": "crew",
+        "meaning": ""
+      },
+      {
+        "word": "passenger",
+        "meaning": ""
+      },
+      {
+        "word": "platform",
+        "meaning": ""
+      },
+      {
+        "word": "hire a car",
+        "meaning": ""
+      },
+      {
+        "word": "automobile",
+        "meaning": ""
+      },
+      {
+        "word": "double-decker bus",
+        "meaning": ""
+      },
+      {
+        "word": "single-decker",
+        "meaning": ""
+      },
+      {
+        "word": "minibus",
+        "meaning": ""
+      },
+      {
+        "word": "school bus",
+        "meaning": ""
+      },
+      {
+        "word": "coach",
+        "meaning": ""
+      },
+      {
+        "word": "truck",
+        "meaning": ""
+      },
+      {
+        "word": "tanker",
+        "meaning": ""
+      },
+      {
+        "word": "van",
+        "meaning": ""
+      },
+      {
+        "word": "lorry",
+        "meaning": ""
+      },
+      {
+        "word": "transporter",
+        "meaning": ""
+      },
+      {
+        "word": "forklift truck",
+        "meaning": ""
+      },
+      {
+        "word": "tow truck",
+        "meaning": ""
+      },
+      {
+        "word": "breakdown truck",
+        "meaning": ""
+      },
+      {
+        "word": "pickup",
+        "meaning": ""
+      },
+      {
+        "word": "jeep",
+        "meaning": ""
+      },
+      {
+        "word": "caravan",
+        "meaning": ""
+      },
+      {
+        "word": "camper",
+        "meaning": ""
+      },
+      {
+        "word": "tractor",
+        "meaning": ""
+      },
+      {
+        "word": "taxi",
+        "meaning": ""
+      },
+      {
+        "word": "cab",
+        "meaning": ""
+      },
+      {
+        "word": "tram",
+        "meaning": ""
+      },
+      {
+        "word": "underground",
+        "meaning": ""
+      },
+      {
+        "word": "subway",
+        "meaning": ""
+      },
+      {
+        "word": "stream train",
+        "meaning": ""
+      },
+      {
+        "word": "freight train",
+        "meaning": ""
+      },
+      {
+        "word": "goods train",
+        "meaning": ""
+      }
+    ],
+    "Weather": [
+      {
+        "word": "humid",
+        "meaning": ""
+      },
+      {
+        "word": "hot",
+        "meaning": ""
+      },
+      {
+        "word": "sticky",
+        "meaning": ""
+      },
+      {
+        "word": "breeze",
+        "meaning": ""
+      },
+      {
+        "word": "chilly",
+        "meaning": ""
+      },
+      {
+        "word": "cold",
+        "meaning": ""
+      },
+      {
+        "word": "cool",
+        "meaning": ""
+      },
+      {
+        "word": "dry",
+        "meaning": ""
+      },
+      {
+        "word": "dusty",
+        "meaning": ""
+      },
+      {
+        "word": "freezing",
+        "meaning": ""
+      },
+      {
+        "word": "warm",
+        "meaning": ""
+      },
+      {
+        "word": "wet",
+        "meaning": ""
+      },
+      {
+        "word": "weather forecast",
+        "meaning": ""
+      },
+      {
+        "word": "antenna",
+        "meaning": ""
+      },
+      {
+        "word": "moisture",
+        "meaning": ""
+      }
+    ],
+    "Places": [
+      {
+        "word": "local library",
+        "meaning": ""
+      },
+      {
+        "word": "swimming pool",
+        "meaning": ""
+      },
+      {
+        "word": "cafeteria",
+        "meaning": ""
+      },
+      {
+        "word": "cottage",
+        "meaning": ""
+      },
+      {
+        "word": "parliament",
+        "meaning": ""
+      },
+      {
+        "word": "accommodation",
+        "meaning": ""
+      },
+      {
+        "word": "restaurant",
+        "meaning": ""
+      },
+      {
+        "word": "canteen",
+        "meaning": ""
+      },
+      {
+        "word": "cafe",
+        "meaning": ""
+      },
+      {
+        "word": "bookshop",
+        "meaning": ""
+      },
+      {
+        "word": "sports centre",
+        "meaning": ""
+      },
+      {
+        "word": "city council",
+        "meaning": ""
+      },
+      {
+        "word": "dance studio",
+        "meaning": ""
+      },
+      {
+        "word": "park",
+        "meaning": ""
+      },
+      {
+        "word": "conversation club",
+        "meaning": ""
+      },
+      {
+        "word": "kindergarten",
+        "meaning": ""
+      }
+    ],
+    "Equipment and Tools": [
+      {
+        "word": "helmet",
+        "meaning": ""
+      },
+      {
+        "word": "light",
+        "meaning": ""
+      },
+      {
+        "word": "musical instrument",
+        "meaning": ""
+      },
+      {
+        "word": "cassette",
+        "meaning": ""
+      },
+      {
+        "word": "silicon chip",
+        "meaning": ""
+      },
+      {
+        "word": "digital monitor",
+        "meaning": ""
+      },
+      {
+        "word": "gadget",
+        "meaning": ""
+      },
+      {
+        "word": "device",
+        "meaning": ""
+      },
+      {
+        "word": "screen",
+        "meaning": ""
+      },
+      {
+        "word": "breaks",
+        "meaning": ""
+      },
+      {
+        "word": "wheels",
+        "meaning": ""
+      },
+      {
+        "word": "mechanical pencil",
+        "meaning": ""
+      },
+      {
+        "word": "disk",
+        "meaning": ""
+      },
+      {
+        "word": "backpack",
+        "meaning": ""
+      }
+    ],
+    "The Arts and Media": [
+      {
+        "word": "Opera",
+        "meaning": ""
+      },
+      {
+        "word": "Orchestra",
+        "meaning": ""
+      },
+      {
+        "word": "concert",
+        "meaning": ""
+      },
+      {
+        "word": "symphony",
+        "meaning": ""
+      },
+      {
+        "word": "the press",
+        "meaning": ""
+      },
+      {
+        "word": "conductor",
+        "meaning": ""
+      },
+      {
+        "word": "vocalist",
+        "meaning": ""
+      },
+      {
+        "word": "audience",
+        "meaning": ""
+      },
+      {
+        "word": "festival",
+        "meaning": ""
+      },
+      {
+        "word": "carnival",
+        "meaning": ""
+      },
+      {
+        "word": "exhibition",
+        "meaning": ""
+      },
+      {
+        "word": "classical music",
+        "meaning": ""
+      },
+      {
+        "word": "theatre",
+        "meaning": ""
+      },
+      {
+        "word": "cinemas",
+        "meaning": ""
+      },
+      {
+        "word": "art gallery",
+        "meaning": ""
+      },
+      {
+        "word": "museum",
+        "meaning": ""
+      },
+      {
+        "word": "ballet",
+        "meaning": ""
+      },
+      {
+        "word": "television",
+        "meaning": ""
+      },
+      {
+        "word": "radio",
+        "meaning": ""
+      },
+      {
+        "word": "graphics",
+        "meaning": ""
+      },
+      {
+        "word": "newspaper",
+        "meaning": ""
+      }
+    ],
+    "Materials": [
+      {
+        "word": "fur",
+        "meaning": ""
+      },
+      {
+        "word": "metal",
+        "meaning": ""
+      },
+      {
+        "word": "steel",
+        "meaning": ""
+      },
+      {
+        "word": "aluminum",
+        "meaning": ""
+      },
+      {
+        "word": "copper",
+        "meaning": ""
+      },
+      {
+        "word": "rubber",
+        "meaning": ""
+      },
+      {
+        "word": "plastic",
+        "meaning": ""
+      },
+      {
+        "word": "ceramics",
+        "meaning": ""
+      },
+      {
+        "word": "glass",
+        "meaning": ""
+      },
+      {
+        "word": "cement",
+        "meaning": ""
+      },
+      {
+        "word": "stone",
+        "meaning": ""
+      },
+      {
+        "word": "textile",
+        "meaning": ""
+      },
+      {
+        "word": "cotton",
+        "meaning": ""
+      },
+      {
+        "word": "fabric",
+        "meaning": ""
+      },
+      {
+        "word": "wool",
+        "meaning": ""
+      },
+      {
+        "word": "leather",
+        "meaning": ""
+      },
+      {
+        "word": "bone",
+        "meaning": ""
+      },
+      {
+        "word": "paper",
+        "meaning": ""
+      },
+      {
+        "word": "lumber",
+        "meaning": ""
+      },
+      {
+        "word": "wood",
+        "meaning": ""
+      },
+      {
+        "word": "glue",
+        "meaning": ""
+      },
+      {
+        "word": "composite",
+        "meaning": ""
+      },
+      {
+        "word": "fiberglass",
+        "meaning": ""
+      },
+      {
+        "word": "concrete",
+        "meaning": ""
+      },
+      {
+        "word": "wax",
+        "meaning": ""
+      },
+      {
+        "word": "silver",
+        "meaning": ""
+      },
+      {
+        "word": "gold",
+        "meaning": ""
+      },
+      {
+        "word": "feather",
+        "meaning": ""
+      }
+    ],
+    "Works and Jobs": [
+      {
+        "word": "occupation",
+        "meaning": ""
+      },
+      {
+        "word": "profession",
+        "meaning": ""
+      },
+      {
+        "word": "designer",
+        "meaning": ""
+      },
+      {
+        "word": "decorator",
+        "meaning": ""
+      },
+      {
+        "word": "architect",
+        "meaning": ""
+      },
+      {
+        "word": "engineer",
+        "meaning": ""
+      },
+      {
+        "word": "manager",
+        "meaning": ""
+      },
+      {
+        "word": "waitress",
+        "meaning": ""
+      },
+      {
+        "word": "waiter",
+        "meaning": ""
+      },
+      {
+        "word": "teacher",
+        "meaning": ""
+      },
+      {
+        "word": "vacancy",
+        "meaning": ""
+      },
+      {
+        "word": "professor",
+        "meaning": ""
+      },
+      {
+        "word": "specialist",
+        "meaning": ""
+      },
+      {
+        "word": "psychologist",
+        "meaning": ""
+      },
+      {
+        "word": "volunteer",
+        "meaning": ""
+      },
+      {
+        "word": "freelance",
+        "meaning": ""
+      },
+      {
+        "word": "secretary",
+        "meaning": ""
+      },
+      {
+        "word": "craftsman",
+        "meaning": ""
+      },
+      {
+        "word": "work experience",
+        "meaning": ""
+      },
+      {
+        "word": "curriculum vitae",
+        "meaning": ""
+      },
+      {
+        "word": "mail address",
+        "meaning": ""
+      },
+      {
+        "word": "receptionist",
+        "meaning": ""
+      },
+      {
+        "word": "pilot",
+        "meaning": ""
+      },
+      {
+        "word": "guard",
+        "meaning": ""
+      },
+      {
+        "word": "flight attendant",
+        "meaning": ""
+      },
+      {
+        "word": "lecturer",
+        "meaning": ""
+      },
+      {
+        "word": "office assistant",
+        "meaning": ""
+      },
+      {
+        "word": "clerk",
+        "meaning": ""
+      },
+      {
+        "word": "accountant",
+        "meaning": ""
+      },
+      {
+        "word": "cashier",
+        "meaning": ""
+      },
+      {
+        "word": "captain",
+        "meaning": ""
+      }
+    ],
+    "Color": [
+      {
+        "word": "blue",
+        "meaning": ""
+      },
+      {
+        "word": "white",
+        "meaning": ""
+      },
+      {
+        "word": "orange",
+        "meaning": ""
+      },
+      {
+        "word": "green",
+        "meaning": ""
+      },
+      {
+        "word": "grey",
+        "meaning": ""
+      },
+      {
+        "word": "black",
+        "meaning": ""
+      },
+      {
+        "word": "red",
+        "meaning": ""
+      },
+      {
+        "word": "yellow",
+        "meaning": ""
+      },
+      {
+        "word": "purple",
+        "meaning": ""
+      },
+      {
+        "word": "brown",
+        "meaning": ""
+      },
+      {
+        "word": "pink",
+        "meaning": ""
+      }
+    ],
+    "Expressions and Time": [
+      {
+        "word": "three times",
+        "meaning": ""
+      },
+      {
+        "word": "three times per week",
+        "meaning": ""
+      },
+      {
+        "word": "a gap year",
+        "meaning": ""
+      },
+      {
+        "word": "fulltime",
+        "meaning": ""
+      },
+      {
+        "word": "part-time",
+        "meaning": ""
+      },
+      {
+        "word": "midday",
+        "meaning": ""
+      },
+      {
+        "word": "midnight",
+        "meaning": ""
+      },
+      {
+        "word": "millennium",
+        "meaning": ""
+      },
+      {
+        "word": "century",
+        "meaning": ""
+      },
+      {
+        "word": "decade",
+        "meaning": ""
+      },
+      {
+        "word": "fortnight",
+        "meaning": ""
+      }
+    ],
+    "Other": [
+      {
+        "word": "passport photo",
+        "meaning": ""
+      },
+      {
+        "word": "state",
+        "meaning": ""
+      },
+      {
+        "word": "government",
+        "meaning": ""
+      },
+      {
+        "word": "individual",
+        "meaning": ""
+      },
+      {
+        "word": "variety",
+        "meaning": ""
+      },
+      {
+        "word": "private sector",
+        "meaning": ""
+      },
+      {
+        "word": "practice",
+        "meaning": ""
+      },
+      {
+        "word": "gender",
+        "meaning": ""
+      },
+      {
+        "word": "creativity",
+        "meaning": ""
+      },
+      {
+        "word": "original inhabitant",
+        "meaning": ""
+      },
+      {
+        "word": "indigenous",
+        "meaning": ""
+      },
+      {
+        "word": "demonstration",
+        "meaning": ""
+      },
+      {
+        "word": "strike",
+        "meaning": ""
+      },
+      {
+        "word": "entrance",
+        "meaning": ""
+      },
+      {
+        "word": "circuit",
+        "meaning": ""
+      },
+      {
+        "word": "guarantee",
+        "meaning": ""
+      },
+      {
+        "word": "dialogue",
+        "meaning": ""
+      },
+      {
+        "word": "commerce",
+        "meaning": ""
+      },
+      {
+        "word": "carriage",
+        "meaning": ""
+      },
+      {
+        "word": "narrative",
+        "meaning": ""
+      },
+      {
+        "word": "chocolate",
+        "meaning": ""
+      },
+      {
+        "word": "satellite",
+        "meaning": ""
+      },
+      {
+        "word": "decision",
+        "meaning": ""
+      },
+      {
+        "word": "prototype",
+        "meaning": ""
+      },
+      {
+        "word": "attitude",
+        "meaning": ""
+      },
+      {
+        "word": "daily routine",
+        "meaning": ""
+      },
+      {
+        "word": "personal fulfillment",
+        "meaning": ""
+      },
+      {
+        "word": "activity",
+        "meaning": ""
+      },
+      {
+        "word": "recipient",
+        "meaning": ""
+      },
+      {
+        "word": "ultrasound",
+        "meaning": ""
+      },
+      {
+        "word": "pedestrian safety",
+        "meaning": ""
+      },
+      {
+        "word": "traffic jams",
+        "meaning": ""
+      },
+      {
+        "word": "procedures",
+        "meaning": ""
+      },
+      {
+        "word": "creation",
+        "meaning": ""
+      },
+      {
+        "word": "prize",
+        "meaning": ""
+      },
+      {
+        "word": "junior",
+        "meaning": ""
+      },
+      {
+        "word": "senior",
+        "meaning": ""
+      },
+      {
+        "word": "opportunity",
+        "meaning": ""
+      },
+      {
+        "word": "driving license",
+        "meaning": ""
+      },
+      {
+        "word": "process",
+        "meaning": ""
+      },
+      {
+        "word": "literary",
+        "meaning": ""
+      },
+      {
+        "word": "man-made",
+        "meaning": ""
+      },
+      {
+        "word": "republicans",
+        "meaning": ""
+      },
+      {
+        "word": "umbrella",
+        "meaning": ""
+      },
+      {
+        "word": "frequently updated",
+        "meaning": ""
+      },
+      {
+        "word": "waiting list",
+        "meaning": ""
+      },
+      {
+        "word": "sewer systems",
+        "meaning": ""
+      },
+      {
+        "word": "liberal democracy",
+        "meaning": ""
+      },
+      {
+        "word": "democrats",
+        "meaning": ""
+      },
+      {
+        "word": "lunar calendar",
+        "meaning": ""
+      },
+      {
+        "word": "libertarian",
+        "meaning": ""
+      },
+      {
+        "word": "burger",
+        "meaning": ""
+      },
+      {
+        "word": "videos",
+        "meaning": ""
+      },
+      {
+        "word": "nature conservation",
+        "meaning": ""
+      },
+      {
+        "word": "life expectancy",
+        "meaning": ""
+      },
+      {
+        "word": "fund-raising event",
+        "meaning": ""
+      },
+      {
+        "word": "magnet",
+        "meaning": ""
+      },
+      {
+        "word": "dialect",
+        "meaning": ""
+      },
+      {
+        "word": "ramification",
+        "meaning": ""
+      },
+      {
+        "word": "straight",
+        "meaning": ""
+      },
+      {
+        "word": "farewell",
+        "meaning": ""
+      },
+      {
+        "word": "welfare",
+        "meaning": ""
+      },
+      {
+        "word": "encyclopedia",
+        "meaning": ""
+      },
+      {
+        "word": "evolution",
+        "meaning": ""
+      },
+      {
+        "word": "revolution",
+        "meaning": ""
+      },
+      {
+        "word": "illiteracy",
+        "meaning": ""
+      },
+      {
+        "word": "robot",
+        "meaning": ""
+      },
+      {
+        "word": "proficiency",
+        "meaning": ""
+      },
+      {
+        "word": "sufficient",
+        "meaning": ""
+      }
+    ],
+    "Human body processes": [
+      {
+        "word": "Breathe",
+        "meaning": ""
+      },
+      {
+        "word": "Inhale",
+        "meaning": ""
+      },
+      {
+        "word": "Exhale",
+        "meaning": ""
+      },
+      {
+        "word": "Respire",
+        "meaning": ""
+      },
+      {
+        "word": "Blink",
+        "meaning": ""
+      },
+      {
+        "word": "Swallow",
+        "meaning": ""
+      },
+      {
+        "word": "Chew",
+        "meaning": ""
+      },
+      {
+        "word": "Digest",
+        "meaning": ""
+      },
+      {
+        "word": "Absorb",
+        "meaning": ""
+      },
+      {
+        "word": "Circulate",
+        "meaning": ""
+      },
+      {
+        "word": "Pump",
+        "meaning": ""
+      },
+      {
+        "word": "Beat",
+        "meaning": ""
+      },
+      {
+        "word": "Sweat",
+        "meaning": ""
+      },
+      {
+        "word": "Perspire",
+        "meaning": ""
+      },
+      {
+        "word": "Shiver",
+        "meaning": ""
+      },
+      {
+        "word": "Yawn",
+        "meaning": ""
+      },
+      {
+        "word": "Sneeze",
+        "meaning": ""
+      },
+      {
+        "word": "Cough",
+        "meaning": ""
+      },
+      {
+        "word": "Urinate",
+        "meaning": ""
+      },
+      {
+        "word": "Defecate",
+        "meaning": ""
+      },
+      {
+        "word": "Reproduce",
+        "meaning": ""
+      },
+      {
+        "word": "Grow",
+        "meaning": ""
+      },
+      {
+        "word": "Heal",
+        "meaning": ""
+      },
+      {
+        "word": "Age",
+        "meaning": ""
+      },
+      {
+        "word": "Sleep",
+        "meaning": ""
+      },
+      {
+        "word": "Wake",
+        "meaning": ""
+      }
+    ],
+    "Restaurant Menu Categories": [
+      {
+        "word": "Appetizer",
+        "meaning": ""
+      },
+      {
+        "word": "Starter",
+        "meaning": ""
+      },
+      {
+        "word": "Main Course",
+        "meaning": ""
+      },
+      {
+        "word": "Side Dishes",
+        "meaning": ""
+      },
+      {
+        "word": "Vegetables",
+        "meaning": ""
+      },
+      {
+        "word": "Desserts",
+        "meaning": ""
+      },
+      {
+        "word": "Drinks",
+        "meaning": ""
+      },
+      {
+        "word": "Beverages",
+        "meaning": ""
+      }
+    ],
+    "Appetizers and Starters": [
+      {
+        "word": "Soup of the day",
+        "meaning": ""
+      },
+      {
+        "word": "Garlic bread",
+        "meaning": ""
+      },
+      {
+        "word": "Caesar salad",
+        "meaning": ""
+      },
+      {
+        "word": "Chicken wings",
+        "meaning": ""
+      },
+      {
+        "word": "Onion rings",
+        "meaning": ""
+      },
+      {
+        "word": "Nachos",
+        "meaning": ""
+      },
+      {
+        "word": "Bruschetta",
+        "meaning": ""
+      },
+      {
+        "word": "Fruit Juice",
+        "meaning": ""
+      },
+      {
+        "word": "Tomato Soup",
+        "meaning": ""
+      }
+    ],
+    "Main Course": [
+      {
+        "word": "Roast chicken",
+        "meaning": ""
+      },
+      {
+        "word": "Beef steak",
+        "meaning": ""
+      },
+      {
+        "word": "Grilled salmon",
+        "meaning": ""
+      },
+      {
+        "word": "Fish and chips",
+        "meaning": ""
+      },
+      {
+        "word": "Hamburger",
+        "meaning": ""
+      },
+      {
+        "word": "Burger",
+        "meaning": ""
+      },
+      {
+        "word": "Fried chicken",
+        "meaning": ""
+      },
+      {
+        "word": "Pasta",
+        "meaning": ""
+      },
+      {
+        "word": "Pizza",
+        "meaning": ""
+      },
+      {
+        "word": "Roast Dinner",
+        "meaning": ""
+      }
+    ],
+    "Side Dishes": [
+      {
+        "word": "Mashed potatoes",
+        "meaning": ""
+      },
+      {
+        "word": "French fries",
+        "meaning": ""
+      },
+      {
+        "word": "Chips",
+        "meaning": ""
+      },
+      {
+        "word": "Steamed vegetables",
+        "meaning": ""
+      },
+      {
+        "word": "Coleslaw",
+        "meaning": ""
+      },
+      {
+        "word": "Baked beans",
+        "meaning": ""
+      },
+      {
+        "word": "Corn on the cob",
+        "meaning": ""
+      },
+      {
+        "word": "Vegetable Salad",
+        "meaning": ""
+      },
+      {
+        "word": "Carrot",
+        "meaning": ""
+      },
+      {
+        "word": "Tomato",
+        "meaning": ""
+      },
+      {
+        "word": "Potato",
+        "meaning": ""
+      },
+      {
+        "word": "Corn",
+        "meaning": ""
+      },
+      {
+        "word": "Onion",
+        "meaning": ""
+      },
+      {
+        "word": "Lettuce",
+        "meaning": ""
+      },
+      {
+        "word": "Cucumber",
+        "meaning": ""
+      }
+    ],
+    "Drinks and Beverages": [
+      {
+        "word": "Water",
+        "meaning": ""
+      },
+      {
+        "word": "Tea",
+        "meaning": ""
+      },
+      {
+        "word": "Coffee",
+        "meaning": ""
+      },
+      {
+        "word": "Soft drinks",
+        "meaning": ""
+      },
+      {
+        "word": "Fruit juice",
+        "meaning": ""
+      },
+      {
+        "word": "Milkshake",
+        "meaning": ""
+      },
+      {
+        "word": "Sprite",
+        "meaning": ""
+      },
+      {
+        "word": "Soda",
+        "meaning": ""
+      }
+    ],
+    "Desserts": [
+      {
+        "word": "Ice cream",
+        "meaning": ""
+      },
+      {
+        "word": "Apple pie",
+        "meaning": ""
+      },
+      {
+        "word": "Chocolate cake",
+        "meaning": ""
+      },
+      {
+        "word": "Brownie",
+        "meaning": ""
+      },
+      {
+        "word": "Cheesecake",
+        "meaning": ""
+      },
+      {
+        "word": "Pudding",
+        "meaning": ""
+      }
+    ],
+    "British Holidays and Activities": [
+      {
+        "word": "Christmas Pantomime",
+        "meaning": ""
+      },
+      {
+        "word": "Queen's Speech",
+        "meaning": ""
+      },
+      {
+        "word": "King's Speech",
+        "meaning": ""
+      },
+      {
+        "word": "Boxing Day",
+        "meaning": ""
+      },
+      {
+        "word": "Easter",
+        "meaning": ""
+      }
+    ],
+    "Physical Parts of a Tree": [
+      {
+        "word": "Tree",
+        "meaning": ""
+      },
+      {
+        "word": "Root",
+        "meaning": ""
+      },
+      {
+        "word": "Trunk",
+        "meaning": ""
+      },
+      {
+        "word": "Bark",
+        "meaning": ""
+      },
+      {
+        "word": "Branch",
+        "meaning": ""
+      },
+      {
+        "word": "Twig",
+        "meaning": ""
+      },
+      {
+        "word": "Leaf",
+        "meaning": ""
+      },
+      {
+        "word": "Bud",
+        "meaning": ""
+      },
+      {
+        "word": "Flower",
+        "meaning": ""
+      },
+      {
+        "word": "Fruit",
+        "meaning": ""
+      },
+      {
+        "word": "Seed",
+        "meaning": ""
+      }
+    ],
+    "Medical Professions": [
+      {
+        "word": "Doctor",
+        "meaning": ""
+      },
+      {
+        "word": "Nurse",
+        "meaning": ""
+      },
+      {
+        "word": "Surgeon",
+        "meaning": ""
+      },
+      {
+        "word": "Dentist",
+        "meaning": ""
+      },
+      {
+        "word": "Pharmacist",
+        "meaning": ""
+      },
+      {
+        "word": "Psychiatrist",
+        "meaning": ""
+      },
+      {
+        "word": "Physiotherapist",
+        "meaning": ""
+      },
+      {
+        "word": "Midwife",
+        "meaning": ""
+      }
+    ],
+    "Education Professions": [
+      {
+        "word": "Teacher",
+        "meaning": ""
+      },
+      {
+        "word": "Professor",
+        "meaning": ""
+      },
+      {
+        "word": "Lecturer",
+        "meaning": ""
+      },
+      {
+        "word": "Tutor",
+        "meaning": ""
+      },
+      {
+        "word": "Principal",
+        "meaning": ""
+      },
+      {
+        "word": "Researcher",
+        "meaning": ""
+      }
+    ],
+    "Arts and Media Professions": [
+      {
+        "word": "Actor",
+        "meaning": ""
+      },
+      {
+        "word": "Actress",
+        "meaning": ""
+      },
+      {
+        "word": "Singer",
+        "meaning": ""
+      },
+      {
+        "word": "Dancer",
+        "meaning": ""
+      },
+      {
+        "word": "Painter",
+        "meaning": ""
+      },
+      {
+        "word": "Sculptor",
+        "meaning": ""
+      },
+      {
+        "word": "Sculpture",
+        "meaning": ""
+      },
+      {
+        "word": "Photographer",
+        "meaning": ""
+      },
+      {
+        "word": "Journalist",
+        "meaning": ""
+      },
+      {
+        "word": "Writer",
+        "meaning": ""
+      }
+    ],
+    "Technical and Engineering Professions": [
+      {
+        "word": "Engineer",
+        "meaning": ""
+      },
+      {
+        "word": "Architect",
+        "meaning": ""
+      },
+      {
+        "word": "Electrician",
+        "meaning": ""
+      },
+      {
+        "word": "Mechanic",
+        "meaning": ""
+      },
+      {
+        "word": "Programmer",
+        "meaning": ""
+      },
+      {
+        "word": "Scientist",
+        "meaning": ""
+      }
+    ],
+    "General Professions": [
+      {
+        "word": "Lawyer",
+        "meaning": ""
+      },
+      {
+        "word": "Barber",
+        "meaning": ""
+      },
+      {
+        "word": "Policeman",
+        "meaning": ""
+      },
+      {
+        "word": "Soldier",
+        "meaning": ""
+      },
+      {
+        "word": "Pilot",
+        "meaning": ""
+      },
+      {
+        "word": "Sailor",
+        "meaning": ""
+      },
+      {
+        "word": "Farmer",
+        "meaning": ""
+      },
+      {
+        "word": "Gardener",
+        "meaning": ""
+      },
+      {
+        "word": "Driver",
+        "meaning": ""
+      },
+      {
+        "word": "Diver",
+        "meaning": ""
+      }
+    ],
+    "Religions & Their Houses of Prayer": [
+      {
+        "word": "Islam",
+        "meaning": "ইসলাম"
+      },
+      {
+        "word": "Muslim",
+        "meaning": "মুসলিম"
+      },
+      {
+        "word": "Mosque",
+        "meaning": "মসজিদ"
+      },
+      {
+        "word": "Christianity",
+        "meaning": "খ্রিস্টধর্ম"
+      },
+      {
+        "word": "Christian",
+        "meaning": "খ্রিস্টান"
+      },
+      {
+        "word": "Church",
+        "meaning": "গির্জা"
+      },
+      {
+        "word": "Hinduism",
+        "meaning": "হিন্দুধর্ম"
+      },
+      {
+        "word": "Hindu",
+        "meaning": "হিন্দু"
+      },
+      {
+        "word": "Temple",
+        "meaning": "মন্দির"
+      },
+      {
+        "word": "Buddhism",
+        "meaning": "বৌদ্ধধর্ম"
+      },
+      {
+        "word": "Buddhist",
+        "meaning": "বৌদ্ধ"
+      },
+      {
+        "word": "Monastery",
+        "meaning": "বৌদ্ধবিহার"
+      },
+      {
+        "word": "Judaism",
+        "meaning": "ইহুদিধর্ম"
+      },
+      {
+        "word": "Jew",
+        "meaning": "ইহুদি"
+      },
+      {
+        "word": "Synagogue",
+        "meaning": "ইহুদিদের উপাসনালয়"
+      },
+      {
+        "word": "Sikhism",
+        "meaning": "শিখধর্ম"
+      },
+      {
+        "word": "Sikh",
+        "meaning": "শিখ"
+      },
+      {
+        "word": "Gurdwara",
+        "meaning": "গুরুদ্বারা"
+      },
+      {
+        "word": "Taoism",
+        "meaning": "তাওবাদ"
+      },
+      {
+        "word": "Taoist",
+        "meaning": "তাওবাদী"
+      },
+      {
+        "word": "Taoist Temple",
+        "meaning": "তাও মন্দির"
+      },
+      {
+        "word": "Confucianism",
+        "meaning": "কনফুসীয়বাদ"
+      },
+      {
+        "word": "Confucian",
+        "meaning": "কনফুসীয়"
+      },
+      {
+        "word": "Confucian Temple",
+        "meaning": "কনফুসিয়াস মন্দির"
+      },
+      {
+        "word": "Shinto",
+        "meaning": "শিন্তো ধর্ম"
+      },
+      {
+        "word": "Shintoist",
+        "meaning": "শিন্তো ধর্মাবলম্বী"
+      },
+      {
+        "word": "Shrine",
+        "meaning": "উপাসনালয়"
+      },
+      {
+        "word": "Jainism",
+        "meaning": "জৈনধর্ম"
+      },
+      {
+        "word": "Jain",
+        "meaning": "জৈন"
+      },
+      {
+        "word": "Jain Temple",
+        "meaning": "জৈন মন্দির"
+      },
+      {
+        "word": "Derasar",
+        "meaning": "জৈন মন্দির"
+      },
+      {
+        "word": "Zoroastrianism",
+        "meaning": "জরথুস্ত্রবাদ"
+      },
+      {
+        "word": "Zoroastrian",
+        "meaning": "জরথুস্ত্রবাদী"
+      },
+      {
+        "word": "Fire Temple",
+        "meaning": "অগ্নিমন্দির"
+      },
+      {
+        "word": "Baháʼí Faith",
+        "meaning": "বাহাই ধর্ম"
+      },
+      {
+        "word": "Baháʼí",
+        "meaning": "বাহাই ধর্মাবলম্বী"
+      },
+      {
+        "word": "Baháʼí House of Worship",
+        "meaning": "বাহাই উপাসনালয়"
+      },
+      {
+        "word": "Animism",
+        "meaning": "প্রাণবাদ"
+      },
+      {
+        "word": "Animist",
+        "meaning": "প্রাণবাদী"
+      },
+      {
+        "word": "Sacred place",
+        "meaning": "পবিত্র স্থান"
+      },
+      {
+        "word": "Paganism",
+        "meaning": "পৌত্তলিকতা"
+      },
+      {
+        "word": "Pagan",
+        "meaning": "পৌত্তলিক"
+      },
+      {
+        "word": "Sacred grove",
+        "meaning": "পবিত্র বৃক্ষবীথি"
+      }
+    ],
+    "Music / Musicians": [
+      {
+        "word": "Pianist",
+        "meaning": "পিয়ানোবাদক"
+      },
+      {
+        "word": "Guitarist",
+        "meaning": "গিটারবাদক"
+      },
+      {
+        "word": "Violinist",
+        "meaning": "বেহালাবাদক"
+      },
+      {
+        "word": "Cellist",
+        "meaning": "সেলোবাদক"
+      },
+      {
+        "word": "Flutist",
+        "meaning": "বাঁশিবাদক"
+      },
+      {
+        "word": "Flautist",
+        "meaning": "বাঁশিবাদক"
+      },
+      {
+        "word": "Drummer",
+        "meaning": "ড্রামবাদক"
+      },
+      {
+        "word": "Bassist",
+        "meaning": "বেস গিটারবাদক"
+      },
+      {
+        "word": "Harpist",
+        "meaning": "হার্পবাদক"
+      },
+      {
+        "word": "Organist",
+        "meaning": "অর্গানবাদক"
+      },
+      {
+        "word": "Trumpeter",
+        "meaning": "ট্রাম্পেটবাদক"
+      },
+      {
+        "word": "Saxophonist",
+        "meaning": "স্যাক্সোফোনবাদক"
+      },
+      {
+        "word": "Clarinetist",
+        "meaning": "ক্ল্যারিনেটবাদক"
+      },
+      {
+        "word": "Piano",
+        "meaning": "পিয়ানো"
+      },
+      {
+        "word": "Keyboard",
+        "meaning": "কিবোর্ড"
+      },
+      {
+        "word": "Violin",
+        "meaning": "বেহালা"
+      },
+      {
+        "word": "Cello",
+        "meaning": "সেলো"
+      },
+      {
+        "word": "Flute",
+        "meaning": "বাঁশি"
+      },
+      {
+        "word": "Drum",
+        "meaning": "ড্রাম"
+      },
+      {
+        "word": "Guitar",
+        "meaning": "গিটার"
+      },
+      {
+        "word": "Organ",
+        "meaning": "অর্গান"
+      },
+      {
+        "word": "Performance",
+        "meaning": "পরিবেশনা"
+      },
+      {
+        "word": "Recital",
+        "meaning": "একক সংগীত পরিবেশনা"
+      },
+      {
+        "word": "Concert",
+        "meaning": "কনসার্ট"
+      },
+      {
+        "word": "Composition",
+        "meaning": "সুররচনা"
+      },
+      {
+        "word": "Practice",
+        "meaning": "অনুশীলন"
+      },
+      {
+        "word": "Melody",
+        "meaning": "সুর"
+      },
+      {
+        "word": "Rhythm",
+        "meaning": "তাল"
+      },
+      {
+        "word": "Harmony",
+        "meaning": "সুরের মিল"
+      }
+    ],
+    "Economics / Government / Public Finance": [
+      {
+        "word": "Taxation",
+        "meaning": "কর ব্যবস্থা / কর আরোপ"
+      },
+      {
+        "word": "Tax",
+        "meaning": "কর"
+      },
+      {
+        "word": "Taxpayer",
+        "meaning": "করদাতা"
+      },
+      {
+        "word": "Income tax",
+        "meaning": "আয়কর"
+      },
+      {
+        "word": "Corporate tax",
+        "meaning": "কর্পোরেট কর"
+      },
+      {
+        "word": "Sales tax",
+        "meaning": "বিক্রয় কর"
+      },
+      {
+        "word": "Value-added tax (VAT)",
+        "meaning": "মূল্য সংযোজন কর"
+      },
+      {
+        "word": "Customs duty",
+        "meaning": "শুল্ক"
+      },
+      {
+        "word": "Excise duty",
+        "meaning": "আবগারি শুল্ক"
+      },
+      {
+        "word": "Property tax",
+        "meaning": "সম্পত্তি কর"
+      },
+      {
+        "word": "Wealth tax",
+        "meaning": "সম্পদ কর"
+      },
+      {
+        "word": "Capital gains tax",
+        "meaning": "মূলধনী মুনাফা কর"
+      },
+      {
+        "word": "Revenue",
+        "meaning": "রাজস্ব"
+      },
+      {
+        "word": "Treasury",
+        "meaning": "কোষাগার"
+      },
+      {
+        "word": "Authority",
+        "meaning": "কর্তৃপক্ষ"
+      },
+      {
+        "word": "Fiscal policy",
+        "meaning": "রাজস্ব নীতি"
+      },
+      {
+        "word": "Public finance",
+        "meaning": "সরকারি অর্থব্যবস্থা"
+      },
+      {
+        "word": "Budget",
+        "meaning": "বাজেট"
+      },
+      {
+        "word": "Expenditure",
+        "meaning": "ব্যয়"
+      },
+      {
+        "word": "Allocation",
+        "meaning": "বরাদ্দ"
+      },
+      {
+        "word": "Levy",
+        "meaning": "কর আরোপ"
+      },
+      {
+        "word": "Assess",
+        "meaning": "কর নির্ধারণ করা"
+      },
+      {
+        "word": "Collect",
+        "meaning": "আদায় করা"
+      },
+      {
+        "word": "File (a return)",
+        "meaning": "রিটার্ন জমা দেওয়া"
+      },
+      {
+        "word": "Declare",
+        "meaning": "ঘোষণা করা"
+      },
+      {
+        "word": "Audit",
+        "meaning": "হিসাব নিরীক্ষা"
+      },
+      {
+        "word": "Enforce",
+        "meaning": "কার্যকর করা"
+      },
+      {
+        "word": "Assessment",
+        "meaning": "কর নির্ধারণ / মূল্যায়ন"
+      },
+      {
+        "word": "Corporate",
+        "meaning": "কর্পোরেট"
+      },
+      {
+        "word": "Slave",
+        "meaning": "দাস"
+      },
+      {
+        "word": "Slavery",
+        "meaning": "দাসত্ব"
+      },
+      {
+        "word": "Enslavement",
+        "meaning": "দাসে পরিণত করা"
+      },
+      {
+        "word": "Slave trade",
+        "meaning": "দাস ব্যবসা"
+      },
+      {
+        "word": "Slaveholder",
+        "meaning": "দাস-মালিক"
+      },
+      {
+        "word": "Slave owner",
+        "meaning": "দাস-মালিক"
+      },
+      {
+        "word": "Bondage",
+        "meaning": "দাসত্ব / বন্ধন"
+      },
+      {
+        "word": "Captivity",
+        "meaning": "বন্দিত্ব"
+      },
+      {
+        "word": "Forced labour",
+        "meaning": "জোরপূর্বক শ্রম"
+      },
+      {
+        "word": "Human trafficking",
+        "meaning": "মানব পাচার"
+      },
+      {
+        "word": "Abolition",
+        "meaning": "বিলোপ"
+      },
+      {
+        "word": "Abolish",
+        "meaning": "বিলোপ করা"
+      },
+      {
+        "word": "Emancipation",
+        "meaning": "মুক্তি"
+      },
+      {
+        "word": "Liberation",
+        "meaning": "মুক্তিকরণ"
+      },
+      {
+        "word": "Freedom",
+        "meaning": "স্বাধীনতা"
+      },
+      {
+        "word": "Equality",
+        "meaning": "সমতা"
+      },
+      {
+        "word": "Human rights",
+        "meaning": "মানবাধিকার"
+      },
+      {
+        "word": "Justice",
+        "meaning": "ন্যায়বিচার"
+      },
+      {
+        "word": "Plantation",
+        "meaning": "বাগানভিত্তিক খামার"
+      },
+      {
+        "word": "Colonialism",
+        "meaning": "উপনিবেশবাদ"
+      },
+      {
+        "word": "Empire",
+        "meaning": "সাম্রাজ্য"
+      },
+      {
+        "word": "Oppression",
+        "meaning": "নিপীড়ন"
+      },
+      {
+        "word": "Exploitation",
+        "meaning": "শোষণ"
+      },
+      {
+        "word": "Segregation",
+        "meaning": "বিচ্ছিন্নকরণ"
+      },
+      {
+        "word": "Modern slavery",
+        "meaning": "আধুনিক দাসত্ব"
+      },
+      {
+        "word": "Child labour",
+        "meaning": "শিশুশ্রম"
+      },
+      {
+        "word": "Debt bondage",
+        "meaning": "ঋণ-দাসত্ব"
+      },
+      {
+        "word": "Sweatshop",
+        "meaning": "শোষণমূলক কারখানা"
+      },
+      {
+        "word": "Photocopier",
+        "meaning": "ফটোকপিয়ার"
+      },
+      {
+        "word": "Photocopy",
+        "meaning": "ফটোকপি"
+      },
+      {
+        "word": "Scanner",
+        "meaning": "স্ক্যানার"
+      },
+      {
+        "word": "Toner",
+        "meaning": "টোনার"
+      },
+      {
+        "word": "Cartridge",
+        "meaning": "কার্টিজ"
+      }
+    ],
+    "Maritime / Sea / Naval History": [
+      {
+        "word": "Pirate",
+        "meaning": "জলদস্যু"
+      },
+      {
+        "word": "Pirates",
+        "meaning": "জলদস্যুরা"
+      },
+      {
+        "word": "Piracy",
+        "meaning": "জলদস্যুতা"
+      },
+      {
+        "word": "Buccaneer",
+        "meaning": "জলদস্যু"
+      },
+      {
+        "word": "Corsair",
+        "meaning": "জলদস্যু"
+      },
+      {
+        "word": "Privateer",
+        "meaning": "অনুমোদিত জলদস্যু"
+      },
+      {
+        "word": "Raider",
+        "meaning": "হামলাকারী"
+      },
+      {
+        "word": "Marauder",
+        "meaning": "লুটকারী"
+      },
+      {
+        "word": "Seafarer",
+        "meaning": "নাবিক"
+      },
+      {
+        "word": "Sailor",
+        "meaning": "নাবিক"
+      },
+      {
+        "word": "Ship",
+        "meaning": "জাহাজ"
+      },
+      {
+        "word": "Vessel",
+        "meaning": "জাহাজ"
+      },
+      {
+        "word": "Boat",
+        "meaning": "নৌকা"
+      },
+      {
+        "word": "Crew",
+        "meaning": "নাবিক দল"
+      },
+      {
+        "word": "Captain",
+        "meaning": "অধিনায়ক"
+      },
+      {
+        "word": "Deck",
+        "meaning": "জাহাজের ডেক"
+      },
+      {
+        "word": "Mast",
+        "meaning": "মাস্তুল"
+      },
+      {
+        "word": "Anchor",
+        "meaning": "নোঙর"
+      },
+      {
+        "word": "Cargo",
+        "meaning": "পণ্য"
+      },
+      {
+        "word": "Hijacking",
+        "meaning": "ছিনতাই"
+      },
+      {
+        "word": "Smuggling",
+        "meaning": "চোরাচালান"
+      },
+      {
+        "word": "Theft",
+        "meaning": "চুরি"
+      },
+      {
+        "word": "Robbery",
+        "meaning": "ডাকাতি"
+      },
+      {
+        "word": "Ransom",
+        "meaning": "মুক্তিপণ"
+      },
+      {
+        "word": "Hostage",
+        "meaning": "জিম্মি"
+      },
+      {
+        "word": "Patrol",
+        "meaning": "টহল"
+      },
+      {
+        "word": "Coast guard",
+        "meaning": "উপকূলরক্ষী"
+      },
+      {
+        "word": "Software piracy",
+        "meaning": "সফটওয়্যার চুরি"
+      },
+      {
+        "word": "Copyright infringement",
+        "meaning": "কপিরাইট লঙ্ঘন"
+      },
+      {
+        "word": "Illegal download",
+        "meaning": "অবৈধ ডাউনলোড"
+      },
+      {
+        "word": "Counterfeit",
+        "meaning": "নকল"
+      }
+    ],
+    "Traditional British Christmas Activities & Related Holidays": [
+      {
+        "word": "Christmas pantomime",
+        "meaning": "হাস্যরসাত্মক সঙ্গীতনাট্য"
+      },
+      {
+        "word": "Queen’s Speech",
+        "meaning": "রানী/রাজার ভাষণ"
+      },
+      {
+        "word": "The Queen gives a speech on TV and radio",
+        "meaning": "রানী টেলিভিশন ও রেডিওতে ভাষণ দেন"
+      },
+      {
+        "word": "Boxing Day",
+        "meaning": "বড়দিনের পরের দিন"
+      },
+      {
+        "word": "Easter",
+        "meaning": "খ্রিস্টানদের প্রধান ধর্মীয় উৎসব"
+      },
+      {
+        "word": "Pantomime",
+        "meaning": "হাস্যরসাত্মক নাট্যাভিনয়"
+      },
+      {
+        "word": "Queen",
+        "meaning": "রানী"
+      },
+      {
+        "word": "Boxing Day",
+        "meaning": "বড়দিনের পরের দিন"
+      },
+      {
+        "word": "Christmas",
+        "meaning": "বড়দিন"
+      },
+      {
+        "word": "Easter",
+        "meaning": "ইস্টার"
+      },
+      {
+        "word": "Bonfire Night",
+        "meaning": "বনফায়ার নাইট"
+      },
+      {
+        "word": "Fireworks",
+        "meaning": "আতশবাজি"
+      },
+      {
+        "word": "Bonfire",
+        "meaning": "বড় আগুন"
+      },
+      {
+        "word": "Potatoes",
+        "meaning": "আলু"
+      },
+      {
+        "word": "Sausages",
+        "meaning": "সসেজ"
+      },
+      {
+        "word": "Halloween",
+        "meaning": "হ্যালোইন"
+      },
+      {
+        "word": "Pumpkins",
+        "meaning": "কুমড়া"
+      },
+      {
+        "word": "Jack-o’-lanterns",
+        "meaning": "খোদাই করা কুমড়ার বাতি"
+      },
+      {
+        "word": "St Patrick’s Day",
+        "meaning": "সেন্ট প্যাট্রিক দিবস"
+      },
+      {
+        "word": "Hogmanay",
+        "meaning": "স্কটিশ নববর্ষ উদ্‌যাপন"
+      },
+      {
+        "word": "New Year’s Eve",
+        "meaning": "নববর্ষের আগের রাত"
+      },
+      {
+        "word": "First Footing",
+        "meaning": "নববর্ষের পর প্রথম আগন্তুকের আগমন"
+      },
+      {
+        "word": "Eisteddfod",
+        "meaning": "সাহিত্য ও সংস্কৃতি উৎসব"
+      },
+      {
+        "word": "Cultural festival",
+        "meaning": "সাংস্কৃতিক উৎসব"
+      },
+      {
+        "word": "Poet",
+        "meaning": "কবি"
+      },
+      {
+        "word": "Crown",
+        "meaning": "মুকুট পরানো"
+      },
+      {
+        "word": "Midnight",
+        "meaning": "মধ্যরাত"
+      }
+    ],
+    "Common Types of Food on a Restaurant Menu": [
+      {
+        "word": "Appetizer",
+        "meaning": "খাবার শুরুর আগে হালকা খাবার"
+      },
+      {
+        "word": "Starter",
+        "meaning": "খাবার শুরুর আগে হালকা খাবার"
+      },
+      {
+        "word": "Main course",
+        "meaning": "প্রধান খাবার"
+      },
+      {
+        "word": "Side dishes",
+        "meaning": "সহকারী খাবার"
+      },
+      {
+        "word": "Vegetables",
+        "meaning": "সবজি"
+      },
+      {
+        "word": "Desserts",
+        "meaning": "মিষ্টান্ন"
+      },
+      {
+        "word": "Drinks",
+        "meaning": "পানীয়"
+      },
+      {
+        "word": "Beverages",
+        "meaning": "পানীয়"
+      },
+      {
+        "word": "Soup of the day",
+        "meaning": "দিনের বিশেষ স্যুপ"
+      },
+      {
+        "word": "Garlic bread",
+        "meaning": "রসুন রুটি"
+      },
+      {
+        "word": "Caesar salad",
+        "meaning": "সিজার সালাদ"
+      },
+      {
+        "word": "Chicken wings",
+        "meaning": "মুরগির ডানা"
+      },
+      {
+        "word": "Onion rings",
+        "meaning": "পেঁয়াজের রিং"
+      },
+      {
+        "word": "Nachos",
+        "meaning": "নাচোস"
+      },
+      {
+        "word": "Bruschetta",
+        "meaning": "টোস্ট করা রুটি"
+      },
+      {
+        "word": "Fruit juice",
+        "meaning": "ফলের রস"
+      },
+      {
+        "word": "Tomato soup",
+        "meaning": "টমেটোর স্যুপ"
+      },
+      {
+        "word": "Roast chicken",
+        "meaning": "রোস্ট মুরগি"
+      },
+      {
+        "word": "Beef steak",
+        "meaning": "গরুর স্টেক"
+      },
+      {
+        "word": "Grilled salmon",
+        "meaning": "গ্রিল করা সালমন"
+      },
+      {
+        "word": "Fish and chips",
+        "meaning": "মাছ ও আলু ভাজা"
+      },
+      {
+        "word": "Hamburger",
+        "meaning": "বার্গার"
+      },
+      {
+        "word": "Burger",
+        "meaning": "বার্গার"
+      },
+      {
+        "word": "Fried chicken",
+        "meaning": "ভাজা মুরগি"
+      },
+      {
+        "word": "Pasta",
+        "meaning": "পাস্তা"
+      },
+      {
+        "word": "Pizza",
+        "meaning": "পিৎজা"
+      },
+      {
+        "word": "Roast dinner",
+        "meaning": "রোস্ট করা মাংস ও তার সঙ্গে পরিবেশিত খাবার"
+      },
+      {
+        "word": "Mashed potatoes",
+        "meaning": "আলু ভর্তা"
+      },
+      {
+        "word": "French fries",
+        "meaning": "ফ্রেঞ্চ ফ্রাই"
+      },
+      {
+        "word": "Chips",
+        "meaning": "আলু ভাজা"
+      },
+      {
+        "word": "Steamed vegetables",
+        "meaning": "ভাপে সেদ্ধ সবজি"
+      },
+      {
+        "word": "Coleslaw",
+        "meaning": "বাঁধাকপির সালাদ"
+      },
+      {
+        "word": "Baked beans",
+        "meaning": "বেকড বিনস"
+      },
+      {
+        "word": "Corn on the cob",
+        "meaning": "মোচাসহ ভুট্টা"
+      },
+      {
+        "word": "Vegetable salad",
+        "meaning": "সবজির সালাদ"
+      },
+      {
+        "word": "Carrot",
+        "meaning": "গাজর"
+      },
+      {
+        "word": "Tomato",
+        "meaning": "টমেটো"
+      },
+      {
+        "word": "Potato",
+        "meaning": "আলু"
+      },
+      {
+        "word": "Corn",
+        "meaning": "ভুট্টা"
+      },
+      {
+        "word": "Onion",
+        "meaning": "পেঁয়াজ"
+      },
+      {
+        "word": "Lettuce",
+        "meaning": "লেটুস পাতা"
+      },
+      {
+        "word": "Cucumber",
+        "meaning": "শসা"
+      },
+      {
+        "word": "Ice cream",
+        "meaning": "আইসক্রিম"
+      },
+      {
+        "word": "Apple pie",
+        "meaning": "আপেল পাই"
+      },
+      {
+        "word": "Chocolate cake",
+        "meaning": "চকলেট কেক"
+      },
+      {
+        "word": "Brownie",
+        "meaning": "ব্রাউনি"
+      },
+      {
+        "word": "Cheesecake",
+        "meaning": "চিজকেক"
+      },
+      {
+        "word": "Pudding",
+        "meaning": "পুডিং"
+      },
+      {
+        "word": "Water",
+        "meaning": "পানি"
+      },
+      {
+        "word": "Tea",
+        "meaning": "চা"
+      },
+      {
+        "word": "Coffee",
+        "meaning": "কফি"
+      },
+      {
+        "word": "Soft drinks",
+        "meaning": "কোমল পানীয়"
+      },
+      {
+        "word": "Milkshake",
+        "meaning": "মিল্কশেক"
+      },
+      {
+        "word": "Sprite",
+        "meaning": "স্প্রাইট"
+      },
+      {
+        "word": "Soda",
+        "meaning": "সোডা / কোমল পানীয়"
+      },
+      {
+        "word": "Biscuit",
+        "meaning": "বিস্কুট"
+      },
+      {
+        "word": "Cookie",
+        "meaning": "কুকি"
+      },
+      {
+        "word": "Dessert",
+        "meaning": "মিষ্টান্ন"
+      },
+      {
+        "word": "Fizzy drink",
+        "meaning": "গ্যাসযুক্ত কোমল পানীয়"
+      }
+    ],
+    "Human Body Processes (Physiological Actions)": [
+      {
+        "word": "Breathe",
+        "meaning": "শ্বাস নেওয়া"
+      },
+      {
+        "word": "Inhale",
+        "meaning": "শ্বাস টানা"
+      },
+      {
+        "word": "Exhale",
+        "meaning": "শ্বাস ছাড়া"
+      },
+      {
+        "word": "Respire",
+        "meaning": "শ্বাস-প্রশ্বাস করা"
+      },
+      {
+        "word": "Blink",
+        "meaning": "চোখ পিটপিট করা"
+      },
+      {
+        "word": "Swallow",
+        "meaning": "গেলা"
+      },
+      {
+        "word": "Chew",
+        "meaning": "চিবানো"
+      },
+      {
+        "word": "Digest",
+        "meaning": "হজম করা"
+      },
+      {
+        "word": "Absorb",
+        "meaning": "শোষণ করা"
+      },
+      {
+        "word": "Circulate",
+        "meaning": "রক্ত সঞ্চালন হওয়া"
+      },
+      {
+        "word": "Pump (heart)",
+        "meaning": "পাম্প করা"
+      },
+      {
+        "word": "Beat (heart)",
+        "meaning": "স্পন্দিত হওয়া"
+      },
+      {
+        "word": "Sweat",
+        "meaning": "ঘাম ঝরা"
+      },
+      {
+        "word": "Perspire",
+        "meaning": "ঘাম হওয়া"
+      },
+      {
+        "word": "Shiver",
+        "meaning": "কাঁপা"
+      },
+      {
+        "word": "Yawn",
+        "meaning": "হাই তোলা"
+      },
+      {
+        "word": "Sneeze",
+        "meaning": "হাঁচি দেওয়া"
+      },
+      {
+        "word": "Cough",
+        "meaning": "কাশি দেওয়া"
+      },
+      {
+        "word": "Urinate",
+        "meaning": "প্রস্রাব করা"
+      },
+      {
+        "word": "Defecate",
+        "meaning": "মলত্যাগ করা"
+      },
+      {
+        "word": "Reproduce",
+        "meaning": "প্রজনন করা"
+      },
+      {
+        "word": "Grow",
+        "meaning": "বৃদ্ধি পাওয়া"
+      },
+      {
+        "word": "Heal",
+        "meaning": "সেরে ওঠা"
+      },
+      {
+        "word": "Age",
+        "meaning": "বয়স বাড়া"
+      },
+      {
+        "word": "Sleep",
+        "meaning": "ঘুমানো"
+      },
+      {
+        "word": "Wake",
+        "meaning": "জাগা"
+      }
+    ],
+    "Coaching, Training & Sports Instruction": [
+      {
+        "word": "Coach",
+        "meaning": "প্রশিক্ষক"
+      },
+      {
+        "word": "Trainer",
+        "meaning": "প্রশিক্ষক"
+      },
+      {
+        "word": "Instructor",
+        "meaning": "নির্দেশক / প্রশিক্ষক"
+      },
+      {
+        "word": "Mentor",
+        "meaning": "পরামর্শদাতা"
+      },
+      {
+        "word": "Manager",
+        "meaning": "ব্যবস্থাপক"
+      },
+      {
+        "word": "Assistant coach",
+        "meaning": "সহকারী প্রশিক্ষক"
+      },
+      {
+        "word": "Head coach",
+        "meaning": "প্রধান প্রশিক্ষক"
+      },
+      {
+        "word": "Fitness coach",
+        "meaning": "শারীরিক সুস্থতার প্রশিক্ষক"
+      },
+      {
+        "word": "Life coach",
+        "meaning": "জীবনবিষয়ক পরামর্শদাতা"
+      },
+      {
+        "word": "Team captain",
+        "meaning": "দলের অধিনায়ক"
+      },
+      {
+        "word": "Train",
+        "meaning": "প্রশিক্ষণ দেওয়া"
+      },
+      {
+        "word": "Teach",
+        "meaning": "শেখানো"
+      },
+      {
+        "word": "Guide",
+        "meaning": "পথনির্দেশনা দেওয়া"
+      },
+      {
+        "word": "Motivate",
+        "meaning": "অনুপ্রাণিত করা"
+      },
+      {
+        "word": "Instruct",
+        "meaning": "নির্দেশনা দেওয়া"
+      },
+      {
+        "word": "Demonstrate",
+        "meaning": "প্রদর্শন করে দেখানো"
+      },
+      {
+        "word": "Supervise",
+        "meaning": "তত্ত্বাবধান করা"
+      },
+      {
+        "word": "Evaluate",
+        "meaning": "মূল্যায়ন করা"
+      },
+      {
+        "word": "Encourage",
+        "meaning": "উৎসাহিত করা"
+      },
+      {
+        "word": "Correct",
+        "meaning": "সংশোধন করা"
+      },
+      {
+        "word": "Plan",
+        "meaning": "পরিকল্পনা করা"
+      },
+      {
+        "word": "Prepare",
+        "meaning": "প্রস্তুত করা"
+      },
+      {
+        "word": "Coaching",
+        "meaning": "প্রশিক্ষণ প্রদান"
+      },
+      {
+        "word": "Training",
+        "meaning": "প্রশিক্ষণ"
+      },
+      {
+        "word": "Practice",
+        "meaning": "অনুশীলন"
+      },
+      {
+        "word": "Warm-up",
+        "meaning": "ব্যায়ামের আগে শরীর গরম করার প্রক্রিয়া"
+      },
+      {
+        "word": "Cool-down",
+        "meaning": "ব্যায়ামের পর শরীর স্বাভাবিক করার প্রক্রিয়া"
+      },
+      {
+        "word": "Drills",
+        "meaning": "দক্ষতা বৃদ্ধির পুনরাবৃত্তিমূলক অনুশীলন"
+      },
+      {
+        "word": "Strategy",
+        "meaning": "কৌশলগত পরিকল্পনা"
+      },
+      {
+        "word": "Tactics",
+        "meaning": "তাৎক্ষণিক কৌশল"
+      },
+      {
+        "word": "Game plan",
+        "meaning": "খেলার পরিকল্পনা"
+      },
+      {
+        "word": "Feedback",
+        "meaning": "প্রতিক্রিয়া / পরামর্শ"
+      },
+      {
+        "word": "Assessment",
+        "meaning": "মূল্যায়ন"
+      },
+      {
+        "word": "Leadership",
+        "meaning": "নেতৃত্বের গুণ"
+      },
+      {
+        "word": "Discipline",
+        "meaning": "শৃঙ্খলা"
+      },
+      {
+        "word": "Patience",
+        "meaning": "ধৈর্য"
+      },
+      {
+        "word": "Confidence",
+        "meaning": "আত্মবিশ্বাস"
+      },
+      {
+        "word": "Experience",
+        "meaning": "অভিজ্ঞতা"
+      },
+      {
+        "word": "Knowledge",
+        "meaning": "জ্ঞান"
+      },
+      {
+        "word": "Communication",
+        "meaning": "যোগাযোগ"
+      },
+      {
+        "word": "Responsibility",
+        "meaning": "দায়িত্ববোধ"
+      },
+      {
+        "word": "Dedication",
+        "meaning": "নিষ্ঠা"
+      },
+      {
+        "word": "Professionalism",
+        "meaning": "পেশাদারিত্ব"
+      },
+      {
+        "word": "Whistle",
+        "meaning": "বাঁশি"
+      },
+      {
+        "word": "Stopwatch",
+        "meaning": "সময় মাপার ঘড়ি"
+      },
+      {
+        "word": "Cones",
+        "meaning": "শঙ্কু আকৃতির প্রশিক্ষণ-চিহ্ন"
+      },
+      {
+        "word": "Clipboard",
+        "meaning": "কাগজ রাখার ক্লিপযুক্ত বোর্ড"
+      },
+      {
+        "word": "Training bib",
+        "meaning": "প্রশিক্ষণের সময় পরা পরিচয়সূচক জার্সি"
+      },
+      {
+        "word": "Ball",
+        "meaning": "বল"
+      },
+      {
+        "word": "Net",
+        "meaning": "জাল"
+      },
+      {
+        "word": "Gym equipment",
+        "meaning": "জিমের সরঞ্জাম"
+      },
+      {
+        "word": "Video analysis",
+        "meaning": "ভিডিও বিশ্লেষণ"
+      }
+    ],
+    "Rescue Diving & Emergency Response": [
+      {
+        "word": "Rescue diver",
+        "meaning": "উদ্ধারকারী ডুবুরি"
+      },
+      {
+        "word": "Scuba diver",
+        "meaning": "স্কুবা ডুবুরি"
+      },
+      {
+        "word": "Search and rescue diver",
+        "meaning": "অনুসন্ধান ও উদ্ধারকারী ডুবুরি"
+      },
+      {
+        "word": "Commercial diver",
+        "meaning": "বাণিজ্যিক ডুবুরি"
+      },
+      {
+        "word": "Safety diver",
+        "meaning": "নিরাপত্তা ডুবুরি"
+      },
+      {
+        "word": "Dive instructor",
+        "meaning": "ডাইভিং প্রশিক্ষক"
+      },
+      {
+        "word": "Divemaster",
+        "meaning": "ডাইভিং গাইড / ডাইভিং দলের নেতা"
+      },
+      {
+        "word": "Emergency responder",
+        "meaning": "জরুরি পরিস্থিতিতে সাড়াদানকারী"
+      },
+      {
+        "word": "Lifeguard",
+        "meaning": "সাঁতারুদের জীবনরক্ষাকারী"
+      },
+      {
+        "word": "Paramedic",
+        "meaning": "জরুরি চিকিৎসাসেবাকর্মী"
+      },
+      {
+        "word": "Dive",
+        "meaning": "ডুব দেওয়া"
+      },
+      {
+        "word": "Rescue",
+        "meaning": "উদ্ধার করা"
+      },
+      {
+        "word": "Search",
+        "meaning": "অনুসন্ধান করা"
+      },
+      {
+        "word": "Recover",
+        "meaning": "উদ্ধার করে ফিরিয়ে আনা"
+      },
+      {
+        "word": "Assist",
+        "meaning": "সহায়তা করা"
+      },
+      {
+        "word": "Save",
+        "meaning": "রক্ষা করা"
+      },
+      {
+        "word": "Evacuate",
+        "meaning": "নিরাপদ স্থানে সরিয়ে নেওয়া"
+      },
+      {
+        "word": "Communicate",
+        "meaning": "যোগাযোগ করা"
+      },
+      {
+        "word": "Assess",
+        "meaning": "মূল্যায়ন করা"
+      },
+      {
+        "word": "Respond",
+        "meaning": "সাড়া দেওয়া"
+      },
+      {
+        "word": "Navigate",
+        "meaning": "পথ নির্ণয় করা"
+      },
+      {
+        "word": "Stabilize",
+        "meaning": "স্থিতিশীল করা"
+      },
+      {
+        "word": "Oxygen tank",
+        "meaning": "অক্সিজেন সিলিন্ডার"
+      },
+      {
+        "word": "Regulator",
+        "meaning": "শ্বাস নেওয়ার জন্য গ্যাসের চাপ নিয়ন্ত্রণকারী যন্ত্র"
+      },
+      {
+        "word": "Buoyancy control device (BCD)",
+        "meaning": "পানির নিচে ভাসমানতা নিয়ন্ত্রণকারী সরঞ্জাম"
+      },
+      {
+        "word": "Wetsuit",
+        "meaning": "পানির নিচে শরীর গরম রাখতে ব্যবহৃত ডাইভিং পোশাক"
+      },
+      {
+        "word": "Drysuit",
+        "meaning": "শরীর শুকনো রাখতে ব্যবহৃত ডাইভিং পোশাক"
+      },
+      {
+        "word": "Diving mask",
+        "meaning": "ডাইভিং মাস্ক"
+      },
+      {
+        "word": "Fins",
+        "meaning": "সাঁতারের পাখনা"
+      },
+      {
+        "word": "Snorkel",
+        "meaning": "পানির উপর থেকে শ্বাস নেওয়ার নল"
+      },
+      {
+        "word": "Rescue rope",
+        "meaning": "উদ্ধারকাজের দড়ি"
+      },
+      {
+        "word": "Knife",
+        "meaning": "ছুরি"
+      },
+      {
+        "word": "Torch",
+        "meaning": "টর্চলাইট"
+      },
+      {
+        "word": "Flashlight",
+        "meaning": "টর্চলাইট"
+      },
+      {
+        "word": "First-aid kit",
+        "meaning": "প্রাথমিক চিকিৎসার সরঞ্জাম"
+      },
+      {
+        "word": "Emergency response",
+        "meaning": "জরুরি পরিস্থিতিতে সাড়া দেওয়া"
+      },
+      {
+        "word": "First aid",
+        "meaning": "প্রাথমিক চিকিৎসা"
+      },
+      {
+        "word": "CPR",
+        "meaning": "হৃদ্‌যন্ত্র ও শ্বাসপ্রশ্বাস বন্ধ হলে পুনরুজ্জীবিত করার প্রক্রিয়া"
+      },
+      {
+        "word": "Underwater navigation",
+        "meaning": "পানির নিচে পথ নির্ণয়"
+      },
+      {
+        "word": "Risk assessment",
+        "meaning": "ঝুঁকি মূল্যায়ন"
+      },
+      {
+        "word": "Team coordination",
+        "meaning": "দলের সমন্বয়"
+      },
+      {
+        "word": "Stress management",
+        "meaning": "মানসিক চাপ নিয়ন্ত্রণ"
+      },
+      {
+        "word": "Survival skills",
+        "meaning": "বেঁচে থাকার দক্ষতা"
+      },
+      {
+        "word": "Deep water",
+        "meaning": "গভীর পানি"
+      },
+      {
+        "word": "Open sea",
+        "meaning": "উন্মুক্ত সমুদ্র"
+      },
+      {
+        "word": "River",
+        "meaning": "নদী"
+      },
+      {
+        "word": "Lake",
+        "meaning": "হ্রদ"
+      },
+      {
+        "word": "Flooded area",
+        "meaning": "প্লাবিত এলাকা"
+      },
+      {
+        "word": "Shipwreck",
+        "meaning": "ডুবে যাওয়া জাহাজের ধ্বংসাবশেষ"
+      },
+      {
+        "word": "Poor visibility",
+        "meaning": "কম দৃশ্যমানতা"
+      },
+      {
+        "word": "Strong currents",
+        "meaning": "পানির প্রবল স্রোত"
+      },
+      {
+        "word": "Brave",
+        "meaning": "সাহসী"
+      },
+      {
+        "word": "Calm",
+        "meaning": "শান্ত"
+      },
+      {
+        "word": "Physically fit",
+        "meaning": "শারীরিকভাবে সুস্থ ও সক্ষম"
+      },
+      {
+        "word": "Alert",
+        "meaning": "সতর্ক"
+      },
+      {
+        "word": "Responsible",
+        "meaning": "দায়িত্বশীল"
+      },
+      {
+        "word": "Skilled",
+        "meaning": "দক্ষ"
+      },
+      {
+        "word": "Disciplined",
+        "meaning": "শৃঙ্খলাবদ্ধ"
+      },
+      {
+        "word": "Quick-thinking",
+        "meaning": "দ্রুত চিন্তা করতে সক্ষম"
+      }
+    ],
+    "Human Diseases & Medical Conditions": [
+      {
+        "word": "Migraine",
+        "meaning": "মাইগ্রেন"
+      },
+      {
+        "word": "Stroke",
+        "meaning": "স্ট্রোক"
+      },
+      {
+        "word": "Epilepsy",
+        "meaning": "মৃগীরোগ"
+      },
+      {
+        "word": "Parkinson’s disease",
+        "meaning": "পারকিনসন রোগ"
+      },
+      {
+        "word": "Alzheimer’s disease",
+        "meaning": "আলঝেইমার রোগ"
+      },
+      {
+        "word": "Cataract",
+        "meaning": "চোখে ছানি"
+      },
+      {
+        "word": "Glaucoma",
+        "meaning": "গ্লুকোমা"
+      },
+      {
+        "word": "Conjunctivitis",
+        "meaning": "চোখের প্রদাহ"
+      },
+      {
+        "word": "Ear infection",
+        "meaning": "কানের সংক্রমণ"
+      },
+      {
+        "word": "Tinnitus",
+        "meaning": "কানে শব্দ শোনার সমস্যা"
+      },
+      {
+        "word": "Hearing loss",
+        "meaning": "শ্রবণশক্তি হ্রাস"
+      },
+      {
+        "word": "Common cold",
+        "meaning": "সাধারণ সর্দি"
+      },
+      {
+        "word": "Sinusitis",
+        "meaning": "সাইনাসের প্রদাহ"
+      },
+      {
+        "word": "Tonsillitis",
+        "meaning": "টনসিলের প্রদাহ"
+      },
+      {
+        "word": "Asthma",
+        "meaning": "হাঁপানি"
+      },
+      {
+        "word": "Pneumonia",
+        "meaning": "নিউমোনিয়া"
+      },
+      {
+        "word": "Tuberculosis",
+        "meaning": "যক্ষ্মা"
+      },
+      {
+        "word": "Bronchitis",
+        "meaning": "ব্রঙ্কাইটিস"
+      },
+      {
+        "word": "COVID-19",
+        "meaning": "কোভিড-১৯"
+      },
+      {
+        "word": "Heart attack",
+        "meaning": "হার্ট অ্যাটাক"
+      },
+      {
+        "word": "Hypertension",
+        "meaning": "উচ্চ রক্তচাপ"
+      },
+      {
+        "word": "Coronary artery disease",
+        "meaning": "করোনারি ধমনির রোগ"
+      },
+      {
+        "word": "Gastritis",
+        "meaning": "পাকস্থলীর প্রদাহ"
+      },
+      {
+        "word": "Ulcer",
+        "meaning": "ঘা"
+      },
+      {
+        "word": "Food poisoning",
+        "meaning": "খাদ্যে বিষক্রিয়া"
+      },
+      {
+        "word": "Acid reflux",
+        "meaning": "পাকস্থলীর অ্যাসিড খাদ্যনালিতে উঠে আসা"
+      },
+      {
+        "word": "Hepatitis",
+        "meaning": "যকৃতের প্রদাহ"
+      },
+      {
+        "word": "Cirrhosis",
+        "meaning": "যকৃতের দীর্ঘস্থায়ী ক্ষত ও দাগযুক্ত অবস্থা"
+      },
+      {
+        "word": "Kidney stones",
+        "meaning": "কিডনিতে পাথর"
+      },
+      {
+        "word": "Kidney failure",
+        "meaning": "কিডনি বিকল হওয়া"
+      },
+      {
+        "word": "Eczema",
+        "meaning": "একজিমা"
+      },
+      {
+        "word": "Psoriasis",
+        "meaning": "সোরিয়াসিস"
+      },
+      {
+        "word": "Acne",
+        "meaning": "ব্রণ"
+      },
+      {
+        "word": "Arthritis",
+        "meaning": "গিঁটে প্রদাহ"
+      },
+      {
+        "word": "Osteoporosis",
+        "meaning": "অস্টিওপোরোসিস / হাড় ক্ষয়"
+      },
+      {
+        "word": "Fracture",
+        "meaning": "হাড় ভাঙা"
+      },
+      {
+        "word": "Anemia",
+        "meaning": "রক্তস্বল্পতা"
+      },
+      {
+        "word": "Leukemia",
+        "meaning": "লিউকেমিয়া"
+      },
+      {
+        "word": "HIV/AIDS",
+        "meaning": "এইচআইভি/এইডস"
+      },
+      {
+        "word": "Diabetes",
+        "meaning": "ডায়াবেটিস"
+      },
+      {
+        "word": "Thyroid disorder",
+        "meaning": "থাইরয়েডের সমস্যা"
+      }
+    ],
+    "Business, Commerce & Marketing": [
+      {
+        "word": "Business",
+        "meaning": "ব্যবসা"
+      },
+      {
+        "word": "Company",
+        "meaning": "কোম্পানি"
+      },
+      {
+        "word": "Enterprise",
+        "meaning": "ব্যবসায়িক প্রতিষ্ঠান"
+      },
+      {
+        "word": "Corporation",
+        "meaning": "কর্পোরেশন"
+      },
+      {
+        "word": "Organization",
+        "meaning": "প্রতিষ্ঠান / সংস্থা"
+      },
+      {
+        "word": "Industry",
+        "meaning": "শিল্পখাত"
+      },
+      {
+        "word": "Commerce",
+        "meaning": "বাণিজ্য"
+      },
+      {
+        "word": "Trade",
+        "meaning": "বাণিজ্য"
+      },
+      {
+        "word": "Market",
+        "meaning": "বাজার"
+      },
+      {
+        "word": "Marketplace",
+        "meaning": "বাজার / বাণিজ্যিক স্থান"
+      },
+      {
+        "word": "Client",
+        "meaning": "মক্কেল / সেবা গ্রহণকারী"
+      },
+      {
+        "word": "Customer",
+        "meaning": "ক্রেতা / গ্রাহক"
+      },
+      {
+        "word": "Consumer",
+        "meaning": "ভোক্তা"
+      },
+      {
+        "word": "Retailer",
+        "meaning": "খুচরা বিক্রেতা"
+      },
+      {
+        "word": "Wholesaler",
+        "meaning": "পাইকারি বিক্রেতা"
+      },
+      {
+        "word": "Supplier",
+        "meaning": "সরবরাহকারী"
+      },
+      {
+        "word": "Manufacturer",
+        "meaning": "প্রস্তুতকারক"
+      },
+      {
+        "word": "Producer",
+        "meaning": "উৎপাদক"
+      },
+      {
+        "word": "Distributor",
+        "meaning": "পরিবেশক"
+      },
+      {
+        "word": "Dealer",
+        "meaning": "ডিলার / বিক্রেতা"
+      },
+      {
+        "word": "Entrepreneur",
+        "meaning": "উদ্যোক্তা"
+      },
+      {
+        "word": "Employer",
+        "meaning": "নিয়োগকর্তা"
+      },
+      {
+        "word": "Employee",
+        "meaning": "কর্মচারী"
+      },
+      {
+        "word": "Manager",
+        "meaning": "ব্যবস্থাপক"
+      },
+      {
+        "word": "Shareholder",
+        "meaning": "শেয়ারহোল্ডার"
+      },
+      {
+        "word": "Purchase",
+        "meaning": "ক্রয়"
+      },
+      {
+        "word": "Sale",
+        "meaning": "বিক্রয়"
+      },
+      {
+        "word": "Order",
+        "meaning": "অর্ডার / ক্রয়াদেশ"
+      },
+      {
+        "word": "Payment",
+        "meaning": "অর্থপ্রদান"
+      },
+      {
+        "word": "Refund",
+        "meaning": "টাকা ফেরত"
+      },
+      {
+        "word": "Exchange",
+        "meaning": "পণ্য বদল"
+      },
+      {
+        "word": "Receipt",
+        "meaning": "রসিদ"
+      },
+      {
+        "word": "Invoice",
+        "meaning": "চালান"
+      },
+      {
+        "word": "Bill",
+        "meaning": "বিল"
+      },
+      {
+        "word": "Price",
+        "meaning": "মূল্য"
+      },
+      {
+        "word": "Discount",
+        "meaning": "ছাড়"
+      },
+      {
+        "word": "Bargain",
+        "meaning": "দর-কষাকষি / সস্তা কেনাকাটা"
+      },
+      {
+        "word": "Voucher",
+        "meaning": "ভাউচার / কুপন"
+      },
+      {
+        "word": "Coupon",
+        "meaning": "কুপন"
+      },
+      {
+        "word": "Warranty",
+        "meaning": "পণ্যের নিশ্চয়তা"
+      },
+      {
+        "word": "Retail",
+        "meaning": "খুচরা বিক্রয়"
+      },
+      {
+        "word": "Wholesale",
+        "meaning": "পাইকারি বিক্রয়"
+      },
+      {
+        "word": "Outlet",
+        "meaning": "বিক্রয়কেন্দ্র"
+      },
+      {
+        "word": "Store",
+        "meaning": "দোকান"
+      },
+      {
+        "word": "Shop",
+        "meaning": "দোকান"
+      },
+      {
+        "word": "Supermarket",
+        "meaning": "সুপারমার্কেট"
+      },
+      {
+        "word": "Department store",
+        "meaning": "বড় বহুবিভাগীয় দোকান"
+      },
+      {
+        "word": "Shopping centre",
+        "meaning": "বিপণিকেন্দ্র"
+      },
+      {
+        "word": "Branch",
+        "meaning": "শাখা"
+      },
+      {
+        "word": "Counter",
+        "meaning": "বিক্রয় কাউন্টার"
+      },
+      {
+        "word": "Cashier",
+        "meaning": "ক্যাশিয়ার"
+      },
+      {
+        "word": "Checkout",
+        "meaning": "বিল পরিশোধের স্থান"
+      },
+      {
+        "word": "Product",
+        "meaning": "পণ্য"
+      },
+      {
+        "word": "Goods",
+        "meaning": "পণ্যসামগ্রী"
+      },
+      {
+        "word": "Merchandise",
+        "meaning": "বাণিজ্যিক পণ্য"
+      },
+      {
+        "word": "Item",
+        "meaning": "সামগ্রী / পণ্য"
+      },
+      {
+        "word": "Stock",
+        "meaning": "মজুত পণ্য"
+      },
+      {
+        "word": "Inventory",
+        "meaning": "মজুত পণ্যের তালিকা"
+      },
+      {
+        "word": "Supply",
+        "meaning": "সরবরাহ"
+      },
+      {
+        "word": "Demand",
+        "meaning": "চাহিদা"
+      },
+      {
+        "word": "Packaging",
+        "meaning": "প্যাকেজিং"
+      },
+      {
+        "word": "Brand",
+        "meaning": "ব্র্যান্ড"
+      },
+      {
+        "word": "Label",
+        "meaning": "লেবেল"
+      },
+      {
+        "word": "Catalogue",
+        "meaning": "পণ্যের তালিকা"
+      },
+      {
+        "word": "Revenue",
+        "meaning": "রাজস্ব / আয়"
+      },
+      {
+        "word": "Income",
+        "meaning": "আয়"
+      },
+      {
+        "word": "Profit",
+        "meaning": "মুনাফা"
+      },
+      {
+        "word": "Loss",
+        "meaning": "ক্ষতি"
+      },
+      {
+        "word": "Cost",
+        "meaning": "খরচ"
+      },
+      {
+        "word": "Expense",
+        "meaning": "ব্যয়"
+      },
+      {
+        "word": "Salary",
+        "meaning": "বেতন"
+      },
+      {
+        "word": "Wage",
+        "meaning": "মজুরি"
+      },
+      {
+        "word": "Budget",
+        "meaning": "বাজেট"
+      },
+      {
+        "word": "Taxation",
+        "meaning": "করব্যবস্থা"
+      },
+      {
+        "word": "Investment",
+        "meaning": "বিনিয়োগ"
+      },
+      {
+        "word": "Loan",
+        "meaning": "ঋণ"
+      },
+      {
+        "word": "Interest",
+        "meaning": "সুদ"
+      },
+      {
+        "word": "Advertisement",
+        "meaning": "বিজ্ঞাপন"
+      },
+      {
+        "word": "Advertising",
+        "meaning": "বিজ্ঞাপন প্রচার"
+      },
+      {
+        "word": "Marketing",
+        "meaning": "বিপণন"
+      },
+      {
+        "word": "Promotion",
+        "meaning": "প্রচার / বিক্রয়োৎসাহ"
+      },
+      {
+        "word": "Campaign",
+        "meaning": "প্রচারাভিযান"
+      },
+      {
+        "word": "Branding",
+        "meaning": "ব্র্যান্ড তৈরি / পরিচিতি"
+      },
+      {
+        "word": "Target audience",
+        "meaning": "লক্ষ্যভুক্ত শ্রোতা / ক্রেতা"
+      },
+      {
+        "word": "Competition",
+        "meaning": "প্রতিযোগিতা"
+      },
+      {
+        "word": "Competitor",
+        "meaning": "প্রতিদ্বন্দ্বী"
+      },
+      {
+        "word": "Guarantee",
+        "meaning": "নিশ্চয়তা"
+      },
+      {
+        "word": "Successful",
+        "meaning": "সফল"
+      },
+      {
+        "word": "Convenience",
+        "meaning": "সুবিধা"
+      }
+    ],
+    "Animal Diets, Feeding Habits & Related": [
+      {
+        "word": "Herbivore",
+        "meaning": "তৃণভোজী প্রাণী"
+      },
+      {
+        "word": "Herbivores",
+        "meaning": "তৃণভোজী প্রাণীরা"
+      },
+      {
+        "word": "Herbivorous",
+        "meaning": "তৃণভোজী / উদ্ভিদভোজী"
+      },
+      {
+        "word": "Carnivore",
+        "meaning": "মাংসাশী প্রাণী"
+      },
+      {
+        "word": "Carnivores",
+        "meaning": "মাংসাশী প্রাণীরা"
+      },
+      {
+        "word": "Carnivorous",
+        "meaning": "মাংসাশী"
+      },
+      {
+        "word": "Omnivore",
+        "meaning": "সর্বভুক প্রাণী"
+      },
+      {
+        "word": "Omnivores",
+        "meaning": "সর্বভুক প্রাণীরা"
+      },
+      {
+        "word": "Omnivorous",
+        "meaning": "সর্বভুক"
+      },
+      {
+        "word": "Cow",
+        "meaning": "গরু"
+      },
+      {
+        "word": "Buffalo",
+        "meaning": "মহিষ"
+      },
+      {
+        "word": "Goat",
+        "meaning": "ছাগল"
+      },
+      {
+        "word": "Sheep",
+        "meaning": "ভেড়া"
+      },
+      {
+        "word": "Horse",
+        "meaning": "ঘোড়া"
+      },
+      {
+        "word": "Donkey",
+        "meaning": "গাধা"
+      },
+      {
+        "word": "Deer",
+        "meaning": "হরিণ"
+      },
+      {
+        "word": "Rabbit",
+        "meaning": "খরগোশ"
+      },
+      {
+        "word": "Hare",
+        "meaning": "খরগোশজাতীয় বন্য প্রাণী"
+      },
+      {
+        "word": "Elephant",
+        "meaning": "হাতি"
+      },
+      {
+        "word": "Giraffe",
+        "meaning": "জিরাফ"
+      },
+      {
+        "word": "Zebra",
+        "meaning": "জেব্রা"
+      },
+      {
+        "word": "Rhinoceros",
+        "meaning": "গণ্ডার"
+      },
+      {
+        "word": "Rhino",
+        "meaning": "গণ্ডার"
+      },
+      {
+        "word": "Hippopotamus",
+        "meaning": "জলহস্তী"
+      },
+      {
+        "word": "Hippo",
+        "meaning": "জলহস্তী"
+      },
+      {
+        "word": "Camel",
+        "meaning": "উট"
+      },
+      {
+        "word": "Kangaroo",
+        "meaning": "ক্যাঙ্গারু"
+      },
+      {
+        "word": "Panda",
+        "meaning": "পান্ডা"
+      },
+      {
+        "word": "Koala",
+        "meaning": "কোয়ালা"
+      },
+      {
+        "word": "Moose",
+        "meaning": "বৃহৎ হরিণজাতীয় প্রাণী"
+      },
+      {
+        "word": "Bison",
+        "meaning": "বাইসন"
+      },
+      {
+        "word": "Yak",
+        "meaning": "ইয়াক"
+      },
+      {
+        "word": "Grass",
+        "meaning": "ঘাস"
+      },
+      {
+        "word": "Leaves",
+        "meaning": "পাতা"
+      },
+      {
+        "word": "Grassland vegetation",
+        "meaning": "তৃণভূমির উদ্ভিদ"
+      },
+      {
+        "word": "Plants",
+        "meaning": "উদ্ভিদ"
+      },
+      {
+        "word": "Fruits",
+        "meaning": "ফল"
+      },
+      {
+        "word": "Seeds",
+        "meaning": "বীজ"
+      },
+      {
+        "word": "Nuts",
+        "meaning": "বাদামজাতীয় খাবার"
+      },
+      {
+        "word": "Roots",
+        "meaning": "শিকড়"
+      },
+      {
+        "word": "Shoots",
+        "meaning": "কচি ডগা"
+      },
+      {
+        "word": "Stems",
+        "meaning": "কাণ্ড"
+      },
+      {
+        "word": "Flowers",
+        "meaning": "ফুল"
+      },
+      {
+        "word": "Bark",
+        "meaning": "গাছের ছাল"
+      },
+      {
+        "word": "Berries",
+        "meaning": "ছোট ফল / বেরি"
+      },
+      {
+        "word": "Crops",
+        "meaning": "ফসল"
+      },
+      {
+        "word": "Grain",
+        "meaning": "শস্য"
+      },
+      {
+        "word": "Forage",
+        "meaning": "পশুখাদ্য হিসেবে ব্যবহৃত উদ্ভিদ"
+      },
+      {
+        "word": "Foliage",
+        "meaning": "গাছের পাতা ও পাতাযুক্ত অংশ"
+      },
+      {
+        "word": "Vegetation",
+        "meaning": "উদ্ভিদসমষ্টি"
+      },
+      {
+        "word": "Graze",
+        "meaning": "ঘাস খাওয়া"
+      },
+      {
+        "word": "Grazing",
+        "meaning": "ঘাস খাওয়া"
+      },
+      {
+        "word": "Grazer",
+        "meaning": "ঘাস খেয়ে জীবনধারণকারী প্রাণী"
+      },
+      {
+        "word": "Browse",
+        "meaning": "গাছের পাতা ও ডগা খাওয়া"
+      },
+      {
+        "word": "Browser",
+        "meaning": "গাছের পাতা ও ডগা খেয়ে জীবনধারণকারী প্রাণী"
+      },
+      {
+        "word": "Chew",
+        "meaning": "চিবানো"
+      },
+      {
+        "word": "Masticate",
+        "meaning": "চিবানো"
+      },
+      {
+        "word": "Digest",
+        "meaning": "হজম করা"
+      },
+      {
+        "word": "Ruminate",
+        "meaning": "জাবর কাটা"
+      },
+      {
+        "word": "Ruminant",
+        "meaning": "জাবরকাটা প্রাণী"
+      },
+      {
+        "word": "Cud",
+        "meaning": "জাবর"
+      },
+      {
+        "word": "Predator",
+        "meaning": "শিকারি প্রাণী"
+      },
+      {
+        "word": "Prey",
+        "meaning": "শিকার"
+      },
+      {
+        "word": "Hunt",
+        "meaning": "শিকার করা"
+      },
+      {
+        "word": "Hunting",
+        "meaning": "শিকার"
+      },
+      {
+        "word": "Scavenger",
+        "meaning": "মৃত প্রাণী খেয়ে জীবনধারণকারী প্রাণী"
+      },
+      {
+        "word": "Flesh",
+        "meaning": "প্রাণীর মাংস"
+      },
+      {
+        "word": "Pounce",
+        "meaning": "হঠাৎ ঝাঁপিয়ে পড়া"
+      },
+      {
+        "word": "Diet",
+        "meaning": "খাদ্যাভ্যাস"
+      },
+      {
+        "word": "Feeding habit",
+        "meaning": "খাদ্যগ্রহণের অভ্যাস"
+      },
+      {
+        "word": "Food source",
+        "meaning": "খাদ্যের উৎস"
+      },
+      {
+        "word": "Foraging",
+        "meaning": "খাবার খোঁজা"
+      },
+      {
+        "word": "Forage",
+        "meaning": "খাবার খোঁজা"
+      }
+    ],
+    "Shape & Body Proportions": [
+      {
+        "word": "Stubby",
+        "meaning": "খাটো ও মোটা; মোটা ও ভোঁতা"
+      },
+      {
+        "word": "Stout",
+        "meaning": "মোটাসোটা ও শক্তপোক্ত"
+      },
+      {
+        "word": "Stocky",
+        "meaning": "খাটো, চওড়া ও শক্তপোক্ত"
+      },
+      {
+        "word": "Squat",
+        "meaning": "খাটো ও চওড়া"
+      },
+      {
+        "word": "Chunky",
+        "meaning": "মোটা ও ভারী"
+      },
+      {
+        "word": "Bulky",
+        "meaning": "বড়সড় ও জায়গা দখলকারী"
+      },
+      {
+        "word": "Plump",
+        "meaning": "সামান্য মোটা ও গোলগাল"
+      },
+      {
+        "word": "Chubby",
+        "meaning": "নরম ও গোলগাল"
+      },
+      {
+        "word": "Dumpy",
+        "meaning": "খাটো ও বেঁটে"
+      },
+      {
+        "word": "Petite",
+        "meaning": "ছোটখাটো ও সুঠাম"
+      },
+      {
+        "word": "Lanky",
+        "meaning": "লম্বা ও রোগা"
+      },
+      {
+        "word": "Gangly",
+        "meaning": "লম্বা, রোগা ও বেখাপ্পা"
+      },
+      {
+        "word": "Slender",
+        "meaning": "ছিপছিপে ও সুঠাম"
+      },
+      {
+        "word": "Lean",
+        "meaning": "কম চর্বিযুক্ত; রোগা ও পেশিবহুল"
+      },
+      {
+        "word": "Willowy",
+        "meaning": "লম্বা ও ছিপছিপে"
+      },
+      {
+        "word": "Skeletal",
+        "meaning": "অত্যন্ত রোগা; কঙ্কালসার"
+      }
+    ],
+    "Garbage, Waste & Waste Management": [
+      {
+        "word": "Garbage",
+        "meaning": "আবর্জনা"
+      },
+      {
+        "word": "Rubbish",
+        "meaning": "আবর্জনা"
+      },
+      {
+        "word": "Waste",
+        "meaning": "বর্জ্য"
+      },
+      {
+        "word": "Trash",
+        "meaning": "ময়লা / আবর্জনা"
+      },
+      {
+        "word": "Refuse",
+        "meaning": "বর্জ্য"
+      },
+      {
+        "word": "Litter",
+        "meaning": "যত্রতত্র ফেলা ময়লা"
+      },
+      {
+        "word": "Debris",
+        "meaning": "ধ্বংসাবশেষ / ছড়ানো বর্জ্য"
+      },
+      {
+        "word": "Scrap",
+        "meaning": "পরিত্যক্ত টুকরা / অবশিষ্ট উপকরণ"
+      },
+      {
+        "word": "Discard",
+        "meaning": "ফেলে দেওয়া জিনিস / পরিত্যাগ করা"
+      },
+      {
+        "word": "Waste management",
+        "meaning": "বর্জ্য ব্যবস্থাপনা"
+      },
+      {
+        "word": "Waste disposal",
+        "meaning": "বর্জ্য অপসারণ"
+      },
+      {
+        "word": "Waste collection",
+        "meaning": "বর্জ্য সংগ্রহ"
+      },
+      {
+        "word": "Waste treatment",
+        "meaning": "বর্জ্য প্রক্রিয়াকরণ"
+      },
+      {
+        "word": "Waste reduction",
+        "meaning": "বর্জ্য কমানো"
+      },
+      {
+        "word": "Waste separation",
+        "meaning": "বর্জ্য পৃথকীকরণ"
+      },
+      {
+        "word": "Waste sorting",
+        "meaning": "বর্জ্য বাছাই"
+      },
+      {
+        "word": "Recycling",
+        "meaning": "পুনর্ব্যবহারযোগ্য উপকরণে রূপান্তর"
+      },
+      {
+        "word": "Reuse",
+        "meaning": "পুনরায় ব্যবহার"
+      },
+      {
+        "word": "Composting",
+        "meaning": "জৈব বর্জ্য থেকে সার তৈরি"
+      },
+      {
+        "word": "Landfill",
+        "meaning": "বর্জ্য ফেলার ও মাটিচাপা দেওয়ার স্থান"
+      },
+      {
+        "word": "Incineration",
+        "meaning": "উচ্চ তাপমাত্রায় বর্জ্য পুড়িয়ে ফেলা"
+      },
+      {
+        "word": "Household waste",
+        "meaning": "গৃহস্থালি বর্জ্য"
+      },
+      {
+        "word": "Food waste",
+        "meaning": "খাদ্য বর্জ্য"
+      },
+      {
+        "word": "Plastic waste",
+        "meaning": "প্লাস্টিক বর্জ্য"
+      },
+      {
+        "word": "Paper waste",
+        "meaning": "কাগজের বর্জ্য"
+      },
+      {
+        "word": "Glass waste",
+        "meaning": "কাচের বর্জ্য"
+      },
+      {
+        "word": "Metal waste",
+        "meaning": "ধাতব বর্জ্য"
+      },
+      {
+        "word": "Electronic waste",
+        "meaning": "ইলেকট্রনিক বর্জ্য"
+      },
+      {
+        "word": "E-waste",
+        "meaning": "ইলেকট্রনিক বর্জ্য"
+      },
+      {
+        "word": "Industrial waste",
+        "meaning": "শিল্পবর্জ্য"
+      },
+      {
+        "word": "Medical waste",
+        "meaning": "চিকিৎসা বর্জ্য"
+      },
+      {
+        "word": "Hazardous waste",
+        "meaning": "বিপজ্জনক বর্জ্য"
+      },
+      {
+        "word": "Organic waste",
+        "meaning": "জৈব বর্জ্য"
+      },
+      {
+        "word": "Sewage",
+        "meaning": "পয়ঃবর্জ্য"
+      },
+      {
+        "word": "Construction waste",
+        "meaning": "নির্মাণ বর্জ্য"
+      },
+      {
+        "word": "Throw away",
+        "meaning": "ফেলে দেওয়া"
+      },
+      {
+        "word": "Dump",
+        "meaning": "যেখানে-সেখানে আবর্জনা ফেলা"
+      },
+      {
+        "word": "Dispose of",
+        "meaning": "অপসারণ করা / যথাযথভাবে ফেলে দেওয়া"
+      },
+      {
+        "word": "Collect",
+        "meaning": "সংগ্রহ করা"
+      },
+      {
+        "word": "Sort",
+        "meaning": "বাছাই করা"
+      },
+      {
+        "word": "Separate",
+        "meaning": "আলাদা করা"
+      },
+      {
+        "word": "Recycle",
+        "meaning": "পুনর্ব্যবহারযোগ্য উপকরণে রূপান্তর করা"
+      },
+      {
+        "word": "Reduce",
+        "meaning": "কমানো"
+      },
+      {
+        "word": "Compost",
+        "meaning": "জৈব বর্জ্য থেকে সার তৈরি করা"
+      },
+      {
+        "word": "Incinerate",
+        "meaning": "পুড়িয়ে ফেলা"
+      }
+    ]
+  }
+}

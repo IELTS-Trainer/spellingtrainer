@@ -6,11 +6,11 @@ function startMode(mode) {
         if(mode === 'regular') {
             catName = document.getElementById('voiceSetup').classList.contains('active') ? document.getElementById('voiceCategory').value : document.getElementById('catSelect').value;
             if(!catName) return alert("Select a category");
-            session.words = [...data.library[catName]];
+            session.words = libraryWords(catName);
             document.getElementById('gameTitle').innerText = "Category: " + catName;
         } else if(mode === 'random') {
             catName = 'Voice Mode · Random Mix';
-            session.words = Object.values(data.library || {}).flat().sort(() => Math.random() - 0.5);
+            session.words = allLibraryWords().sort(() => Math.random() - 0.5);
             document.getElementById('gameTitle').innerText = catName;
         } else if(mode === 'review') {
             catName = "Last Mistakes";
@@ -46,6 +46,7 @@ function startMode(mode) {
             return;
         }
         document.getElementById('gameProgress').innerText = `${session.index + 1}/${session.words.length}`;
+        renderWordTools('voiceWordTools', session.words[session.index]);
         document.getElementById('userInput').value = "";
         document.getElementById('feedback').innerText = "";
         document.getElementById('correctionHint').style.display = 'none';

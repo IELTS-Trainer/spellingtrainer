@@ -66,11 +66,11 @@
         <div class="grid">
             <div class="card" onclick="openTypingSetup()"><h3>⌨️ Typing Climb</h3><p>Type words to climb — two levels</p></div>
             <div class="card" onclick="openVoiceSetup()"><h3>🔊 Voice Mode Practice</h3><p>Topic practice or random mix</p></div>
-            <div class="card" onclick="openMistakeLevels()"><h3>⚠️ Last Mistakes</h3><p id="mistakeSub">0 words pending</p></div>
+            <div class="card" onclick="showView('bookmarksPage')"><h3>🔖 Bookmarked words</h3><p id="bookmarkSub">0 words saved</p></div><div class="card" onclick="openMistakeLevels()"><h3>⚠️ Last Mistakes</h3><p id="mistakeSub">0 words pending</p></div>
             <div class="card" onclick="startMode('revision')"><h3>📚 Need Revision</h3><p id="revisionSub">0 words mastered</p></div>
             <div class="card" onclick="showView('library')"><h3>🗃️ Word Library</h3><p>Edit, Update, Delete</p></div>
         </div>
-        <div class="history-section" id="mistakesHomeSection">
+        <div class="history-section" id="bookmarksHomeSection"><div class="history-title"><span>🔖 Bookmarked words</span><button class="history-action" onclick="showView('bookmarksPage')">View all</button><button class="history-action" onclick="practiceBookmarkedWords()">Practice them</button></div><div id="dashboardBookmarkList"><p style="color:#94a3b8;font-size:.9rem">No bookmarked words yet.</p></div></div><div class="history-section" id="mistakesHomeSection">
             <div class="history-title"><span>⚠️ Last Mistakes</span><button class="history-action" onclick="practiceDashboardMistakes()">Practice these words</button></div>
             <div id="dashboardMistakeList"><p style="color:#94a3b8;font-size:.9rem">No mistaken words yet.</p></div>
         </div>
@@ -113,7 +113,7 @@
         <button class="btn btn-primary" onclick="saveSettings()">Save Settings</button>
         <button class="btn" onclick="showView('home')">Back to Home</button>
     </div>
-    <div id="historyPage" class="view">
+    <div id="bookmarksPage" class="view"><h2>🔖 Bookmarked words</h2><p>Your saved words for extra practice.</p><button class="btn btn-primary" onclick="practiceBookmarkedWords()">Practice bookmarked words</button><div id="bookmarkPageList"></div><button class="btn" onclick="showView('home')">Back to Home</button></div><div id="historyPage" class="view">
         <h2>🕒 Recent Practice History</h2>
         <div id="historyPageList"><p style="color:#94a3b8;font-size:.9rem">No recent activity yet.</p></div>
         <button class="btn" onclick="showView('home')">Back to Home</button>
@@ -149,7 +149,7 @@
         <section class="user-data-section">
             <h3>2. User Data</h3>
             <div class="local-data-warning"><strong>Account profile details sync when you are signed in.</strong> Practice progress such as mistakes, revision words, learned words, history, and settings is still stored on this device. Export a JSON backup to keep a copy.</div>
-            <p>The backup includes your profile, mistakes, Need Revision words, Word Learned list, practice history, and settings. It does not include the word library. Your profile is synced to your signed-in account; practice progress is not.</p>
+            <p>The backup includes your profile, bookmarks, mistakes, Need Revision words, Word Learned list, practice history, and settings. It does not include the word library. Your profile is synced to your signed-in account; practice progress is not.</p>
             <button class="btn btn-primary" type="button" onclick="exportUserData()">Export User Data (.json)</button>
             <button class="btn" type="button" onclick="document.getElementById('userDataImportFile').click()">Import User Data (.json)</button>
             <input id="userDataImportFile" type="file" accept=".json,application/json" hidden onchange="importUserData(event)">
@@ -177,6 +177,7 @@
         <div class="syllable-panel">
             <div id="syllablePopupBody">
                 <div style="display:flex;justify-content:space-between;font-weight:bold;color:var(--primary)"><span>Syllable Practice</span><span id="syllableProgress"></span></div>
+                <div id="syllableWordTools" class="word-tools"></div>
                 <div class="syllable-stage"><h2 id="syllableWholeWord"></h2><div id="syllableDisplay" class="syllable-row"></div><p id="syllablePrompt"></p></div>
                 <input id="syllableInput" type="text" autocomplete="off" placeholder="Type this syllable">
                 <div id="syllableFeedback" class="typing-feedback" aria-live="polite"></div>
@@ -200,12 +201,13 @@
         <button class="btn" onclick="startMode('review')">Continue in Voice Mode</button>
         <button class="btn" onclick="showView('home')">Go home</button>
     </div>
-    <div id="typingSetup" class="view typing-setup-view"><div class="typing-setup-content"><h2>⌨️ Typing Climb</h2><p>Choose a level and practise spelling as you climb.</p><div class="typing-instructions"><section class="typing-instruction-card"><h3>Level 1 · Topic Practice</h3><ol><li>Choose a topic, then type each displayed word.</li><li>If you misspell a word, practise its syllables. Then type the complete word correctly to continue.</li><li>Work through the words in your selected topic. There is no mistake limit.</li><li>Misspelled words are added to Last Mistakes for later practice.</li></ol></section><section class="typing-instruction-card"><h3>Level 2 · Random Mix</h3><ol><li>Listen to words selected at random from all topics and type each one.</li><li>If you make a mistake, syllable practice opens for that word.</li><li>Misspelled words are added to Last Mistakes. The game ends when you reach the mistake limit set in Settings (10 by default).</li></ol></section></div><div class="typing-setup-grid"><div class="card" onclick="selectTypingLevel(1)"><h3>Level 1 · Topic Practice</h3><p>Choose a category; unlimited retries.</p></div><div class="card" onclick="selectTypingLevel(2)"><h3>Level 2 · Random Mix</h3><p>Random words from every topic; mistake limit applies.</p></div></div><div id="typingCategoryBox" style="display:none;margin-top:20px"><strong>Choose a topic</strong><select id="typingCategory"></select><button class="btn btn-primary" onclick="beginTypingGame(1)">Start Level 1</button></div></div><footer class="typing-setup-footer"><button class="btn" onclick="showView('home')">Back to Home</button></footer></div><div id="typingGame" class="view"><div id="typingPlayArea"><div class="typing-score"><span id="typingModeLabel"></span><span>Score: <span id="typingScore">0</span> · Mistakes: <span id="typingMistakes">0</span><span id="typingLimit"></span></span></div><div class="typing-stage"><div class="typing-word" id="typingWord"></div><p class="typing-hint">Type the word exactly as shown, then press Enter</p><div class="platform-track" id="platformTrack"></div><div id="climber" class="climber">🤖</div></div><input type="text" id="typingInput" autocomplete="off" placeholder="Type the word here…"><div id="typingFeedback" class="typing-feedback"></div><button class="btn btn-primary" onclick="submitTypingWord()">Submit word</button><button class="btn" onclick="endTypingGame()">End game</button></div><div id="typingTopicResults" style="display:none"><h2>Topic complete!</h2><p id="typingResultsTopic"></p><button id="replayTopicButton" class="btn btn-primary">Play this topic again</button><label for="nextTypingCategory">Change topic</label><select id="nextTypingCategory"></select><button id="startSelectedTopicButton" class="btn">Start selected topic</button><button class="btn" onclick="practiceTypingMistakes()">Practice mistakes</button><button class="btn" onclick="beginTypingGame(2)">Go to Level 2</button><button class="btn" onclick="endTypingGame()">Go home</button></div></div><div id="typingGameOver" style="display:none;position:fixed;inset:0;background:#0f172acc;z-index:2000;align-items:center;justify-content:center;padding:20px"><div style="background:white;border-radius:12px;padding:24px;max-width:420px;width:100%;text-align:center"><h2 id="typingGameOverTitle">Game over</h2><p id="typingGameOverMessage"></p><button class="btn btn-primary" onclick="beginTypingGame(2)">Play again</button><button class="btn" onclick="practiceTypingMistakes()">Practice mistakes</button><button class="btn" onclick="closeTypingGameOver()">Home</button></div></div>
+    <div id="typingSetup" class="view typing-setup-view"><div class="typing-setup-content"><h2>⌨️ Typing Climb</h2><p>Choose a level and practise spelling as you climb.</p><div class="typing-instructions"><section class="typing-instruction-card"><h3>Level 1 · Topic Practice</h3><ol><li>Choose a topic, then type each displayed word.</li><li>If you misspell a word, practise its syllables. Then type the complete word correctly to continue.</li><li>Work through the words in your selected topic. There is no mistake limit.</li><li>Misspelled words are added to Last Mistakes for later practice.</li></ol></section><section class="typing-instruction-card"><h3>Level 2 · Random Mix</h3><ol><li>Listen to words selected at random from all topics and type each one.</li><li>If you make a mistake, syllable practice opens for that word.</li><li>Misspelled words are added to Last Mistakes. The game ends when you reach the mistake limit set in Settings (10 by default).</li></ol></section></div><div class="typing-setup-grid"><div class="card" onclick="selectTypingLevel(1)"><h3>Level 1 · Topic Practice</h3><p>Choose a category; unlimited retries.</p></div><div class="card" onclick="selectTypingLevel(2)"><h3>Level 2 · Random Mix</h3><p>Random words from every topic; mistake limit applies.</p></div></div><div id="typingCategoryBox" style="display:none;margin-top:20px"><strong>Choose a topic</strong><select id="typingCategory"></select><button class="btn btn-primary" onclick="beginTypingGame(1)">Start Level 1</button></div></div><footer class="typing-setup-footer"><button class="btn" onclick="showView('home')">Back to Home</button></footer></div><div id="typingGame" class="view"><div id="typingPlayArea"><div class="typing-score"><span id="typingModeLabel"></span><span>Score: <span id="typingScore">0</span> · Mistakes: <span id="typingMistakes">0</span><span id="typingLimit"></span></span></div><div id="typingWordTools" class="word-tools"></div><div class="typing-stage"><div class="typing-word" id="typingWord"></div><p class="typing-hint">Type the word exactly as shown, then press Enter</p><div class="platform-track" id="platformTrack"></div><div id="climber" class="climber">🤖</div></div><input type="text" id="typingInput" autocomplete="off" placeholder="Type the word here…"><div id="typingFeedback" class="typing-feedback"></div><button class="btn btn-primary" onclick="submitTypingWord()">Submit word</button><button class="btn" onclick="endTypingGame()">End game</button></div><div id="typingTopicResults" style="display:none"><h2>Topic complete!</h2><p id="typingResultsTopic"></p><button id="replayTopicButton" class="btn btn-primary">Play this topic again</button><label for="nextTypingCategory">Change topic</label><select id="nextTypingCategory"></select><button id="startSelectedTopicButton" class="btn">Start selected topic</button><button class="btn" onclick="practiceTypingMistakes()">Practice mistakes</button><button class="btn" onclick="beginTypingGame(2)">Go to Level 2</button><button class="btn" onclick="endTypingGame()">Go home</button></div></div><div id="typingGameOver" style="display:none;position:fixed;inset:0;background:#0f172acc;z-index:2000;align-items:center;justify-content:center;padding:20px"><div style="background:white;border-radius:12px;padding:24px;max-width:420px;width:100%;text-align:center"><h2 id="typingGameOverTitle">Game over</h2><p id="typingGameOverMessage"></p><button class="btn btn-primary" onclick="beginTypingGame(2)">Play again</button><button class="btn" onclick="practiceTypingMistakes()">Practice mistakes</button><button class="btn" onclick="closeTypingGameOver()">Home</button></div></div>
     <div id="game" class="view">
         <div style="display:flex; justify-content:space-between; align-items:center;">
             <span id="gameTitle" style="font-weight:bold; color:var(--primary)">Practice</span>
             <span id="gameProgress">0/0</span>
         </div>
+        <div id="voiceWordTools" class="word-tools"></div>
         <div id="correctionHint" class="correction-box">
             <div style="font-size: 0.8rem;">STUDY THE CORRECT SPELLING:</div>
             <div id="correctWordDisplay" style="font-size: 1.8rem; font-weight: bold; letter-spacing: 2px;"></div>
@@ -223,18 +225,18 @@
         <h2>Manage Library</h2>
         <div class="library-form-fields">
             <input type="text" id="libCatName" placeholder="Category name (e.g., Nature and Environment)" aria-label="Category name">
-            <textarea id="libWords" rows="8" placeholder="Words (one per line)" aria-label="Words, one per line"></textarea>
+            <textarea id="libWords" rows="8" placeholder="One word per line. Add Bangla meaning after a comma, e.g. Politics, রাজনীতি" aria-label="Words and optional Bangla meanings, one per line"></textarea>
             <div id="libraryExampleHint" class="library-example-hint" aria-hidden="true">
                 <span class="example-caption">Example topic</span>
                 <strong>Nature and Environment</strong>
-                <span>mountain · waterfall · peninsula</span>
+                <span>mountain, পর্বত · waterfall, জলপ্রপাত</span><small>Put the Bangla meaning after a comma.</small>
             </div>
         </div>
         <button id="saveLibraryButton" class="btn btn-primary" onclick="saveLibrary()">Save to Library</button>
         <div id="libraryList"></div>
         <section class="library-backup-section">
             <h3>Data Backup</h3>
-            <p>Move a library or backup between devices. CSV files should have two columns: category and word, one word per row.</p>
+            <p>Move a library or backup between devices. CSV files should have columns: category, word, Bangla meaning (meaning is optional).</p>
             <div class="library-backup-actions">
                 <button id="backupImportButton" class="library-backup-button" type="button" onclick="startImportData()">Import data (.json, .csv)</button>
                 <button id="backupExportButton" class="library-backup-button" type="button" onclick="exportData()">Export data as JSON</button>
@@ -251,10 +253,17 @@
             <button id="libraryPremiumClose" class="btn" type="button">Maybe later</button>
             <button id="libraryPremiumGet" class="btn btn-primary" type="button">Get Premium</button>
         </div>
-    </dialog>    <div id="errorSyllableModal" class="error-syllable-modal" role="dialog" aria-modal="true" aria-labelledby="errorSyllableTitle">
+    </dialog>    <dialog id="libraryUpdateDialog" class="feature-upgrade-dialog" aria-labelledby="libraryUpdateTitle">
+        <div class="feature-upgrade-icon" aria-hidden="true">📚</div>
+        <h2 id="libraryUpdateTitle">New Word Categories Update by Admin</h2>
+        <p id="libraryUpdateSummary">New or updated word categories are ready:</p>
+        <ul id="libraryUpdateList" class="library-update-list"></ul>
+        <button class="btn btn-primary" type="button" onclick="closeLibraryUpdateNotice()">Continue</button>
+    </dialog>
+    <div id="errorSyllableModal" class="error-syllable-modal" role="dialog" aria-modal="true" aria-labelledby="errorSyllableTitle">
         <div class="error-syllable-panel">
             <h2 id="errorSyllableTitle">Let's practise the syllables</h2>
-            <p id="errorSyllableWord" style="font-size:1.35rem;font-weight:bold"></p>
+            <p id="errorSyllableWord" style="font-size:1.35rem;font-weight:bold"></p><div id="errorSyllableWordTools" class="word-tools"></div>
             <div id="errorSyllableDisplay" class="syllable-row"></div>
             <p id="errorSyllablePrompt"></p>
             <input id="errorSyllableInput" type="text" autocomplete="off" placeholder="Type this syllable">
