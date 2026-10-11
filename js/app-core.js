@@ -52,6 +52,7 @@
         const mistakeCount = Math.max(1, Math.min(200, parseInt(document.getElementById('settingMistakeCount').value, 10) || 15));
         data.settings = {...data.settings, syllableRounds:rounds, mistakeLimit:limit, showBanglaMeanings:document.getElementById('settingShowBanglaMeanings').checked, showHistoryOnHome:document.getElementById('settingShowHistory').checked, historyHomeCount:historyCount, showMistakesOnHome:document.getElementById('settingShowMistakes').checked, mistakesHomeCount:mistakeCount};
         save();
+        refreshWordTools();
         alert('Settings saved.');
     }
 

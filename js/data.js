@@ -36,6 +36,7 @@
     }
     data.library = normalizeLibrary(data.library && Object.keys(data.library).length ? data.library : starterLibrary);
     data.bookmarks = Array.isArray(data.bookmarks) ? [...new Set(data.bookmarks.map(wordText).filter(Boolean))] : [];
+    const lastWordForTools = Object.create(null);
     function isWordBookmarked(word) { return data.bookmarks.some(item => item.toLocaleLowerCase() === String(word).toLocaleLowerCase()); }
     function toggleWordBookmark(word) {
         const existing = data.bookmarks.findIndex(item => item.toLocaleLowerCase() === String(word).toLocaleLowerCase());
@@ -50,7 +51,8 @@
         const container = document.getElementById(containerId);
         if (!container) return;
         container.replaceChildren();
-        if (!word) return;
+        if (!word) { delete lastWordForTools[containerId]; return; }
+        lastWordForTools[containerId] = word;
         const bookmark = document.createElement('button');
         bookmark.type = 'button'; bookmark.className = 'word-tool-button';
         bookmark.textContent = (isWordBookmarked(word) ? '🔖 Saved' : '🔖 Bookmark');
@@ -58,12 +60,27 @@
         bookmark.addEventListener('click', () => toggleWordBookmark(word));
         container.appendChild(bookmark);
         const meaning = findWordMeaning(word);
-        if (meaning && data.settings.showBanglaMeanings) {
-            const detail = document.createElement('span');
-            detail.className = 'word-meaning';
-            detail.textContent = meaning;
-            container.appendChild(detail);
-        }
+        const isShown = data.settings.showBanglaMeanings === true;
+        const toggle = document.createElement('button');
+        toggle.type = 'button';
+        toggle.className = 'word-tool-button';
+        const detail = document.createElement('span');
+        detail.className = 'word-meaning';
+        detail.hidden = !isShown;
+        detail.textContent = meaning || 'Bangla meaning has not been added yet.';
+        const updateToggle = () => {
+            toggle.textContent = detail.hidden ? 'বাংলা meaning' : 'Hide meaning';
+            toggle.setAttribute('aria-expanded', String(!detail.hidden));
+        };
+        toggle.addEventListener('click', () => {
+            detail.hidden = !detail.hidden;
+            updateToggle();
+        });
+        updateToggle();
+        container.append(toggle, detail);
+    }
+    function refreshWordTools() {
+        Object.entries(lastWordForTools).forEach(([containerId, word]) => renderWordTools(containerId, word));
     }
     async function refreshSharedLibrary() {
         try {
