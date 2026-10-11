@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "updatedAt": "2026-10-10T06:26:51.035Z",
+  "version": 4,
+  "updatedAt": "2026-10-10T23:58:56.945Z",
   "categories": {
     "Days and Months": [
       {
@@ -338,312 +338,312 @@
     ],
     "Education": [
       {
-        "word": "course outline",
-        "meaning": ""
+        "word": "Course outline",
+        "meaning": "কোর্সের রূপরেখা"
       },
       {
-        "word": "group discussion",
-        "meaning": ""
+        "word": "Group discussion",
+        "meaning": "দলীয় আলোচনা"
       },
       {
-        "word": "handout",
-        "meaning": ""
+        "word": "Handout",
+        "meaning": "ক্লাসে বিতরণ করা শিক্ষাসামগ্রী"
       },
       {
-        "word": "written work",
-        "meaning": ""
+        "word": "Written work",
+        "meaning": "লিখিত কাজ"
       },
       {
-        "word": "report writing",
-        "meaning": ""
+        "word": "Report writing",
+        "meaning": "প্রতিবেদন লেখা"
       },
       {
-        "word": "research",
-        "meaning": ""
+        "word": "Research",
+        "meaning": "গবেষণা"
       },
       {
         "word": "Proofreading",
-        "meaning": ""
+        "meaning": "লেখার ভুল সংশোধনের জন্য পুনরায় পড়া"
       },
       {
-        "word": "experiment",
-        "meaning": ""
+        "word": "Experiment",
+        "meaning": "পরীক্ষা-নিরীক্ষা"
       },
       {
-        "word": "experience",
-        "meaning": ""
+        "word": "Experience",
+        "meaning": "অভিজ্ঞতা"
       },
       {
-        "word": "reference",
-        "meaning": ""
+        "word": "Reference",
+        "meaning": "তথ্যসূত্র / উল্লেখ"
       },
       {
-        "word": "textbook",
-        "meaning": ""
+        "word": "Textbook",
+        "meaning": "পাঠ্যবই"
       },
       {
-        "word": "dictionary",
-        "meaning": ""
+        "word": "Dictionary",
+        "meaning": "অভিধান"
       },
       {
-        "word": "laptop",
-        "meaning": ""
+        "word": "Laptop",
+        "meaning": "ল্যাপটপ"
       },
       {
-        "word": "printer",
-        "meaning": ""
+        "word": "Printer",
+        "meaning": "মুদ্রণযন্ত্র / প্রিন্টার"
       },
       {
-        "word": "student advisor",
-        "meaning": ""
+        "word": "Student advisor",
+        "meaning": "শিক্ষার্থীদের পরামর্শদাতা"
       },
       {
-        "word": "teamwork",
-        "meaning": ""
+        "word": "Teamwork",
+        "meaning": "দলগত কাজ"
       },
       {
-        "word": "module",
-        "meaning": ""
+        "word": "Module",
+        "meaning": "পাঠ্যক্রমের নির্দিষ্ট অংশ"
       },
       {
-        "word": "topic",
-        "meaning": ""
+        "word": "Topic",
+        "meaning": "বিষয়"
       },
       {
-        "word": "assessment",
-        "meaning": ""
+        "word": "Assessment",
+        "meaning": "মূল্যায়ন"
       },
       {
-        "word": "library",
-        "meaning": ""
+        "word": "Library",
+        "meaning": "গ্রন্থাগার"
       },
       {
-        "word": "department",
-        "meaning": ""
+        "word": "Department",
+        "meaning": "বিভাগ"
       },
       {
-        "word": "computer centre",
-        "meaning": ""
+        "word": "Computer centre",
+        "meaning": "কম্পিউটার কেন্দ্র"
       },
       {
-        "word": "classroom",
-        "meaning": ""
+        "word": "Classroom",
+        "meaning": "শ্রেণিকক্ষ"
       },
       {
-        "word": "lecture",
-        "meaning": ""
+        "word": "Lecture",
+        "meaning": "বক্তৃতা / পাঠদান"
       },
       {
-        "word": "tutor",
-        "meaning": ""
+        "word": "Tutor",
+        "meaning": "ব্যক্তিগত শিক্ষক / শিক্ষাদানকারী"
       },
       {
-        "word": "main hall",
-        "meaning": ""
+        "word": "Main hall",
+        "meaning": "প্রধান হল"
       },
       {
-        "word": "attendance",
-        "meaning": ""
+        "word": "Attendance",
+        "meaning": "উপস্থিতি"
       },
       {
-        "word": "deadline",
-        "meaning": ""
+        "word": "Deadline",
+        "meaning": "কাজ জমা দেওয়ার শেষ সময়সীমা"
       },
       {
-        "word": "give a talk",
-        "meaning": ""
+        "word": "Give a talk",
+        "meaning": "বক্তব্য দেওয়া"
       },
       {
-        "word": "speech",
-        "meaning": ""
+        "word": "Speech",
+        "meaning": "বক্তৃতা"
       },
       {
-        "word": "computer laboratory",
-        "meaning": ""
+        "word": "Computer laboratory",
+        "meaning": "কম্পিউটার পরীক্ষাগার"
       },
       {
-        "word": "certificate",
-        "meaning": ""
+        "word": "Certificate",
+        "meaning": "সনদপত্র"
       },
       {
-        "word": "diploma",
-        "meaning": ""
+        "word": "Diploma",
+        "meaning": "ডিপ্লোমা সনদ"
       },
       {
-        "word": "placement test",
-        "meaning": ""
+        "word": "Placement test",
+        "meaning": "যোগ্যতা বা স্তর নির্ধারণের পরীক্ষা"
       },
       {
-        "word": "overseas students",
-        "meaning": ""
+        "word": "Overseas students",
+        "meaning": "বিদেশি শিক্ষার্থী"
       },
       {
-        "word": "full-time",
-        "meaning": ""
+        "word": "Full-time",
+        "meaning": "পূর্ণকালীন"
       },
       {
-        "word": "facilities",
-        "meaning": ""
+        "word": "Facilities",
+        "meaning": "সুযোগ-সুবিধা"
       },
       {
-        "word": "college",
-        "meaning": ""
+        "word": "College",
+        "meaning": "কলেজ"
       },
       {
-        "word": "dining room",
-        "meaning": ""
+        "word": "Dining room",
+        "meaning": "খাবার ঘর"
       },
       {
-        "word": "specialist",
-        "meaning": ""
+        "word": "Specialist",
+        "meaning": "বিশেষজ্ঞ"
       },
       {
-        "word": "knowledge",
-        "meaning": ""
+        "word": "Knowledge",
+        "meaning": "জ্ঞান"
       },
       {
-        "word": "international",
-        "meaning": ""
+        "word": "International",
+        "meaning": "আন্তর্জাতিক"
       },
       {
-        "word": "accommodation",
-        "meaning": ""
+        "word": "Accommodation",
+        "meaning": "আবাসন"
       },
       {
-        "word": "home stay",
-        "meaning": ""
+        "word": "Homestay",
+        "meaning": "স্থানীয় পরিবারের সঙ্গে থেকে আবাসন"
       },
       {
-        "word": "primary",
-        "meaning": ""
+        "word": "Primary",
+        "meaning": "প্রাথমিক"
       },
       {
-        "word": "secondary",
-        "meaning": ""
+        "word": "Secondary",
+        "meaning": "মাধ্যমিক"
       },
       {
-        "word": "intermediate",
-        "meaning": ""
+        "word": "Intermediate",
+        "meaning": "মধ্যবর্তী / উচ্চমাধ্যমিক"
       },
       {
-        "word": "media room",
-        "meaning": ""
+        "word": "Media room",
+        "meaning": "গণমাধ্যম ও অডিও-ভিডিও ব্যবহারের কক্ষ"
       },
       {
-        "word": "resources room",
-        "meaning": ""
+        "word": "Resources room",
+        "meaning": "শিক্ষাসামগ্রী ও উপকরণ রাখার কক্ষ"
       },
       {
-        "word": "staff",
-        "meaning": ""
+        "word": "Staff",
+        "meaning": "কর্মী / শিক্ষক-কর্মচারী"
       },
       {
-        "word": "commencement",
-        "meaning": ""
+        "word": "Commencement",
+        "meaning": "সমাবর্তন / শুরু"
       },
       {
-        "word": "dissertation",
-        "meaning": ""
+        "word": "Dissertation",
+        "meaning": "গবেষণামূলক অভিসন্দর্ভ"
       },
       {
-        "word": "leaflet",
-        "meaning": ""
+        "word": "Leaflet",
+        "meaning": "তথ্যপত্র / প্রচারপত্র"
       },
       {
-        "word": "faculty",
-        "meaning": ""
+        "word": "Faculty",
+        "meaning": "অনুষদ / শিক্ষকবৃন্দ"
       },
       {
-        "word": "pupils",
-        "meaning": ""
+        "word": "Pupils",
+        "meaning": "শিক্ষার্থী / স্কুলের ছাত্রছাত্রী"
       },
       {
-        "word": "pencil",
-        "meaning": ""
+        "word": "Pencil",
+        "meaning": "পেন্সিল"
       },
       {
-        "word": "feedback",
-        "meaning": ""
+        "word": "Feedback",
+        "meaning": "প্রতিক্রিয়া / মতামত"
       },
       {
-        "word": "tasks",
-        "meaning": ""
+        "word": "Tasks",
+        "meaning": "কাজসমূহ"
       },
       {
-        "word": "outcomes",
-        "meaning": ""
+        "word": "Outcomes",
+        "meaning": "ফলাফল"
       },
       {
-        "word": "advanced",
-        "meaning": ""
+        "word": "Advanced",
+        "meaning": "উন্নত / উচ্চতর"
       },
       {
-        "word": "introductory",
-        "meaning": ""
+        "word": "Introductory",
+        "meaning": "প্রাথমিক পরিচিতিমূলক"
       },
       {
-        "word": "extra background",
-        "meaning": ""
+        "word": "Extra background",
+        "meaning": "অতিরিক্ত পটভূমিগত তথ্য"
       },
       {
-        "word": "higher education",
-        "meaning": ""
+        "word": "Higher education",
+        "meaning": "উচ্চশিক্ষা"
       },
       {
-        "word": "guidelines",
-        "meaning": ""
+        "word": "Guidelines",
+        "meaning": "নির্দেশিকা"
       },
       {
-        "word": "post-secondary",
-        "meaning": ""
+        "word": "Post-secondary",
+        "meaning": "মাধ্যমিক-পরবর্তী"
       },
       {
-        "word": "supervisor",
-        "meaning": ""
+        "word": "Supervisor",
+        "meaning": "তত্ত্বাবধায়ক"
       },
       {
-        "word": "bachelor's degree",
-        "meaning": ""
+        "word": "Bachelor's degree",
+        "meaning": "স্নাতক ডিগ্রি"
       },
       {
-        "word": "compound",
-        "meaning": ""
+        "word": "Compound",
+        "meaning": "যৌগ / যৌগিক বস্তু"
       },
       {
-        "word": "vocabulary",
-        "meaning": ""
+        "word": "Vocabulary",
+        "meaning": "শব্দভান্ডার"
       },
       {
-        "word": "student support services",
-        "meaning": ""
+        "word": "Student support services",
+        "meaning": "শিক্ষার্থী সহায়তা পরিষেবা"
       },
       {
-        "word": "student retention",
-        "meaning": ""
+        "word": "Student retention",
+        "meaning": "শিক্ষার্থীদের পড়াশোনায় ধরে রাখার হার"
       },
       {
-        "word": "publication",
-        "meaning": ""
+        "word": "Publication",
+        "meaning": "প্রকাশনা"
       },
       {
-        "word": "foreign students",
-        "meaning": ""
+        "word": "Foreign students",
+        "meaning": "বিদেশি শিক্ষার্থী"
       },
       {
-        "word": "schedule",
-        "meaning": ""
+        "word": "Schedule",
+        "meaning": "সময়সূচি"
       },
       {
-        "word": "school reunion",
-        "meaning": ""
+        "word": "School reunion",
+        "meaning": "প্রাক্তন সহপাঠীদের পুনর্মিলনী"
       },
       {
-        "word": "registrar's office",
-        "meaning": ""
+        "word": "Registrar's office",
+        "meaning": "নিবন্ধকের কার্যালয়"
       },
       {
-        "word": "stationery",
-        "meaning": ""
+        "word": "Stationery",
+        "meaning": "লেখার ও দাপ্তরিক সামগ্রী"
       }
     ],
     "Marketing": [
@@ -1218,270 +1218,274 @@
     ],
     "Animal Kingdom": [
       {
-        "word": "birds of prey",
-        "meaning": ""
+        "word": "Birds of prey",
+        "meaning": "শিকারি পাখি"
       },
       {
-        "word": "seabirds",
-        "meaning": ""
+        "word": "Seabirds",
+        "meaning": "সামুদ্রিক পাখি"
       },
       {
-        "word": "poultry and game",
-        "meaning": ""
+        "word": "Poultry",
+        "meaning": "গৃহপালিত পাখি"
       },
       {
-        "word": "mammals",
-        "meaning": ""
+        "word": "Game",
+        "meaning": "শিকারযোগ্য বন্য প্রাণী ও পাখি"
       },
       {
-        "word": "cetacean",
-        "meaning": ""
+        "word": "Mammals",
+        "meaning": "স্তন্যপায়ী প্রাণী"
       },
       {
-        "word": "whale",
-        "meaning": ""
+        "word": "Cetacean",
+        "meaning": "তিমি ও ডলফিনজাতীয় সামুদ্রিক স্তন্যপায়ী প্রাণী"
       },
       {
-        "word": "primates",
-        "meaning": ""
+        "word": "Whale",
+        "meaning": "তিমি"
       },
       {
-        "word": "rodents",
-        "meaning": ""
+        "word": "Primates",
+        "meaning": "প্রাইমেট বর্গের প্রাণী; মানুষ ও বানরজাতীয় প্রাণী"
       },
       {
-        "word": "fish",
-        "meaning": ""
+        "word": "Rodents",
+        "meaning": "কর্ণকাটা দাঁতবিশিষ্ট কুরে খাওয়া স্তন্যপায়ী প্রাণী"
       },
       {
-        "word": "amphibian",
-        "meaning": ""
+        "word": "Fish",
+        "meaning": "মাছ"
       },
       {
-        "word": "reptile",
-        "meaning": ""
+        "word": "Amphibian",
+        "meaning": "উভচর প্রাণী"
       },
       {
-        "word": "insects",
-        "meaning": ""
+        "word": "Reptile",
+        "meaning": "সরীসৃপ"
       },
       {
-        "word": "octopus",
-        "meaning": ""
+        "word": "Insects",
+        "meaning": "কীটপতঙ্গ"
       },
       {
-        "word": "phylum",
-        "meaning": ""
+        "word": "Octopus",
+        "meaning": "অক্টোপাস"
       },
       {
-        "word": "class",
-        "meaning": ""
+        "word": "Phylum",
+        "meaning": "পর্ব"
       },
       {
-        "word": "order",
-        "meaning": ""
+        "word": "Class",
+        "meaning": "শ্রেণি"
       },
       {
-        "word": "family",
-        "meaning": ""
+        "word": "Order",
+        "meaning": "বর্গ"
       },
       {
-        "word": "genus",
-        "meaning": ""
+        "word": "Family",
+        "meaning": "গোত্র"
       },
       {
-        "word": "species",
-        "meaning": ""
+        "word": "Genus",
+        "meaning": "গণ"
       },
       {
-        "word": "livestock",
-        "meaning": ""
+        "word": "Species",
+        "meaning": "প্রজাতি"
       },
       {
-        "word": "creature",
-        "meaning": ""
+        "word": "Livestock",
+        "meaning": "গৃহপালিত খামারের পশু"
       },
       {
-        "word": "lion",
-        "meaning": ""
+        "word": "Creature",
+        "meaning": "জীব / প্রাণী"
       },
       {
-        "word": "penguin",
-        "meaning": ""
+        "word": "Lion",
+        "meaning": "সিংহ"
+      },
+      {
+        "word": "Penguin",
+        "meaning": "পেঙ্গুইন"
       }
     ],
     "Architecture and Homes": [
       {
-        "word": "dome",
-        "meaning": ""
+        "word": "Dome",
+        "meaning": "গম্বুজ"
       },
       {
-        "word": "palace",
-        "meaning": ""
+        "word": "Palace",
+        "meaning": "রাজপ্রাসাদ"
       },
       {
-        "word": "fort",
-        "meaning": ""
+        "word": "Fort",
+        "meaning": "দুর্গ"
       },
       {
-        "word": "castle",
-        "meaning": ""
+        "word": "Castle",
+        "meaning": "সুরক্ষিত প্রাসাদ / দুর্গ"
       },
       {
-        "word": "glasshouse",
-        "meaning": ""
+        "word": "Glasshouse",
+        "meaning": "কাচের ঘর / কাচের তৈরি উদ্ভিদঘর"
       },
       {
-        "word": "pyramid",
-        "meaning": ""
+        "word": "Pyramid",
+        "meaning": "পিরামিড"
       },
       {
-        "word": "log cabin",
-        "meaning": ""
+        "word": "Log cabin",
+        "meaning": "কাঠের গুঁড়ি দিয়ে তৈরি ছোট ঘর"
       },
       {
-        "word": "lighthouse",
-        "meaning": ""
+        "word": "Lighthouse",
+        "meaning": "বাতিঘর"
       },
       {
-        "word": "hut",
-        "meaning": ""
+        "word": "Hut",
+        "meaning": "কুঁড়েঘর"
       },
       {
-        "word": "skyscraper",
-        "meaning": ""
+        "word": "Skyscraper",
+        "meaning": "আকাশচুম্বী ভবন"
       },
       {
-        "word": "sculpture",
-        "meaning": ""
+        "word": "Sculpture",
+        "meaning": "ভাস্কর্য"
       },
       {
-        "word": "semi-detached house",
-        "meaning": ""
+        "word": "Semi-detached house",
+        "meaning": "পাশাপাশি যুক্ত দুটি বাড়ির এক অংশ"
       },
       {
-        "word": "duplex",
-        "meaning": ""
+        "word": "Duplex",
+        "meaning": "দুই তলাবিশিষ্ট বাড়ি / দুটি পৃথক আবাসনবিশিষ্ট বাড়ি"
       },
       {
-        "word": "terraced house",
-        "meaning": ""
+        "word": "Terraced house",
+        "meaning": "সারিবদ্ধভাবে যুক্ত বাড়ি"
       },
       {
-        "word": "town house",
-        "meaning": ""
+        "word": "Townhouse",
+        "meaning": "শহরের সারিবদ্ধ বা সংযুক্ত বাড়ি"
       },
       {
-        "word": "row house",
-        "meaning": ""
+        "word": "Row house",
+        "meaning": "সারিবদ্ধভাবে নির্মিত সংযুক্ত বাড়ি"
       },
       {
-        "word": "bungalow",
-        "meaning": ""
+        "word": "Bungalow",
+        "meaning": "একতলা বাড়ি"
       },
       {
-        "word": "thatched cottage",
-        "meaning": ""
+        "word": "Thatched cottage",
+        "meaning": "খড়ের ছাউনি দেওয়া ছোট বাড়ি"
       },
       {
-        "word": "mobile home",
-        "meaning": ""
+        "word": "Mobile home",
+        "meaning": "স্থানান্তরযোগ্য বাড়ি"
       },
       {
-        "word": "houseboat",
-        "meaning": ""
+        "word": "Houseboat",
+        "meaning": "বসবাসের উপযোগী নৌকা"
       },
       {
-        "word": "block of flats",
-        "meaning": ""
+        "word": "Block of flats",
+        "meaning": "একাধিক ফ্ল্যাটবিশিষ্ট ভবন"
       },
       {
-        "word": "apartment building",
-        "meaning": ""
+        "word": "Apartment building",
+        "meaning": "অ্যাপার্টমেন্ট ভবন"
       },
       {
-        "word": "condominium",
-        "meaning": ""
+        "word": "Condominium",
+        "meaning": "ব্যক্তিমালিকানাধীন পৃথক আবাসন ইউনিটসমৃদ্ধ ভবন বা আবাসন"
       },
       {
-        "word": "chimney",
-        "meaning": ""
+        "word": "Chimney",
+        "meaning": "চিমনি / ধোঁয়া বের হওয়ার নল"
       },
       {
-        "word": "bedroom",
-        "meaning": ""
+        "word": "Bedroom",
+        "meaning": "শোবার ঘর"
       },
       {
-        "word": "basement",
-        "meaning": ""
+        "word": "Basement",
+        "meaning": "মাটির নিচের তলা"
       },
       {
-        "word": "landlord",
-        "meaning": ""
+        "word": "Landlord",
+        "meaning": "বাড়ির মালিক / বাড়িওয়ালা"
       },
       {
-        "word": "tenant",
-        "meaning": ""
+        "word": "Tenant",
+        "meaning": "ভাড়াটিয়া"
       },
       {
-        "word": "rent",
-        "meaning": ""
+        "word": "Rent",
+        "meaning": "ভাড়া"
       },
       {
-        "word": "lease",
-        "meaning": ""
+        "word": "Lease",
+        "meaning": "নির্দিষ্ট সময়ের জন্য ভাড়ার চুক্তি"
       },
       {
-        "word": "neighborhood",
-        "meaning": ""
+        "word": "Neighborhood",
+        "meaning": "পাড়া / প্রতিবেশী এলাকা"
       },
       {
-        "word": "suburb",
-        "meaning": ""
+        "word": "Suburb",
+        "meaning": "শহরতলি"
       },
       {
-        "word": "sofa",
-        "meaning": ""
+        "word": "Sofa",
+        "meaning": "সোফা"
       },
       {
-        "word": "coffee table",
-        "meaning": ""
+        "word": "Coffee table",
+        "meaning": "নিচু চা বা কফি রাখার টেবিল"
       },
       {
-        "word": "dormitory",
-        "meaning": ""
+        "word": "Dormitory",
+        "meaning": "ছাত্রাবাস / যৌথ শয়নকক্ষ"
       },
       {
-        "word": "storey",
-        "meaning": ""
+        "word": "Storey",
+        "meaning": "ভবনের একটি তলা"
       },
       {
-        "word": "kitchen",
-        "meaning": ""
+        "word": "Kitchen",
+        "meaning": "রান্নাঘর"
       },
       {
-        "word": "refrigerator",
-        "meaning": ""
+        "word": "Refrigerator",
+        "meaning": "ফ্রিজ / খাদ্য সংরক্ষণের শীতল যন্ত্র"
       },
       {
-        "word": "microwave",
-        "meaning": ""
+        "word": "Microwave",
+        "meaning": "মাইক্রোওয়েভ ওভেন"
       },
       {
-        "word": "ground floor",
-        "meaning": ""
+        "word": "Ground floor",
+        "meaning": "ভূমিতল"
       },
       {
-        "word": "oven",
-        "meaning": ""
+        "word": "Oven",
+        "meaning": "খাবার গরম বা রান্না করার চুলা"
       },
       {
-        "word": "hallway",
-        "meaning": ""
+        "word": "Hallway",
+        "meaning": "চলাচলের করিডর / ঘরের ভেতরের পথ"
       },
       {
-        "word": "insurance",
-        "meaning": ""
+        "word": "Insurance",
+        "meaning": "বিমা"
       }
     ],
     "Transport and Vehicles": [
@@ -2743,39 +2747,39 @@
     "Appetizers and Starters": [
       {
         "word": "Soup of the day",
-        "meaning": ""
+        "meaning": "দিনের বিশেষ স্যুপ"
       },
       {
         "word": "Garlic bread",
-        "meaning": ""
+        "meaning": "রসুন মাখানো পাউরুটি"
       },
       {
         "word": "Caesar salad",
-        "meaning": ""
+        "meaning": "সিজার সালাদ"
       },
       {
         "word": "Chicken wings",
-        "meaning": ""
+        "meaning": "মুরগির ডানার মাংস দিয়ে তৈরি খাবার"
       },
       {
         "word": "Onion rings",
-        "meaning": ""
+        "meaning": "পেঁয়াজের গোল চাকতি দিয়ে তৈরি ভাজা খাবার"
       },
       {
         "word": "Nachos",
-        "meaning": ""
+        "meaning": "চিপসের ওপর চিজ ও অন্যান্য উপকরণ দিয়ে তৈরি খাবার"
       },
       {
         "word": "Bruschetta",
-        "meaning": ""
+        "meaning": "টোস্ট করা রুটির ওপর টমেটো ও অন্যান্য উপকরণ দিয়ে তৈরি খাবার"
       },
       {
-        "word": "Fruit Juice",
-        "meaning": ""
+        "word": "Fruit juice",
+        "meaning": "ফলের রস"
       },
       {
-        "word": "Tomato Soup",
-        "meaning": ""
+        "word": "Tomato soup",
+        "meaning": "টমেটোর স্যুপ"
       }
     ],
     "Main Course": [
@@ -2942,72 +2946,50 @@
         "meaning": ""
       }
     ],
-    "British Holidays and Activities": [
-      {
-        "word": "Christmas Pantomime",
-        "meaning": ""
-      },
-      {
-        "word": "Queen's Speech",
-        "meaning": ""
-      },
-      {
-        "word": "King's Speech",
-        "meaning": ""
-      },
-      {
-        "word": "Boxing Day",
-        "meaning": ""
-      },
-      {
-        "word": "Easter",
-        "meaning": ""
-      }
-    ],
     "Physical Parts of a Tree": [
       {
         "word": "Tree",
-        "meaning": ""
+        "meaning": "গাছ"
       },
       {
         "word": "Root",
-        "meaning": ""
+        "meaning": "শিকড়"
       },
       {
         "word": "Trunk",
-        "meaning": ""
+        "meaning": "গাছের কাণ্ড"
       },
       {
         "word": "Bark",
-        "meaning": ""
+        "meaning": "গাছের বাকল"
       },
       {
         "word": "Branch",
-        "meaning": ""
+        "meaning": "ডাল / শাখা"
       },
       {
         "word": "Twig",
-        "meaning": ""
+        "meaning": "ছোট ডাল"
       },
       {
         "word": "Leaf",
-        "meaning": ""
+        "meaning": "পাতা"
       },
       {
         "word": "Bud",
-        "meaning": ""
+        "meaning": "কুঁড়ি"
       },
       {
         "word": "Flower",
-        "meaning": ""
+        "meaning": "ফুল"
       },
       {
         "word": "Fruit",
-        "meaning": ""
+        "meaning": "ফল"
       },
       {
         "word": "Seed",
-        "meaning": ""
+        "meaning": "বীজ"
       }
     ],
     "Medical Professions": [
@@ -3044,72 +3026,46 @@
         "meaning": ""
       }
     ],
-    "Education Professions": [
-      {
-        "word": "Teacher",
-        "meaning": ""
-      },
-      {
-        "word": "Professor",
-        "meaning": ""
-      },
-      {
-        "word": "Lecturer",
-        "meaning": ""
-      },
-      {
-        "word": "Tutor",
-        "meaning": ""
-      },
-      {
-        "word": "Principal",
-        "meaning": ""
-      },
-      {
-        "word": "Researcher",
-        "meaning": ""
-      }
-    ],
     "Arts and Media Professions": [
       {
         "word": "Actor",
-        "meaning": ""
+        "meaning": "অভিনেতা"
       },
       {
         "word": "Actress",
-        "meaning": ""
+        "meaning": "অভিনেত্রী"
       },
       {
         "word": "Singer",
-        "meaning": ""
+        "meaning": "গায়ক / গায়িকা"
       },
       {
         "word": "Dancer",
-        "meaning": ""
+        "meaning": "নৃত্যশিল্পী"
       },
       {
         "word": "Painter",
-        "meaning": ""
+        "meaning": "চিত্রশিল্পী"
       },
       {
         "word": "Sculptor",
-        "meaning": ""
+        "meaning": "ভাস্কর"
       },
       {
         "word": "Sculpture",
-        "meaning": ""
+        "meaning": "ভাস্কর্য"
       },
       {
         "word": "Photographer",
-        "meaning": ""
+        "meaning": "আলোকচিত্রী"
       },
       {
         "word": "Journalist",
-        "meaning": ""
+        "meaning": "সাংবাদিক"
       },
       {
         "word": "Writer",
-        "meaning": ""
+        "meaning": "লেখক"
       }
     ],
     "Technical and Engineering Professions": [
@@ -5814,6 +5770,2722 @@
       {
         "word": "Incinerate",
         "meaning": "পুড়িয়ে ফেলা"
+      }
+    ],
+    "Professions & Occupations": [
+      {
+        "word": "Doctor",
+        "meaning": "ডাক্তার"
+      },
+      {
+        "word": "Nurse",
+        "meaning": "নার্স"
+      },
+      {
+        "word": "Surgeon",
+        "meaning": "শল্যচিকিৎসক"
+      },
+      {
+        "word": "Dentist",
+        "meaning": "দন্তচিকিৎসক"
+      },
+      {
+        "word": "Pharmacist",
+        "meaning": "ঔষধ বিশেষজ্ঞ / ফার্মাসিস্ট"
+      },
+      {
+        "word": "Psychiatrist",
+        "meaning": "মনোরোগ বিশেষজ্ঞ"
+      },
+      {
+        "word": "Physiotherapist",
+        "meaning": "শারীরিক থেরাপিস্ট"
+      },
+      {
+        "word": "Midwife",
+        "meaning": "ধাত্রী / প্রসূতিসেবাকর্মী"
+      },
+      {
+        "word": "Teacher",
+        "meaning": "শিক্ষক"
+      },
+      {
+        "word": "Professor",
+        "meaning": "অধ্যাপক"
+      },
+      {
+        "word": "Lecturer",
+        "meaning": "প্রভাষক"
+      },
+      {
+        "word": "Tutor",
+        "meaning": "গৃহশিক্ষক / শিক্ষাদানকারী"
+      },
+      {
+        "word": "Principal",
+        "meaning": "প্রধান শিক্ষক"
+      },
+      {
+        "word": "Researcher",
+        "meaning": "গবেষক"
+      },
+      {
+        "word": "Actor",
+        "meaning": "অভিনেতা"
+      },
+      {
+        "word": "Actress",
+        "meaning": "অভিনেত্রী"
+      },
+      {
+        "word": "Singer",
+        "meaning": "গায়ক / গায়িকা"
+      },
+      {
+        "word": "Dancer",
+        "meaning": "নৃত্যশিল্পী"
+      },
+      {
+        "word": "Painter",
+        "meaning": "চিত্রশিল্পী"
+      },
+      {
+        "word": "Sculptor",
+        "meaning": "ভাস্কর"
+      },
+      {
+        "word": "Sculpture",
+        "meaning": "ভাস্কর্য"
+      },
+      {
+        "word": "Photographer",
+        "meaning": "আলোকচিত্রী"
+      },
+      {
+        "word": "Journalist",
+        "meaning": "সাংবাদিক"
+      },
+      {
+        "word": "Writer",
+        "meaning": "লেখক"
+      },
+      {
+        "word": "Engineer",
+        "meaning": "প্রকৌশলী"
+      },
+      {
+        "word": "Architect",
+        "meaning": "স্থপতি"
+      },
+      {
+        "word": "Electrician",
+        "meaning": "বৈদ্যুতিক মিস্ত্রি"
+      },
+      {
+        "word": "Mechanic",
+        "meaning": "যন্ত্র মেরামতকারী"
+      },
+      {
+        "word": "Programmer",
+        "meaning": "প্রোগ্রামার"
+      },
+      {
+        "word": "Scientist",
+        "meaning": "বিজ্ঞানী"
+      },
+      {
+        "word": "Accountant",
+        "meaning": "হিসাবরক্ষক"
+      },
+      {
+        "word": "Manager",
+        "meaning": "ব্যবস্থাপক"
+      },
+      {
+        "word": "Contractor",
+        "meaning": "ঠিকাদার"
+      },
+      {
+        "word": "Lawyer",
+        "meaning": "আইনজীবী"
+      },
+      {
+        "word": "Attorney",
+        "meaning": "আইনজীবী"
+      },
+      {
+        "word": "Banker",
+        "meaning": "ব্যাংকার"
+      },
+      {
+        "word": "Chef",
+        "meaning": "পেশাদার রাঁধুনি"
+      },
+      {
+        "word": "Cook",
+        "meaning": "রাঁধুনি"
+      },
+      {
+        "word": "Hairdresser",
+        "meaning": "চুল কাটার ও সাজানোর পেশাজীবী"
+      },
+      {
+        "word": "Barber",
+        "meaning": "নাপিত"
+      },
+      {
+        "word": "Policeman",
+        "meaning": "পুলিশকর্মী"
+      },
+      {
+        "word": "Policewoman",
+        "meaning": "নারী পুলিশকর্মী"
+      },
+      {
+        "word": "Soldier",
+        "meaning": "সৈনিক"
+      },
+      {
+        "word": "Pilot",
+        "meaning": "বৈমানিক / পাইলট"
+      },
+      {
+        "word": "Sailor",
+        "meaning": "নাবিক"
+      },
+      {
+        "word": "Farmer",
+        "meaning": "কৃষক"
+      },
+      {
+        "word": "Gardener",
+        "meaning": "মালী / উদ্যানপালক"
+      },
+      {
+        "word": "Driver",
+        "meaning": "চালক"
+      }
+    ],
+    "Academic Years, Seniority & Career Levels": [
+      {
+        "word": "Freshman",
+        "meaning": "প্রথম বর্ষের শিক্ষার্থী"
+      },
+      {
+        "word": "Sophomore",
+        "meaning": "দ্বিতীয় বর্ষের শিক্ষার্থী"
+      },
+      {
+        "word": "Junior",
+        "meaning": "তৃতীয় বর্ষের শিক্ষার্থী / নবীন কর্মী"
+      },
+      {
+        "word": "Senior",
+        "meaning": "চতুর্থ বর্ষের শিক্ষার্থী / অভিজ্ঞ কর্মী"
+      },
+      {
+        "word": "Graduate",
+        "meaning": "স্নাতক / স্নাতক ডিগ্রিধারী"
+      },
+      {
+        "word": "Postgraduate",
+        "meaning": "স্নাতকোত্তর পর্যায়ের শিক্ষার্থী"
+      },
+      {
+        "word": "Intern",
+        "meaning": "ইন্টার্ন / প্রশিক্ষণার্থী"
+      },
+      {
+        "word": "Trainee",
+        "meaning": "প্রশিক্ষণার্থী"
+      },
+      {
+        "word": "Manager",
+        "meaning": "ব্যবস্থাপক"
+      },
+      {
+        "word": "Director",
+        "meaning": "পরিচালক"
+      },
+      {
+        "word": "CEO (Chief Executive Officer)",
+        "meaning": "প্রধান নির্বাহী কর্মকর্তা"
+      },
+      {
+        "word": "Veteran",
+        "meaning": "দীর্ঘ অভিজ্ঞতাসম্পন্ন ব্যক্তি"
+      },
+      {
+        "word": "Sophomore slump",
+        "meaning": "দ্বিতীয় বর্ষে কর্মদক্ষতা বা ফলাফলের অবনতি"
+      },
+      {
+        "word": "Alumni",
+        "meaning": "প্রাক্তন শিক্ষার্থীরা"
+      },
+      {
+        "word": "Seniority",
+        "meaning": "জ্যেষ্ঠতা / পদক্রম"
+      }
+    ],
+    "Commonly Misspelled Words & Related Vocabulary": [
+      {
+        "word": "Endanger",
+        "meaning": "বিপন্ন করা"
+      },
+      {
+        "word": "Endangerment",
+        "meaning": "বিপন্নতা"
+      },
+      {
+        "word": "Endangered",
+        "meaning": "বিপন্ন"
+      },
+      {
+        "word": "Danger",
+        "meaning": "বিপদ"
+      },
+      {
+        "word": "Dangerous",
+        "meaning": "বিপজ্জনক"
+      },
+      {
+        "word": "Safeguard",
+        "meaning": "সুরক্ষা দেওয়া / রক্ষা করা"
+      },
+      {
+        "word": "Stranger",
+        "meaning": "অপরিচিত ব্যক্তি"
+      },
+      {
+        "word": "Strangers",
+        "meaning": "অপরিচিত ব্যক্তিরা"
+      },
+      {
+        "word": "Strange",
+        "meaning": "অদ্ভুত"
+      },
+      {
+        "word": "Strangely",
+        "meaning": "অদ্ভুতভাবে"
+      },
+      {
+        "word": "Strangeness",
+        "meaning": "অদ্ভুততা"
+      },
+      {
+        "word": "Nurture",
+        "meaning": "লালন-পালন করা"
+      },
+      {
+        "word": "Nurturing",
+        "meaning": "লালন-পালনকারী / যত্নশীল"
+      },
+      {
+        "word": "Upbring",
+        "meaning": "বড় করে তোলা"
+      },
+      {
+        "word": "Upbringing",
+        "meaning": "লালন-পালন"
+      },
+      {
+        "word": "Care",
+        "meaning": "যত্ন"
+      },
+      {
+        "word": "Develop",
+        "meaning": "বিকশিত করা"
+      },
+      {
+        "word": "Str ip",
+        "meaning": "খুলে ফেলা"
+      },
+      {
+        "word": "Stripped",
+        "meaning": "খুলে ফেলা হয়েছে / বঞ্চিত"
+      },
+      {
+        "word": "Stripping",
+        "meaning": "খুলে ফেলা"
+      },
+      {
+        "word": "Bare",
+        "meaning": "অনাবৃত / খালি"
+      },
+      {
+        "word": "Remove",
+        "meaning": "অপসারণ করা"
+      },
+      {
+        "word": "Hibernate",
+        "meaning": "শীতনিদ্রায় যাওয়া"
+      },
+      {
+        "word": "Hibernation",
+        "meaning": "শীতনিদ্রা"
+      },
+      {
+        "word": "Dormant",
+        "meaning": "সুপ্ত"
+      },
+      {
+        "word": "Inactive",
+        "meaning": "নিষ্ক্রিয়"
+      },
+      {
+        "word": "Winter sleep",
+        "meaning": "শীতকালীন নিদ্রা"
+      },
+      {
+        "word": "Emphasis",
+        "meaning": "গুরুত্ব / জোর"
+      },
+      {
+        "word": "Emphasize",
+        "meaning": "গুরুত্ব দেওয়া"
+      },
+      {
+        "word": "Emphasise",
+        "meaning": "গুরুত্ব দেওয়া"
+      },
+      {
+        "word": "Emphatic",
+        "meaning": "জোরালো"
+      },
+      {
+        "word": "Stress",
+        "meaning": "জোর দেওয়া"
+      },
+      {
+        "word": "Importance",
+        "meaning": "গুরুত্ব"
+      },
+      {
+        "word": "Barber",
+        "meaning": "নাপিত"
+      },
+      {
+        "word": "Shave",
+        "meaning": "দাড়ি কামানো"
+      },
+      {
+        "word": "Razor",
+        "meaning": "ক্ষুর / রেজার"
+      },
+      {
+        "word": "Beard",
+        "meaning": "দাড়ি"
+      },
+      {
+        "word": "Haircutter",
+        "meaning": "চুল কাটার ব্যক্তি"
+      },
+      {
+        "word": "Swimming",
+        "meaning": "সাঁতার কাটা"
+      },
+      {
+        "word": "Pool",
+        "meaning": "সুইমিং পুল"
+      },
+      {
+        "word": "Dive",
+        "meaning": "ডুব দেওয়া"
+      },
+      {
+        "word": "Float",
+        "meaning": "ভাসা"
+      },
+      {
+        "word": "Bathing",
+        "meaning": "গোসল করা"
+      },
+      {
+        "word": "Sinking",
+        "meaning": "ডুবে যাওয়া"
+      },
+      {
+        "word": "Rigorous",
+        "meaning": "কঠোর / কড়া"
+      },
+      {
+        "word": "Strict",
+        "meaning": "কঠোর"
+      },
+      {
+        "word": "Severe",
+        "meaning": "তীব্র / কঠোর"
+      },
+      {
+        "word": "Lenient",
+        "meaning": "নমনীয় / শিথিল"
+      },
+      {
+        "word": "Easy",
+        "meaning": "সহজ"
+      },
+      {
+        "word": "Discipline",
+        "meaning": "শৃঙ্খলা"
+      },
+      {
+        "word": "Testimony",
+        "meaning": "সাক্ষ্য"
+      },
+      {
+        "word": "Evidence",
+        "meaning": "প্রমাণ"
+      },
+      {
+        "word": "Statement",
+        "meaning": "বিবৃতি"
+      },
+      {
+        "word": "Denial",
+        "meaning": "অস্বীকার"
+      },
+      {
+        "word": "Witness",
+        "meaning": "সাক্ষী"
+      },
+      {
+        "word": "Court",
+        "meaning": "আদালত"
+      },
+      {
+        "word": "Contractor",
+        "meaning": "ঠিকাদার"
+      },
+      {
+        "word": "Builder",
+        "meaning": "নির্মাণকারী"
+      },
+      {
+        "word": "Client",
+        "meaning": "গ্রাহক / মক্কেল"
+      },
+      {
+        "word": "Construction",
+        "meaning": "নির্মাণ"
+      },
+      {
+        "word": "Project",
+        "meaning": "প্রকল্প"
+      },
+      {
+        "word": "Entrance",
+        "meaning": "প্রবেশপথ / প্রবেশ"
+      },
+      {
+        "word": "Entry",
+        "meaning": "প্রবেশ"
+      },
+      {
+        "word": "Exit",
+        "meaning": "প্রস্থান"
+      },
+      {
+        "word": "Gate",
+        "meaning": "ফটক"
+      },
+      {
+        "word": "Doorway",
+        "meaning": "দরজার প্রবেশপথ"
+      },
+      {
+        "word": "Opted",
+        "meaning": "বেছে নিয়েছিল"
+      },
+      {
+        "word": "Chose",
+        "meaning": "বেছে নিয়েছিল"
+      },
+      {
+        "word": "Rejected",
+        "meaning": "প্রত্যাখ্যান করেছিল"
+      },
+      {
+        "word": "Option",
+        "meaning": "বিকল্প"
+      },
+      {
+        "word": "Choice",
+        "meaning": "পছন্দ / নির্বাচন"
+      },
+      {
+        "word": "Medieval",
+        "meaning": "মধ্যযুগীয়"
+      },
+      {
+        "word": "Middle Ages",
+        "meaning": "মধ্যযুগ"
+      },
+      {
+        "word": "Modern",
+        "meaning": "আধুনিক"
+      },
+      {
+        "word": "Knight",
+        "meaning": "বর্মধারী যোদ্ধা"
+      },
+      {
+        "word": "Castle",
+        "meaning": "দুর্গ"
+      },
+      {
+        "word": "Fortification",
+        "meaning": "দুর্গপ্রাচীর / প্রতিরক্ষাব্যবস্থা"
+      },
+      {
+        "word": "Defense",
+        "meaning": "প্রতিরক্ষা"
+      },
+      {
+        "word": "Weakening",
+        "meaning": "দুর্বল হয়ে পড়া / দুর্বল করা"
+      },
+      {
+        "word": "Wall",
+        "meaning": "দেয়াল / প্রাচীর"
+      },
+      {
+        "word": "Fort",
+        "meaning": "দুর্গ"
+      },
+      {
+        "word": "Mosaic",
+        "meaning": "মোজাইক নকশা"
+      },
+      {
+        "word": "Artwork",
+        "meaning": "শিল্পকর্ম"
+      },
+      {
+        "word": "Plain surface",
+        "meaning": "নকশাবিহীন পৃষ্ঠ"
+      },
+      {
+        "word": "Tiles",
+        "meaning": "টালি"
+      },
+      {
+        "word": "Pattern",
+        "meaning": "নকশা"
+      },
+      {
+        "word": "Museum",
+        "meaning": "জাদুঘর"
+      },
+      {
+        "word": "Gallery",
+        "meaning": "প্রদর্শনী কক্ষ / চিত্রশালা"
+      },
+      {
+        "word": "Artifact",
+        "meaning": "ঐতিহাসিক নিদর্শন"
+      },
+      {
+        "word": "Exhibit",
+        "meaning": "প্রদর্শিত বস্তু / প্রদর্শনী"
+      },
+      {
+        "word": "Preferred",
+        "meaning": "বেশি পছন্দ করেছিল / পছন্দনীয়"
+      },
+      {
+        "word": "Favored",
+        "meaning": "বেশি পছন্দ করা হয়েছে"
+      },
+      {
+        "word": "Avoided",
+        "meaning": "এড়িয়ে গিয়েছিল"
+      },
+      {
+        "word": "Priority",
+        "meaning": "অগ্রাধিকার"
+      },
+      {
+        "word": "Survival",
+        "meaning": "টিকে থাকা / বেঁচে থাকা"
+      },
+      {
+        "word": "Existence",
+        "meaning": "অস্তিত্ব"
+      },
+      {
+        "word": "Extinction",
+        "meaning": "বিলুপ্তি"
+      },
+      {
+        "word": "Life",
+        "meaning": "জীবন"
+      },
+      {
+        "word": "Endurance",
+        "meaning": "সহনশীলতা"
+      },
+      {
+        "word": "Mysterious",
+        "meaning": "রহস্যময়"
+      },
+      {
+        "word": "Enigmatic",
+        "meaning": "দুর্বোধ্য / রহস্যময়"
+      },
+      {
+        "word": "Obvious",
+        "meaning": "স্পষ্ট"
+      },
+      {
+        "word": "Mystery",
+        "meaning": "রহস্য"
+      },
+      {
+        "word": "Secret",
+        "meaning": "গোপন বিষয়"
+      },
+      {
+        "word": "Stretch",
+        "meaning": "প্রসারিত করা / টানা"
+      },
+      {
+        "word": "Extend",
+        "meaning": "প্রসারিত করা"
+      },
+      {
+        "word": "Shrink",
+        "meaning": "সংকুচিত হওয়া"
+      },
+      {
+        "word": "Pull",
+        "meaning": "টানা"
+      },
+      {
+        "word": "Lengthen",
+        "meaning": "লম্বা করা"
+      },
+      {
+        "word": "Raft",
+        "meaning": "ভেলা"
+      },
+      {
+        "word": "Sink",
+        "meaning": "ডুবে যাওয়া"
+      },
+      {
+        "word": "River",
+        "meaning": "নদী"
+      },
+      {
+        "word": "Boat",
+        "meaning": "নৌকা"
+      }
+    ],
+    "Salads, Starters & Wind Instruments": [
+      {
+        "word": "Caesar salad",
+        "meaning": "সিজার সালাদ"
+      },
+      {
+        "word": "Garden salad",
+        "meaning": "সবজির সালাদ"
+      },
+      {
+        "word": "Coleslaw",
+        "meaning": "বাঁধাকপি ও গাজরের সালাদ"
+      },
+      {
+        "word": "Pasta salad",
+        "meaning": "পাস্তার সালাদ"
+      },
+      {
+        "word": "Chicken salad",
+        "meaning": "মুরগির মাংসের সালাদ"
+      },
+      {
+        "word": "Tuna salad",
+        "meaning": "টুনা মাছের সালাদ"
+      },
+      {
+        "word": "Potato salad",
+        "meaning": "আলুর সালাদ"
+      },
+      {
+        "word": "Bean salad",
+        "meaning": "শিম বা বিনের সালাদ"
+      },
+      {
+        "word": "Fruit salad",
+        "meaning": "ফলের সালাদ"
+      },
+      {
+        "word": "Russian salad",
+        "meaning": "রাশিয়ান সালাদ"
+      },
+      {
+        "word": "Avocado salad",
+        "meaning": "অ্যাভোকাডোর সালাদ"
+      },
+      {
+        "word": "Quinoa salad",
+        "meaning": "কুইনোয়ার সালাদ"
+      },
+      {
+        "word": "Garlic bread",
+        "meaning": "রসুনের স্বাদযুক্ত পাউরুটি"
+      },
+      {
+        "word": "Herb bread",
+        "meaning": "সুগন্ধি ভেষজযুক্ত পাউরুটি"
+      },
+      {
+        "word": "Focaccia",
+        "meaning": "ইতালীয় ভেষজযুক্ত রুটি"
+      },
+      {
+        "word": "Flatbread",
+        "meaning": "চ্যাপ্টা রুটি"
+      },
+      {
+        "word": "Toasted bread",
+        "meaning": "টোস্ট করা পাউরুটি"
+      },
+      {
+        "word": "Breadsticks",
+        "meaning": "লম্বা ও সরু মুচমুচে রুটি"
+      },
+      {
+        "word": "Bruschetta",
+        "meaning": "টোস্ট করা রুটির ওপর বিভিন্ন উপকরণের খাবার"
+      },
+      {
+        "word": "Pita bread",
+        "meaning": "পকেটের মতো ফাঁপা মধ্যপ্রাচ্যের রুটি"
+      },
+      {
+        "word": "Naan bread",
+        "meaning": "নান রুটি"
+      },
+      {
+        "word": "Cheese platter",
+        "meaning": "বিভিন্ন ধরনের পনিরের সাজানো থালা"
+      },
+      {
+        "word": "Grilled cheese",
+        "meaning": "গ্রিল করা পনিরের খাবার"
+      },
+      {
+        "word": "Stuffed peppers",
+        "meaning": "পুরভরা মরিচ বা ক্যাপসিকাম"
+      },
+      {
+        "word": "Cheese and olives",
+        "meaning": "পনির ও জলপাই"
+      },
+      {
+        "word": "Cheese with herbs",
+        "meaning": "ভেষজ মেশানো পনির"
+      },
+      {
+        "word": "Baked cheese",
+        "meaning": "ওভেনে বেক করা পনির"
+      },
+      {
+        "word": "Cheese salad",
+        "meaning": "পনিরের সালাদ"
+      },
+      {
+        "word": "Cheese dip",
+        "meaning": "খাবার ডুবিয়ে খাওয়ার পনিরের সস"
+      },
+      {
+        "word": "Appetiser",
+        "meaning": "ক্ষুধাবর্ধক খাবার"
+      },
+      {
+        "word": "Starter",
+        "meaning": "প্রধান খাবারের আগে পরিবেশিত খাবার"
+      },
+      {
+        "word": "Side dish",
+        "meaning": "মূল খাবারের সঙ্গে পরিবেশিত সহায়ক পদ"
+      },
+      {
+        "word": "Light meal",
+        "meaning": "হালকা খাবার"
+      },
+      {
+        "word": "Snack",
+        "meaning": "নাশতা / হালকা খাবার"
+      },
+      {
+        "word": "Flute",
+        "meaning": "বাঁশি"
+      },
+      {
+        "word": "Piccolo",
+        "meaning": "ছোট আকারের উচ্চস্বরের বাঁশি"
+      },
+      {
+        "word": "Recorder",
+        "meaning": "এক ধরনের সরল বাঁশি"
+      },
+      {
+        "word": "Pan flute",
+        "meaning": "একাধিক নল দিয়ে তৈরি বাঁশি"
+      },
+      {
+        "word": "Oboe",
+        "meaning": "ওবো নামের বায়ুবাদ্যযন্ত্র"
+      },
+      {
+        "word": "Clarinet",
+        "meaning": "ক্ল্যারিনেট"
+      },
+      {
+        "word": "Bassoon",
+        "meaning": "ব্যাসুন"
+      },
+      {
+        "word": "Saxophone",
+        "meaning": "স্যাক্সোফোন"
+      },
+      {
+        "word": "Trumpet",
+        "meaning": "ট্রাম্পেট"
+      },
+      {
+        "word": "Trombone",
+        "meaning": "ট্রোমবোন"
+      },
+      {
+        "word": "French horn",
+        "meaning": "ফ্রেঞ্চ হর্ন"
+      },
+      {
+        "word": "Tuba",
+        "meaning": "টিউবা"
+      },
+      {
+        "word": "Cornet",
+        "meaning": "করনেট"
+      },
+      {
+        "word": "Bugle",
+        "meaning": "বুগল"
+      },
+      {
+        "word": "Harmonica",
+        "meaning": "হারমোনিকা"
+      },
+      {
+        "word": "Mouth organ",
+        "meaning": "মুখে বাজানো হারমোনিকা"
+      },
+      {
+        "word": "Bagpipes",
+        "meaning": "ব্যাগপাইপ"
+      },
+      {
+        "word": "Shakuhachi",
+        "meaning": "জাপানি বাঁশি"
+      },
+      {
+        "word": "Bansuri",
+        "meaning": "ভারতীয় বাঁশি"
+      },
+      {
+        "word": "Shehnai",
+        "meaning": "শেহনাই"
+      }
+    ],
+    "Currencies, Money & Finance": [
+      {
+        "word": "Dollar",
+        "meaning": "ডলার"
+      },
+      {
+        "word": "Pound sterling",
+        "meaning": "ব্রিটিশ পাউন্ড"
+      },
+      {
+        "word": "Euro",
+        "meaning": "ইউরো"
+      },
+      {
+        "word": "Yen",
+        "meaning": "জাপানি ইয়েন"
+      },
+      {
+        "word": "Yuan",
+        "meaning": "চীনা ইউয়ান"
+      },
+      {
+        "word": "Renminbi",
+        "meaning": "চীনের সরকারি মুদ্রার নাম"
+      },
+      {
+        "word": "Rupee",
+        "meaning": "রুপি"
+      },
+      {
+        "word": "Taka",
+        "meaning": "টাকা"
+      },
+      {
+        "word": "Won",
+        "meaning": "কোরীয় ওন"
+      },
+      {
+        "word": "Ringgit",
+        "meaning": "মালয়েশীয় রিঙ্গিত"
+      },
+      {
+        "word": "Baht",
+        "meaning": "থাই বাত"
+      },
+      {
+        "word": "Peso",
+        "meaning": "পেসো"
+      },
+      {
+        "word": "Rand",
+        "meaning": "দক্ষিণ আফ্রিকান র‍্যান্ড"
+      },
+      {
+        "word": "Riyal",
+        "meaning": "রিয়াল"
+      },
+      {
+        "word": "Dirham",
+        "meaning": "দিরহাম"
+      },
+      {
+        "word": "Franc",
+        "meaning": "ফ্রাঁ"
+      },
+      {
+        "word": "Krona",
+        "meaning": "সুইডিশ ক্রোনা"
+      },
+      {
+        "word": "Krone",
+        "meaning": "নরওয়েজীয় / ডেনিশ ক্রোন"
+      },
+      {
+        "word": "Ruble",
+        "meaning": "রুশ রুবল"
+      },
+      {
+        "word": "Lira",
+        "meaning": "লিরা"
+      },
+      {
+        "word": "Dinar",
+        "meaning": "দিনার"
+      },
+      {
+        "word": "Shekel",
+        "meaning": "ইসরায়েলি শেকেল"
+      },
+      {
+        "word": "Argentine peso",
+        "meaning": "আর্জেন্টিনার পেসো"
+      },
+      {
+        "word": "Real",
+        "meaning": "ব্রাজিলীয় রিয়াল"
+      },
+      {
+        "word": "Dong",
+        "meaning": "ভিয়েতনামি ডং"
+      },
+      {
+        "word": "Forint",
+        "meaning": "হাঙ্গেরীয় ফরিন্ট"
+      },
+      {
+        "word": "Zloty",
+        "meaning": "পোলিশ জ্লোটি"
+      },
+      {
+        "word": "Kroner",
+        "meaning": "ক্রোনের বহুবচন / স্ক্যান্ডিনেভীয় মুদ্রার নাম"
+      },
+      {
+        "word": "Lek",
+        "meaning": "আলবেনীয় লেক"
+      },
+      {
+        "word": "Birr",
+        "meaning": "ইথিওপীয় বির"
+      },
+      {
+        "word": "Naira",
+        "meaning": "নাইজেরীয় নাইরা"
+      }
+    ],
+    "Double-Letter Words & Spelling": [
+      {
+        "word": "Coffee",
+        "meaning": "কফি"
+      },
+      {
+        "word": "Letter",
+        "meaning": "চিঠি / অক্ষর"
+      },
+      {
+        "word": "Butter",
+        "meaning": "মাখন"
+      },
+      {
+        "word": "Address",
+        "meaning": "ঠিকানা / সম্বোধন করা"
+      },
+      {
+        "word": "Success",
+        "meaning": "সাফল্য"
+      },
+      {
+        "word": "Occur",
+        "meaning": "ঘটা / সংঘটিত হওয়া"
+      },
+      {
+        "word": "Committee",
+        "meaning": "কমিটি"
+      },
+      {
+        "word": "Embarrass",
+        "meaning": "বিব্রত করা"
+      },
+      {
+        "word": "Addressed",
+        "meaning": "সম্বোধন করেছে / ঠিকানায় পাঠিয়েছে"
+      },
+      {
+        "word": "Hobby",
+        "meaning": "শখ"
+      },
+      {
+        "word": "Coffeehouse",
+        "meaning": "কফি পরিবেশনের দোকান"
+      },
+      {
+        "word": "Puff",
+        "meaning": "ফুঁ / ধোঁয়ার কুণ্ডলী"
+      },
+      {
+        "word": "Recommend",
+        "meaning": "সুপারিশ করা"
+      }
+    ],
+    "Housing, Rooms, Household Areas & Accommodation": [
+      {
+        "word": "Bathroom",
+        "meaning": "বাথরুম / গোসলখানা"
+      },
+      {
+        "word": "Toilet",
+        "meaning": "শৌচাগার"
+      },
+      {
+        "word": "Washroom",
+        "meaning": "হাত-মুখ ধোয়ার ঘর"
+      },
+      {
+        "word": "Shower",
+        "meaning": "শাওয়ার / গোসলের ব্যবস্থা"
+      },
+      {
+        "word": "Bathtub",
+        "meaning": "গোসলের টব"
+      },
+      {
+        "word": "Sink",
+        "meaning": "বেসিন"
+      },
+      {
+        "word": "Washbasin",
+        "meaning": "হাত ধোয়ার বেসিন"
+      },
+      {
+        "word": "Mirror",
+        "meaning": "আয়না"
+      },
+      {
+        "word": "Towel rack",
+        "meaning": "তোয়ালে ঝোলানোর র‍্যাক"
+      },
+      {
+        "word": "Soap holder",
+        "meaning": "সাবান রাখার ধারক"
+      },
+      {
+        "word": "Balcony",
+        "meaning": "বারান্দা"
+      },
+      {
+        "word": "Veranda",
+        "meaning": "বারান্দা / ছাদযুক্ত খোলা পথ"
+      },
+      {
+        "word": "Verandah",
+        "meaning": "বারান্দা / ছাদযুক্ত খোলা পথ"
+      },
+      {
+        "word": "Terrace",
+        "meaning": "ছাদ / খোলা ছাদ"
+      },
+      {
+        "word": "Patio",
+        "meaning": "খোলা আঙিনা / বসার জায়গা"
+      },
+      {
+        "word": "Railing",
+        "meaning": "রেলিং"
+      },
+      {
+        "word": "Flowerpot",
+        "meaning": "ফুলের টব"
+      },
+      {
+        "word": "Sunshade",
+        "meaning": "রোদ আটকানোর ছাউনি"
+      },
+      {
+        "word": "Awning",
+        "meaning": "রোদ-বৃষ্টি আটকানোর ছাউনি"
+      },
+      {
+        "word": "Computer room",
+        "meaning": "কম্পিউটার কক্ষ"
+      },
+      {
+        "word": "Study room",
+        "meaning": "পড়ার ঘর"
+      },
+      {
+        "word": "Office",
+        "meaning": "অফিস / কাজের ঘর"
+      },
+      {
+        "word": "Desk",
+        "meaning": "ডেস্ক / লেখার টেবিল"
+      },
+      {
+        "word": "Chair",
+        "meaning": "চেয়ার"
+      },
+      {
+        "word": "Bookshelf",
+        "meaning": "বইয়ের তাক"
+      },
+      {
+        "word": "Printer",
+        "meaning": "প্রিন্টার"
+      },
+      {
+        "word": "Laptop",
+        "meaning": "ল্যাপটপ"
+      },
+      {
+        "word": "Internet connection",
+        "meaning": "ইন্টারনেট সংযোগ"
+      },
+      {
+        "word": "Garden",
+        "meaning": "বাগান"
+      },
+      {
+        "word": "Lawn",
+        "meaning": "ঘাসে ঢাকা খোলা জায়গা"
+      },
+      {
+        "word": "Flowerbed",
+        "meaning": "ফুলের বাগানের নির্দিষ্ট অংশ"
+      },
+      {
+        "word": "Tree",
+        "meaning": "গাছ"
+      },
+      {
+        "word": "Shrub",
+        "meaning": "গুল্ম / ছোট ঝোপজাতীয় গাছ"
+      },
+      {
+        "word": "Bush",
+        "meaning": "ঝোপ"
+      },
+      {
+        "word": "Fountain",
+        "meaning": "ফোয়ারা"
+      },
+      {
+        "word": "Pond",
+        "meaning": "পুকুর"
+      },
+      {
+        "word": "Swing",
+        "meaning": "দোলনা"
+      },
+      {
+        "word": "Sandpit",
+        "meaning": "বালু দিয়ে খেলার জায়গা"
+      },
+      {
+        "word": "Garage",
+        "meaning": "গ্যারেজ / গাড়ি রাখার ঘর"
+      },
+      {
+        "word": "Carport",
+        "meaning": "ছাউনিযুক্ত খোলা গাড়ি রাখার জায়গা"
+      },
+      {
+        "word": "Driveway",
+        "meaning": "গাড়ি চলাচল ও প্রবেশের পথ"
+      },
+      {
+        "word": "Workshop",
+        "meaning": "কর্মশালা"
+      },
+      {
+        "word": "Tool shed",
+        "meaning": "যন্ত্রপাতি রাখার ঘর"
+      },
+      {
+        "word": "Storage room",
+        "meaning": "জিনিসপত্র রাখার ঘর"
+      },
+      {
+        "word": "Parking space",
+        "meaning": "গাড়ি রাখার জায়গা"
+      },
+      {
+        "word": "Apartment",
+        "meaning": "অ্যাপার্টমেন্ট / ফ্ল্যাট"
+      },
+      {
+        "word": "Condo",
+        "meaning": "নিজস্ব মালিকানাধীন অ্যাপার্টমেন্ট"
+      },
+      {
+        "word": "Condominium",
+        "meaning": "নিজস্ব মালিকানাধীন অ্যাপার্টমেন্ট ভবন বা ইউনিট"
+      },
+      {
+        "word": "House",
+        "meaning": "বাড়ি"
+      },
+      {
+        "word": "Detached house",
+        "meaning": "চারপাশে আলাদা জায়গাসহ স্বতন্ত্র বাড়ি"
+      },
+      {
+        "word": "Semi-detached house",
+        "meaning": "একটি দেয়াল ভাগ করে নির্মিত বাড়ি"
+      },
+      {
+        "word": "Townhouse",
+        "meaning": "সারিবদ্ধ বাড়ির একটি ইউনিট"
+      },
+      {
+        "word": "Row house",
+        "meaning": "সারিবদ্ধ বাড়ি"
+      },
+      {
+        "word": "Studio apartment",
+        "meaning": "একক খোলা ঘরবিশিষ্ট অ্যাপার্টমেন্ট"
+      },
+      {
+        "word": "Loft",
+        "meaning": "উঁচু ছাদ বা খোলা বিন্যাসবিশিষ্ট আবাসিক স্থান"
+      },
+      {
+        "word": "Mobile home",
+        "meaning": "স্থানান্তরযোগ্য বাড়ি"
+      },
+      {
+        "word": "Dormitory",
+        "meaning": "ছাত্রাবাস / যৌথ আবাসন"
+      },
+      {
+        "word": "Dorm",
+        "meaning": "ছাত্রাবাসের সংক্ষিপ্ত নাম"
+      },
+      {
+        "word": "Bedroom",
+        "meaning": "শয়নকক্ষ"
+      },
+      {
+        "word": "Living room",
+        "meaning": "বসার ঘর"
+      },
+      {
+        "word": "Kitchen",
+        "meaning": "রান্নাঘর"
+      },
+      {
+        "word": "Dining room",
+        "meaning": "খাবার ঘর"
+      },
+      {
+        "word": "Closet",
+        "meaning": "ছোট আলমারি / কাপড় রাখার জায়গা"
+      },
+      {
+        "word": "Wardrobe",
+        "meaning": "কাপড় রাখার আলমারি"
+      },
+      {
+        "word": "Basement",
+        "meaning": "ভবনের নিচতলার কক্ষ"
+      },
+      {
+        "word": "Hostel",
+        "meaning": "হোস্টেল"
+      },
+      {
+        "word": "Shared apartment",
+        "meaning": "ভাগাভাগি করে বসবাসের অ্যাপার্টমেন্ট"
+      },
+      {
+        "word": "Roommate",
+        "meaning": "একই ঘর বা বাসায় থাকা ব্যক্তি"
+      },
+      {
+        "word": "Boarding house",
+        "meaning": "ভাড়া ও খাবারের ব্যবস্থাসহ আবাসন"
+      },
+      {
+        "word": "Swimming pool",
+        "meaning": "সাঁতারের পুল"
+      },
+      {
+        "word": "Gym",
+        "meaning": "ব্যায়ামাগার"
+      },
+      {
+        "word": "Fitness center",
+        "meaning": "শরীরচর্চা কেন্দ্র"
+      },
+      {
+        "word": "Laundry room",
+        "meaning": "কাপড় ধোয়ার ঘর"
+      },
+      {
+        "word": "Elevator",
+        "meaning": "লিফট"
+      },
+      {
+        "word": "Lift",
+        "meaning": "লিফট"
+      },
+      {
+        "word": "Parking lot",
+        "meaning": "গাড়ি রাখার নির্দিষ্ট স্থান"
+      },
+      {
+        "word": "Security system",
+        "meaning": "নিরাপত্তাব্যবস্থা"
+      },
+      {
+        "word": "Reception",
+        "meaning": "অভ্যর্থনা কক্ষ / অভ্যর্থনা ডেস্ক"
+      },
+      {
+        "word": "Rent",
+        "meaning": "ভাড়া"
+      },
+      {
+        "word": "Lease",
+        "meaning": "ভাড়ার চুক্তি"
+      },
+      {
+        "word": "Landlord",
+        "meaning": "বাড়িওয়ালা"
+      },
+      {
+        "word": "Tenant",
+        "meaning": "ভাড়াটিয়া"
+      },
+      {
+        "word": "Mortgage",
+        "meaning": "বন্ধকী ঋণ"
+      },
+      {
+        "word": "Deposit",
+        "meaning": "জামানত / অগ্রিম জমা"
+      },
+      {
+        "word": "Utility bills",
+        "meaning": "বিদ্যুৎ, গ্যাস ও পানির মতো পরিষেবার বিল"
+      }
+    ],
+    "Body Fat, Weight, Nutrition & Diet": [
+      {
+        "word": "Fat",
+        "meaning": "চর্বি"
+      },
+      {
+        "word": "Obesity",
+        "meaning": "স্থূলতা"
+      },
+      {
+        "word": "Overweight",
+        "meaning": "অতিরিক্ত ওজন"
+      },
+      {
+        "word": "Cholesterol",
+        "meaning": "কোলেস্টেরল"
+      },
+      {
+        "word": "Lipid",
+        "meaning": "লিপিড / চর্বিজাত উপাদান"
+      },
+      {
+        "word": "Calorie",
+        "meaning": "ক্যালোরি"
+      },
+      {
+        "word": "Nutrition",
+        "meaning": "পুষ্টি"
+      },
+      {
+        "word": "Metabolism",
+        "meaning": "বিপাক প্রক্রিয়া"
+      },
+      {
+        "word": "Fat",
+        "meaning": "মোটা"
+      },
+      {
+        "word": "Obese",
+        "meaning": "স্থূলকায়"
+      },
+      {
+        "word": "Plump",
+        "meaning": "ভরাট গড়নের"
+      },
+      {
+        "word": "Chubby",
+        "meaning": "গোলগাল"
+      },
+      {
+        "word": "Bulky",
+        "meaning": "ভারী / বড় আকারের"
+      },
+      {
+        "word": "Stout",
+        "meaning": "স্থূলকায় ও শক্তপোক্ত"
+      },
+      {
+        "word": "Butter",
+        "meaning": "মাখন"
+      },
+      {
+        "word": "Oil",
+        "meaning": "তেল"
+      },
+      {
+        "word": "Grease",
+        "meaning": "তৈলাক্ত চর্বি"
+      },
+      {
+        "word": "Lard",
+        "meaning": "পশুর চর্বি"
+      },
+      {
+        "word": "Saturated fat",
+        "meaning": "সম্পৃক্ত চর্বি"
+      },
+      {
+        "word": "Unsaturated fat",
+        "meaning": "অসম্পৃক্ত চর্বি"
+      }
+    ],
+    "Colonialism, Government & Settlements": [
+      {
+        "word": "Colony",
+        "meaning": "উপনিবেশ"
+      },
+      {
+        "word": "Colonial",
+        "meaning": "উপনিবেশিক"
+      },
+      {
+        "word": "Colonist",
+        "meaning": "উপনিবেশবাসী"
+      },
+      {
+        "word": "Colonization",
+        "meaning": "উপনিবেশ স্থাপন"
+      },
+      {
+        "word": "Imperialism",
+        "meaning": "সাম্রাজ্যবাদ"
+      },
+      {
+        "word": "Empire",
+        "meaning": "সাম্রাজ্য"
+      },
+      {
+        "word": "Annexation",
+        "meaning": "ভূখণ্ড দখল ও সংযুক্তকরণ"
+      },
+      {
+        "word": "Dominion",
+        "meaning": "অধীনস্থ অঞ্চল"
+      },
+      {
+        "word": "Protectorate",
+        "meaning": "রক্ষিত রাষ্ট্র"
+      },
+      {
+        "word": "Occupation",
+        "meaning": "দখল / সামরিক অধিকরণ"
+      },
+      {
+        "word": "Governor",
+        "meaning": "গভর্নর / শাসনকর্তা"
+      },
+      {
+        "word": "Administration",
+        "meaning": "প্রশাসন"
+      },
+      {
+        "word": "Authority",
+        "meaning": "কর্তৃপক্ষ / ক্ষমতা"
+      },
+      {
+        "word": "Territory",
+        "meaning": "ভূখণ্ড"
+      },
+      {
+        "word": "Jurisdiction",
+        "meaning": "আইনগত এখতিয়ার"
+      },
+      {
+        "word": "Settlement",
+        "meaning": "বসতি"
+      },
+      {
+        "word": "Migrant",
+        "meaning": "অভিবাসী"
+      },
+      {
+        "word": "Indigenous",
+        "meaning": "আদিবাসী / স্থানীয় জনগোষ্ঠীর"
+      },
+      {
+        "word": "Population",
+        "meaning": "জনসংখ্যা"
+      },
+      {
+        "word": "Civilization",
+        "meaning": "সভ্যতা"
+      },
+      {
+        "word": "Ant colony",
+        "meaning": "পিঁপড়ার কলোনি"
+      },
+      {
+        "word": "Bee colony",
+        "meaning": "মৌমাছির কলোনি"
+      },
+      {
+        "word": "Bacterial colony",
+        "meaning": "ব্যাকটেরিয়ার কলোনি"
+      },
+      {
+        "word": "Hive",
+        "meaning": "মৌচাক"
+      },
+      {
+        "word": "Nest",
+        "meaning": "বাসা / নীড়"
+      },
+      {
+        "word": "Space colony",
+        "meaning": "মহাকাশ বসতি"
+      },
+      {
+        "word": "Research station",
+        "meaning": "গবেষণা কেন্দ্র"
+      },
+      {
+        "word": "Base",
+        "meaning": "ঘাঁটি"
+      }
+    ],
+    "Animals, Birds, Fish & Small Creatures": [
+      {
+        "word": "Lion",
+        "meaning": "সিংহ"
+      },
+      {
+        "word": "Tiger",
+        "meaning": "বাঘ"
+      },
+      {
+        "word": "Elephant",
+        "meaning": "হাতি"
+      },
+      {
+        "word": "Monkey",
+        "meaning": "বানর"
+      },
+      {
+        "word": "Dog",
+        "meaning": "কুকুর"
+      },
+      {
+        "word": "Cat",
+        "meaning": "বিড়াল"
+      },
+      {
+        "word": "Rabbit",
+        "meaning": "খরগোশ"
+      },
+      {
+        "word": "Rat",
+        "meaning": "ইঁদুর"
+      },
+      {
+        "word": "Mouse",
+        "meaning": "ইঁদুর"
+      },
+      {
+        "word": "Bat",
+        "meaning": "বাদুড়"
+      },
+      {
+        "word": "Crow",
+        "meaning": "কাক"
+      },
+      {
+        "word": "Sparrow",
+        "meaning": "চড়ুই"
+      },
+      {
+        "word": "Pigeon",
+        "meaning": "কবুতর"
+      },
+      {
+        "word": "Eagle",
+        "meaning": "ঈগল"
+      },
+      {
+        "word": "Parrot",
+        "meaning": "তোতাপাখি"
+      },
+      {
+        "word": "Owl",
+        "meaning": "পেঁচা"
+      },
+      {
+        "word": "Peacock",
+        "meaning": "ময়ূর"
+      },
+      {
+        "word": "Shark",
+        "meaning": "হাঙর"
+      },
+      {
+        "word": "Goldfish",
+        "meaning": "স্বর্ণমাছ"
+      },
+      {
+        "word": "Salmon",
+        "meaning": "স্যামন মাছ"
+      },
+      {
+        "word": "Tuna",
+        "meaning": "টুনা মাছ"
+      },
+      {
+        "word": "Clownfish",
+        "meaning": "ক্লাউনফিশ"
+      },
+      {
+        "word": "Snake",
+        "meaning": "সাপ"
+      },
+      {
+        "word": "Lizard",
+        "meaning": "টিকটিকি"
+      },
+      {
+        "word": "Crocodile",
+        "meaning": "কুমির"
+      },
+      {
+        "word": "Turtle",
+        "meaning": "কচ্ছপ"
+      },
+      {
+        "word": "Chameleon",
+        "meaning": "গিরগিটি"
+      },
+      {
+        "word": "Frog",
+        "meaning": "ব্যাঙ"
+      },
+      {
+        "word": "Toad",
+        "meaning": "কুনোব্যাঙ"
+      },
+      {
+        "word": "Salamander",
+        "meaning": "সালামান্ডার"
+      },
+      {
+        "word": "Bee",
+        "meaning": "মৌমাছি"
+      },
+      {
+        "word": "Ant",
+        "meaning": "পিঁপড়া"
+      },
+      {
+        "word": "Butterfly",
+        "meaning": "প্রজাপতি"
+      },
+      {
+        "word": "Mosquito",
+        "meaning": "মশা"
+      },
+      {
+        "word": "Cockroach",
+        "meaning": "তেলাপোকা"
+      },
+      {
+        "word": "Grasshopper",
+        "meaning": "ঘাসফড়িং"
+      },
+      {
+        "word": "Dragonfly",
+        "meaning": "ফড়িং"
+      },
+      {
+        "word": "Ladybug",
+        "meaning": "লাল-কালো দাগযুক্ত গুবরে পোকা"
+      },
+      {
+        "word": "Crab",
+        "meaning": "কাঁকড়া"
+      },
+      {
+        "word": "Octopus",
+        "meaning": "অক্টোপাস"
+      },
+      {
+        "word": "Jellyfish",
+        "meaning": "জেলিফিশ"
+      },
+      {
+        "word": "Snail",
+        "meaning": "শামুক"
+      },
+      {
+        "word": "Worm",
+        "meaning": "কেঁচো / কীট"
+      }
+    ],
+    "Appreciation, Gratitude & Recognition": [
+      {
+        "word": "Appreciate",
+        "meaning": "কৃতজ্ঞ হওয়া / প্রশংসা করা"
+      },
+      {
+        "word": "Appreciation",
+        "meaning": "কৃতজ্ঞতা / প্রশংসা"
+      },
+      {
+        "word": "Value",
+        "meaning": "মূল্য দেওয়া / গুরুত্ব দেওয়া"
+      },
+      {
+        "word": "Acknowledge",
+        "meaning": "স্বীকার করা / স্বীকৃতি দেওয়া"
+      },
+      {
+        "word": "Recognize",
+        "meaning": "স্বীকৃতি দেওয়া / চিনতে পারা"
+      },
+      {
+        "word": "Recognise",
+        "meaning": "স্বীকৃতি দেওয়া / চিনতে পারা"
+      },
+      {
+        "word": "Admire",
+        "meaning": "মুগ্ধ হওয়া / প্রশংসা করা"
+      },
+      {
+        "word": "Respect",
+        "meaning": "শ্রদ্ধা করা / সম্মান করা"
+      },
+      {
+        "word": "Praise",
+        "meaning": "প্রশংসা করা"
+      },
+      {
+        "word": "Be grateful",
+        "meaning": "কৃতজ্ঞ হওয়া"
+      },
+      {
+        "word": "Ignore",
+        "meaning": "উপেক্ষা করা"
+      },
+      {
+        "word": "Disregard",
+        "meaning": "উপেক্ষা করা / অবহেলা করা"
+      },
+      {
+        "word": "Criticize",
+        "meaning": "সমালোচনা করা"
+      },
+      {
+        "word": "Devalue",
+        "meaning": "অবমূল্যায়ন করা"
+      }
+    ],
+    "Home Appliances, Household Items & Outdoor Environment": [
+      {
+        "word": "Refrigerator",
+        "meaning": "ফ্রিজ / খাদ্য ঠান্ডা রাখার যন্ত্র"
+      },
+      {
+        "word": "Fridge",
+        "meaning": "ফ্রিজ"
+      },
+      {
+        "word": "Microwave",
+        "meaning": "মাইক্রোওয়েভ ওভেন"
+      },
+      {
+        "word": "Oven",
+        "meaning": "ওভেন"
+      },
+      {
+        "word": "Stove",
+        "meaning": "চুলা"
+      },
+      {
+        "word": "Cooker",
+        "meaning": "কুকার"
+      },
+      {
+        "word": "Blender",
+        "meaning": "ব্লেন্ডার"
+      },
+      {
+        "word": "Toaster",
+        "meaning": "টোস্টার"
+      },
+      {
+        "word": "Dishwasher",
+        "meaning": "থালা-বাসন ধোয়ার যন্ত্র"
+      },
+      {
+        "word": "Coffee maker",
+        "meaning": "কফি তৈরির যন্ত্র"
+      },
+      {
+        "word": "Kettle",
+        "meaning": "কেটলি / পানি ফোটানোর যন্ত্র"
+      },
+      {
+        "word": "Curtains",
+        "meaning": "পর্দা"
+      },
+      {
+        "word": "Sofa",
+        "meaning": "সোফা"
+      },
+      {
+        "word": "Couch",
+        "meaning": "সোফা"
+      },
+      {
+        "word": "Carpet",
+        "meaning": "কার্পেট"
+      },
+      {
+        "word": "Rug",
+        "meaning": "ছোট কার্পেট / গালিচা"
+      },
+      {
+        "word": "Television",
+        "meaning": "টেলিভিশন"
+      },
+      {
+        "word": "TV",
+        "meaning": "টেলিভিশন"
+      },
+      {
+        "word": "Fan",
+        "meaning": "পাখা"
+      },
+      {
+        "word": "Air conditioner",
+        "meaning": "শীতাতপ নিয়ন্ত্রণ যন্ত্র"
+      },
+      {
+        "word": "AC",
+        "meaning": "শীতাতপ নিয়ন্ত্রণ যন্ত্র"
+      },
+      {
+        "word": "Heater",
+        "meaning": "ঘর গরম করার যন্ত্র"
+      },
+      {
+        "word": "Lamp",
+        "meaning": "বাতি"
+      },
+      {
+        "word": "Clock",
+        "meaning": "ঘড়ি"
+      },
+      {
+        "word": "Washing machine",
+        "meaning": "কাপড় ধোয়ার যন্ত্র"
+      },
+      {
+        "word": "Dryer",
+        "meaning": "কাপড় শুকানোর যন্ত্র"
+      },
+      {
+        "word": "Vacuum cleaner",
+        "meaning": "ধুলা পরিষ্কারের যন্ত্র"
+      },
+      {
+        "word": "Iron",
+        "meaning": "ইস্ত্রি"
+      },
+      {
+        "word": "Mop",
+        "meaning": "মেঝে মোছার যন্ত্র"
+      },
+      {
+        "word": "Broom",
+        "meaning": "ঝাড়ু"
+      },
+      {
+        "word": "Bed",
+        "meaning": "বিছানা"
+      },
+      {
+        "word": "Mattress",
+        "meaning": "গদি"
+      },
+      {
+        "word": "Pillow",
+        "meaning": "বালিশ"
+      },
+      {
+        "word": "Blanket",
+        "meaning": "কম্বল"
+      },
+      {
+        "word": "Wardrobe",
+        "meaning": "কাপড় রাখার আলমারি"
+      },
+      {
+        "word": "Closet",
+        "meaning": "জামাকাপড় রাখার আলমারি"
+      },
+      {
+        "word": "Nightstand",
+        "meaning": "বিছানার পাশের ছোট টেবিল"
+      },
+      {
+        "word": "Air purifier",
+        "meaning": "বাতাস বিশুদ্ধ করার যন্ত্র"
+      },
+      {
+        "word": "Swimming pool",
+        "meaning": "সাঁতার কাটার পুকুর / সুইমিং পুল"
+      },
+      {
+        "word": "Playground",
+        "meaning": "খেলার মাঠ"
+      },
+      {
+        "word": "Park",
+        "meaning": "পার্ক / উদ্যান"
+      },
+      {
+        "word": "Bench",
+        "meaning": "বসার বেঞ্চ"
+      },
+      {
+        "word": "Fountain",
+        "meaning": "ফোয়ারা"
+      },
+      {
+        "word": "Sports field",
+        "meaning": "খেলাধুলার মাঠ"
+      },
+      {
+        "word": "Skate park",
+        "meaning": "স্কেটিং করার স্থান"
+      },
+      {
+        "word": "Jogging track",
+        "meaning": "দৌড়ানোর পথ"
+      },
+      {
+        "word": "Streetlamp",
+        "meaning": "রাস্তার বাতি"
+      },
+      {
+        "word": "Lamp post",
+        "meaning": "রাস্তার বাতির খুঁটি"
+      },
+      {
+        "word": "Traffic light",
+        "meaning": "ট্রাফিক সংকেত বাতি"
+      },
+      {
+        "word": "Road",
+        "meaning": "সড়ক / রাস্তা"
+      },
+      {
+        "word": "Street",
+        "meaning": "রাস্তা"
+      },
+      {
+        "word": "Sidewalk",
+        "meaning": "ফুটপাত"
+      },
+      {
+        "word": "Pavement",
+        "meaning": "ফুটপাত"
+      },
+      {
+        "word": "Bus stop",
+        "meaning": "বাস থামার স্থান"
+      },
+      {
+        "word": "Crosswalk",
+        "meaning": "রাস্তা পারাপারের নির্দিষ্ট স্থান"
+      },
+      {
+        "word": "Zebra crossing",
+        "meaning": "পথচারী পারাপারের দাগযুক্ত স্থান"
+      },
+      {
+        "word": "Signboard",
+        "meaning": "সাইনবোর্ড"
+      },
+      {
+        "word": "Sign",
+        "meaning": "চিহ্ন / নির্দেশক"
+      },
+      {
+        "word": "Pole",
+        "meaning": "খুঁটি"
+      },
+      {
+        "word": "Tree",
+        "meaning": "গাছ"
+      },
+      {
+        "word": "Flowerbed",
+        "meaning": "ফুলের বাগান / ফুলের বেড"
+      },
+      {
+        "word": "Grass",
+        "meaning": "ঘাস"
+      },
+      {
+        "word": "Lawn",
+        "meaning": "ঘাসে ঢাকা উঠান / লন"
+      },
+      {
+        "word": "Pond",
+        "meaning": "পুকুর"
+      },
+      {
+        "word": "River",
+        "meaning": "নদী"
+      },
+      {
+        "word": "Stream",
+        "meaning": "ছোট স্রোতধারা / ঝরনা"
+      },
+      {
+        "word": "Mountain",
+        "meaning": "পাহাড়"
+      },
+      {
+        "word": "Beach",
+        "meaning": "সমুদ্রসৈকত"
+      },
+      {
+        "word": "Garden",
+        "meaning": "বাগান"
+      }
+    ],
+    "Countries, Nationalities, Capitals & Major Cities": [
+      {
+        "word": "United States",
+        "meaning": "যুক্তরাষ্ট্র"
+      },
+      {
+        "word": "USA",
+        "meaning": "যুক্তরাষ্ট্র"
+      },
+      {
+        "word": "Washington D.C.",
+        "meaning": "ওয়াশিংটন ডিসি"
+      },
+      {
+        "word": "United Kingdom",
+        "meaning": "যুক্তরাজ্য"
+      },
+      {
+        "word": "UK",
+        "meaning": "যুক্তরাজ্য"
+      },
+      {
+        "word": "London",
+        "meaning": "লন্ডন"
+      },
+      {
+        "word": "Canada",
+        "meaning": "কানাডা"
+      },
+      {
+        "word": "Ottawa",
+        "meaning": "অটোয়া"
+      },
+      {
+        "word": "Australia",
+        "meaning": "অস্ট্রেলিয়া"
+      },
+      {
+        "word": "Canberra",
+        "meaning": "ক্যানবেরা"
+      },
+      {
+        "word": "India",
+        "meaning": "ভারত"
+      },
+      {
+        "word": "New Delhi",
+        "meaning": "নয়াদিল্লি"
+      },
+      {
+        "word": "China",
+        "meaning": "চীন"
+      },
+      {
+        "word": "Beijing",
+        "meaning": "বেইজিং"
+      },
+      {
+        "word": "Japan",
+        "meaning": "জাপান"
+      },
+      {
+        "word": "Tokyo",
+        "meaning": "টোকিও"
+      },
+      {
+        "word": "Germany",
+        "meaning": "জার্মানি"
+      },
+      {
+        "word": "Berlin",
+        "meaning": "বার্লিন"
+      },
+      {
+        "word": "France",
+        "meaning": "ফ্রান্স"
+      },
+      {
+        "word": "Paris",
+        "meaning": "প্যারিস"
+      },
+      {
+        "word": "Italy",
+        "meaning": "ইতালি"
+      },
+      {
+        "word": "Rome",
+        "meaning": "রোম"
+      },
+      {
+        "word": "Spain",
+        "meaning": "স্পেন"
+      },
+      {
+        "word": "Madrid",
+        "meaning": "মাদ্রিদ"
+      },
+      {
+        "word": "Russia",
+        "meaning": "রাশিয়া"
+      },
+      {
+        "word": "Moscow",
+        "meaning": "মস্কো"
+      },
+      {
+        "word": "Brazil",
+        "meaning": "ব্রাজিল"
+      },
+      {
+        "word": "Brasília",
+        "meaning": "ব্রাসিলিয়া"
+      },
+      {
+        "word": "South Korea",
+        "meaning": "দক্ষিণ কোরিয়া"
+      },
+      {
+        "word": "Seoul",
+        "meaning": "সিউল"
+      },
+      {
+        "word": "North Korea",
+        "meaning": "উত্তর কোরিয়া"
+      },
+      {
+        "word": "Pyongyang",
+        "meaning": "পিয়ংইয়ং"
+      },
+      {
+        "word": "Mexico",
+        "meaning": "মেক্সিকো"
+      },
+      {
+        "word": "Mexico City",
+        "meaning": "মেক্সিকো সিটি"
+      },
+      {
+        "word": "Egypt",
+        "meaning": "মিশর"
+      },
+      {
+        "word": "Cairo",
+        "meaning": "কায়রো"
+      },
+      {
+        "word": "Thailand",
+        "meaning": "থাইল্যান্ড"
+      },
+      {
+        "word": "Bangkok",
+        "meaning": "ব্যাংকক"
+      },
+      {
+        "word": "Vietnam",
+        "meaning": "ভিয়েতনাম"
+      },
+      {
+        "word": "Hanoi",
+        "meaning": "হ্যানয়"
+      },
+      {
+        "word": "Saudi Arabia",
+        "meaning": "সৌদি আরব"
+      },
+      {
+        "word": "Riyadh",
+        "meaning": "রিয়াদ"
+      },
+      {
+        "word": "Bangladesh",
+        "meaning": "বাংলাদেশ"
+      },
+      {
+        "word": "Bangladeshi",
+        "meaning": "বাংলাদেশি"
+      },
+      {
+        "word": "Pakistan",
+        "meaning": "পাকিস্তান"
+      },
+      {
+        "word": "Pakistani",
+        "meaning": "পাকিস্তানি"
+      },
+      {
+        "word": "Indian",
+        "meaning": "ভারতীয়"
+      },
+      {
+        "word": "Chinese",
+        "meaning": "চীনা"
+      },
+      {
+        "word": "Japanese",
+        "meaning": "জাপানি"
+      },
+      {
+        "word": "Korean",
+        "meaning": "কোরীয়"
+      },
+      {
+        "word": "Thai",
+        "meaning": "থাই"
+      },
+      {
+        "word": "Vietnamese",
+        "meaning": "ভিয়েতনামি"
+      },
+      {
+        "word": "Malaysia",
+        "meaning": "মালয়েশিয়া"
+      },
+      {
+        "word": "Malaysian",
+        "meaning": "মালয়েশীয়"
+      },
+      {
+        "word": "Indonesia",
+        "meaning": "ইন্দোনেশিয়া"
+      },
+      {
+        "word": "Indonesian",
+        "meaning": "ইন্দোনেশীয়"
+      },
+      {
+        "word": "Australian",
+        "meaning": "অস্ট্রেলীয়"
+      },
+      {
+        "word": "New Zealander",
+        "meaning": "নিউজিল্যান্ডের নাগরিক"
+      },
+      {
+        "word": "New Zealand",
+        "meaning": "নিউজিল্যান্ড"
+      },
+      {
+        "word": "British",
+        "meaning": "ব্রিটিশ"
+      },
+      {
+        "word": "American",
+        "meaning": "আমেরিকান"
+      },
+      {
+        "word": "Canadian",
+        "meaning": "কানাডীয়"
+      },
+      {
+        "word": "French",
+        "meaning": "ফরাসি"
+      },
+      {
+        "word": "German",
+        "meaning": "জার্মান"
+      },
+      {
+        "word": "Italian",
+        "meaning": "ইতালীয়"
+      },
+      {
+        "word": "Spanish",
+        "meaning": "স্প্যানিশ"
+      },
+      {
+        "word": "Portugal",
+        "meaning": "পর্তুগাল"
+      },
+      {
+        "word": "Portuguese",
+        "meaning": "পর্তুগিজ"
+      },
+      {
+        "word": "Netherlands",
+        "meaning": "নেদারল্যান্ডস"
+      },
+      {
+        "word": "Dutch",
+        "meaning": "ডাচ"
+      },
+      {
+        "word": "Switzerland",
+        "meaning": "সুইজারল্যান্ড"
+      },
+      {
+        "word": "Swiss",
+        "meaning": "সুইস"
+      },
+      {
+        "word": "Sweden",
+        "meaning": "সুইডেন"
+      },
+      {
+        "word": "Swedish",
+        "meaning": "সুইডিশ"
+      },
+      {
+        "word": "Norway",
+        "meaning": "নরওয়ে"
+      },
+      {
+        "word": "Norwegian",
+        "meaning": "নরওয়েজীয়"
+      },
+      {
+        "word": "Denmark",
+        "meaning": "ডেনমার্ক"
+      },
+      {
+        "word": "Danish",
+        "meaning": "ডেনিশ"
+      },
+      {
+        "word": "Russian",
+        "meaning": "রুশ"
+      },
+      {
+        "word": "Brazilian",
+        "meaning": "ব্রাজিলীয়"
+      },
+      {
+        "word": "Mexican",
+        "meaning": "মেক্সিকান"
+      },
+      {
+        "word": "Argentina",
+        "meaning": "আর্জেন্টিনা"
+      },
+      {
+        "word": "Argentine",
+        "meaning": "আর্জেন্টিনীয়"
+      },
+      {
+        "word": "Egyptian",
+        "meaning": "মিশরীয়"
+      },
+      {
+        "word": "Sydney",
+        "meaning": "সিডনি"
+      },
+      {
+        "word": "Melbourne",
+        "meaning": "মেলবোর্ন"
+      },
+      {
+        "word": "Brisbane",
+        "meaning": "ব্রিসবেন"
+      },
+      {
+        "word": "Perth",
+        "meaning": "পার্থ"
+      },
+      {
+        "word": "Adelaide",
+        "meaning": "অ্যাডিলেড"
+      },
+      {
+        "word": "Gold Coast",
+        "meaning": "গোল্ড কোস্ট"
+      },
+      {
+        "word": "Edinburgh",
+        "meaning": "এডিনবরা"
+      },
+      {
+        "word": "Manchester",
+        "meaning": "ম্যানচেস্টার"
+      },
+      {
+        "word": "Birmingham",
+        "meaning": "বার্মিংহাম"
+      },
+      {
+        "word": "Glasgow",
+        "meaning": "গ্লাসগো"
+      },
+      {
+        "word": "Oxford",
+        "meaning": "অক্সফোর্ড"
+      },
+      {
+        "word": "Cambridge",
+        "meaning": "কেমব্রিজ"
+      },
+      {
+        "word": "Belfast",
+        "meaning": "বেলফাস্ট"
+      },
+      {
+        "word": "New York",
+        "meaning": "নিউ ইয়র্ক"
+      },
+      {
+        "word": "Los Angeles",
+        "meaning": "লস অ্যাঞ্জেলেস"
+      },
+      {
+        "word": "Chicago",
+        "meaning": "শিকাগো"
+      },
+      {
+        "word": "San Francisco",
+        "meaning": "সান ফ্রান্সিসকো"
+      },
+      {
+        "word": "Boston",
+        "meaning": "বোস্টন"
+      },
+      {
+        "word": "Miami",
+        "meaning": "মিয়ামি"
+      }
+    ],
+    "Meals, Eating Actions & Dining Places": [
+      {
+        "word": "Breakfast",
+        "meaning": "প্রাতঃরাশ"
+      },
+      {
+        "word": "Lunch",
+        "meaning": "মধ্যাহ্নভোজ"
+      },
+      {
+        "word": "Dinner",
+        "meaning": "রাতের খাবার"
+      },
+      {
+        "word": "Supper",
+        "meaning": "হালকা রাতের খাবার"
+      },
+      {
+        "word": "Brunch",
+        "meaning": "সকালের নাশতা ও দুপুরের খাবারের মাঝামাঝি খাবার"
+      },
+      {
+        "word": "Snack",
+        "meaning": "হালকা খাবার / নাশতা"
+      },
+      {
+        "word": "Meal",
+        "meaning": "খাবার / আহার"
+      },
+      {
+        "word": "Eat",
+        "meaning": "খাওয়া"
+      },
+      {
+        "word": "Dine",
+        "meaning": "আহার করা / ভোজন করা"
+      },
+      {
+        "word": "Feast",
+        "meaning": "ভোজ করা / উৎসব উপলক্ষে বিশেষ খাবার"
+      },
+      {
+        "word": "Serve",
+        "meaning": "পরিবেশন করা"
+      },
+      {
+        "word": "Prepare",
+        "meaning": "প্রস্তুত করা"
+      },
+      {
+        "word": "Cook",
+        "meaning": "রান্না করা"
+      },
+      {
+        "word": "Restaurant",
+        "meaning": "রেস্তোরাঁ"
+      },
+      {
+        "word": "Cafeteria",
+        "meaning": "ক্যান্টিন"
+      },
+      {
+        "word": "Banquet",
+        "meaning": "আনুষ্ঠানিক ভোজ / বড় ভোজের অনুষ্ঠান"
+      },
+      {
+        "word": "Buffet",
+        "meaning": "নিজে খাবার নিয়ে খাওয়ার ব্যবস্থা"
+      }
+    ],
+    "Love, Affection & Romantic Relationships": [
+      {
+        "word": "Sweetheart",
+        "meaning": "প্রিয়জন / প্রিয় মানুষ"
+      },
+      {
+        "word": "Darling",
+        "meaning": "প্রিয় / প্রিয়জন"
+      },
+      {
+        "word": "Beloved",
+        "meaning": "প্রিয় / ভালোবাসার মানুষ"
+      },
+      {
+        "word": "Honey",
+        "meaning": "সোনা / প্রিয়তম বা প্রিয়তমা"
+      },
+      {
+        "word": "Valentine",
+        "meaning": "ভালোবাসার মানুষ / ভ্যালেন্টাইনস ডে-তে প্রিয়জনকে বোঝাতে ব্যবহৃত শব্দ"
+      },
+      {
+        "word": "Lover",
+        "meaning": "প্রেমিক / প্রেমিকা"
+      },
+      {
+        "word": "Crush",
+        "meaning": "যার প্রতি রোমান্টিক আকর্ষণ রয়েছে"
+      },
+      {
+        "word": "Beau",
+        "meaning": "প্রেমিক / প্রিয় পুরুষ"
+      }
+    ],
+    "Actions & Verbs of Impact, Force and Damage": [
+      {
+        "word": "Smash",
+        "meaning": "আঘাত করে ভেঙে ফেলা / চূর্ণ করা"
+      },
+      {
+        "word": "Smashed",
+        "meaning": "আঘাত করে ভেঙে দিয়েছিল / চূর্ণ করা হয়েছে"
+      },
+      {
+        "word": "Slam",
+        "meaning": "সজোরে আছড়ে ফেলা / জোরে বন্ধ করা"
+      },
+      {
+        "word": "Slamming",
+        "meaning": "সজোরে আছড়ে ফেলা / জোরে বন্ধ করা"
+      },
+      {
+        "word": "Crash",
+        "meaning": "সজোরে ধাক্কা খাওয়া / সংঘর্ষে বিধ্বস্ত হওয়া"
+      },
+      {
+        "word": "Break",
+        "meaning": "ভাঙা"
+      },
+      {
+        "word": "Hit",
+        "meaning": "আঘাত করা / মারা"
+      },
+      {
+        "word": "Strike",
+        "meaning": "আঘাত করা"
+      },
+      {
+        "word": "Collide",
+        "meaning": "সংঘর্ষে লিপ্ত হওয়া"
+      },
+      {
+        "word": "Shatter",
+        "meaning": "টুকরো টুকরো করে ভেঙে ফেলা"
       }
     ]
   }
