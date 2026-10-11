@@ -38,6 +38,7 @@
     function loadSettingsForm() {
         document.getElementById('settingSyllableRounds').value = data.settings.syllableRounds;
         document.getElementById('settingMistakeLimit').value = data.settings.mistakeLimit;
+        document.getElementById('settingShowBanglaMeanings').checked = data.settings.showBanglaMeanings === true;
         document.getElementById('settingShowHistory').checked = data.settings.showHistoryOnHome !== false;
         document.getElementById('settingHistoryCount').value = data.settings.historyHomeCount || 5;
         document.getElementById('settingShowMistakes').checked = data.settings.showMistakesOnHome !== false;
@@ -49,7 +50,7 @@
         const limit = Math.max(1, Math.min(100, parseInt(document.getElementById('settingMistakeLimit').value, 10) || 10));
         const historyCount = Math.max(1, Math.min(200, parseInt(document.getElementById('settingHistoryCount').value, 10) || 5));
         const mistakeCount = Math.max(1, Math.min(200, parseInt(document.getElementById('settingMistakeCount').value, 10) || 15));
-        data.settings = {...data.settings, syllableRounds:rounds, mistakeLimit:limit, showHistoryOnHome:document.getElementById('settingShowHistory').checked, historyHomeCount:historyCount, showMistakesOnHome:document.getElementById('settingShowMistakes').checked, mistakesHomeCount:mistakeCount};
+        data.settings = {...data.settings, syllableRounds:rounds, mistakeLimit:limit, showBanglaMeanings:document.getElementById('settingShowBanglaMeanings').checked, showHistoryOnHome:document.getElementById('settingShowHistory').checked, historyHomeCount:historyCount, showMistakesOnHome:document.getElementById('settingShowMistakes').checked, mistakesHomeCount:mistakeCount};
         save();
         alert('Settings saved.');
     }

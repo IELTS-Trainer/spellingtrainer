@@ -107,7 +107,8 @@ function importUserData(event) {
                 showHistoryOnHome: settings.showHistoryOnHome !== false,
                 historyHomeCount: bounded(settings.historyHomeCount, 1, 200, 5),
                 showMistakesOnHome: settings.showMistakesOnHome !== false,
-                mistakesHomeCount: bounded(settings.mistakesHomeCount, 1, 200, 15)
+                mistakesHomeCount: bounded(settings.mistakesHomeCount, 1, 200, 15),
+                showBanglaMeanings: settings.showBanglaMeanings === true
             };
 
             save();
