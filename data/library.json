@@ -1,6 +1,6 @@
 {
-  "version": 4,
-  "updatedAt": "2026-10-10T23:58:56.945Z",
+  "version": 6,
+  "updatedAt": "2026-10-15T08:54:16.572Z",
   "categories": {
     "Days and Months": [
       {
@@ -8486,6 +8486,1932 @@
       {
         "word": "Shatter",
         "meaning": "টুকরো টুকরো করে ভেঙে ফেলা"
+      }
+    ],
+    "Human Body Parts — Head to Toe": [
+      {
+        "word": "Human body",
+        "meaning": "মানবদেহ"
+      },
+      {
+        "word": "Body",
+        "meaning": "শরীর"
+      },
+      {
+        "word": "Head",
+        "meaning": "মাথা"
+      },
+      {
+        "word": "Scalp",
+        "meaning": "মাথার ত্বক"
+      },
+      {
+        "word": "Skull",
+        "meaning": "করোটি"
+      },
+      {
+        "word": "Cranium",
+        "meaning": "মস্তিষ্ক ধারণকারী খুলির অংশ"
+      },
+      {
+        "word": "Forehead",
+        "meaning": "কপাল"
+      },
+      {
+        "word": "Temple",
+        "meaning": "কপালের দুই পাশের অংশ"
+      },
+      {
+        "word": "Hair",
+        "meaning": "চুল"
+      },
+      {
+        "word": "Hairline",
+        "meaning": "চুলের সামনের সীমানা"
+      },
+      {
+        "word": "Crown",
+        "meaning": "মাথার উপরের অংশ"
+      },
+      {
+        "word": "Back of the head",
+        "meaning": "মাথার পেছনের অংশ"
+      },
+      {
+        "word": "Face",
+        "meaning": "মুখমণ্ডল"
+      },
+      {
+        "word": "Facial skin",
+        "meaning": "মুখের ত্বক"
+      },
+      {
+        "word": "Eyebrow",
+        "meaning": "ভ্রু"
+      },
+      {
+        "word": "Eyebrows",
+        "meaning": "ভ্রুদ্বয়"
+      },
+      {
+        "word": "Glabella",
+        "meaning": "দুই ভ্রুর মাঝের অংশ"
+      },
+      {
+        "word": "Forehead wrinkle",
+        "meaning": "কপালের ভাঁজ"
+      },
+      {
+        "word": "Eye",
+        "meaning": "চোখ"
+      },
+      {
+        "word": "Eyes",
+        "meaning": "চোখদুটি"
+      },
+      {
+        "word": "Eyelid",
+        "meaning": "চোখের পাতা"
+      },
+      {
+        "word": "Upper eyelid",
+        "meaning": "ওপরের চোখের পাতা"
+      },
+      {
+        "word": "Lower eyelid",
+        "meaning": "নিচের চোখের পাতা"
+      },
+      {
+        "word": "Eyelash",
+        "meaning": "চোখের পাপড়ি"
+      },
+      {
+        "word": "Eyelashes",
+        "meaning": "চোখের পাপড়িগুলো"
+      },
+      {
+        "word": "Eyelid crease",
+        "meaning": "চোখের পাতার ভাঁজ"
+      },
+      {
+        "word": "Inner corner of the eye",
+        "meaning": "চোখের ভেতরের কোণ"
+      },
+      {
+        "word": "Outer corner of the eye",
+        "meaning": "চোখের বাইরের কোণ"
+      },
+      {
+        "word": "Iris",
+        "meaning": "চোখের রঙিন অংশ"
+      },
+      {
+        "word": "Pupil",
+        "meaning": "চোখের মণি"
+      },
+      {
+        "word": "Sclera",
+        "meaning": "চোখের সাদা অংশ"
+      },
+      {
+        "word": "Cornea",
+        "meaning": "কর্নিয়া"
+      },
+      {
+        "word": "Conjunctiva",
+        "meaning": "চোখের পাতার ভেতর ও চোখের সামনের আবরণী ঝিল্লি"
+      },
+      {
+        "word": "Retina",
+        "meaning": "অক্ষিপট"
+      },
+      {
+        "word": "Optic nerve",
+        "meaning": "দৃষ্টিস্নায়ু"
+      },
+      {
+        "word": "Lens",
+        "meaning": "চোখের লেন্স"
+      },
+      {
+        "word": "Tear duct",
+        "meaning": "অশ্রুনালি"
+      },
+      {
+        "word": "Tear gland",
+        "meaning": "অশ্রুগ্রন্থি"
+      },
+      {
+        "word": "Tear",
+        "meaning": "চোখের জল"
+      },
+      {
+        "word": "Eye socket",
+        "meaning": "চোখের কোটর"
+      },
+      {
+        "word": "Under-eye area",
+        "meaning": "চোখের নিচের অংশ"
+      },
+      {
+        "word": "Dark circles",
+        "meaning": "চোখের নিচের কালচে দাগ"
+      },
+      {
+        "word": "Nose",
+        "meaning": "নাক"
+      },
+      {
+        "word": "Bridge of the nose",
+        "meaning": "নাকের ওপরের হাড়যুক্ত অংশ"
+      },
+      {
+        "word": "Nasal root",
+        "meaning": "নাকের গোড়া"
+      },
+      {
+        "word": "Nostril",
+        "meaning": "নাসারন্ধ্র"
+      },
+      {
+        "word": "Nostrils",
+        "meaning": "নাসারন্ধ্রদ্বয়"
+      },
+      {
+        "word": "Nasal septum",
+        "meaning": "নাকের মাঝের বিভাজক পর্দা"
+      },
+      {
+        "word": "Nasal cavity",
+        "meaning": "নাসাগহ্বর"
+      },
+      {
+        "word": "Nasal passage",
+        "meaning": "নাসাপথ"
+      },
+      {
+        "word": "Nasal tip",
+        "meaning": "নাকের ডগা"
+      },
+      {
+        "word": "Nasal ala",
+        "meaning": "নাকের পাশের নরম অংশ"
+      },
+      {
+        "word": "Nasal cartilage",
+        "meaning": "নাকের তরুণাস্থি"
+      },
+      {
+        "word": "Sinus",
+        "meaning": "সাইনাস"
+      },
+      {
+        "word": "Cheek",
+        "meaning": "গাল"
+      },
+      {
+        "word": "Cheekbone",
+        "meaning": "গালের হাড়"
+      },
+      {
+        "word": "Cheeks",
+        "meaning": "গালদুটি"
+      },
+      {
+        "word": "Dimple",
+        "meaning": "টোল"
+      },
+      {
+        "word": "Freckle",
+        "meaning": "মুখের ছোট বাদামি দাগ"
+      },
+      {
+        "word": "Mole",
+        "meaning": "তিল"
+      },
+      {
+        "word": "Birthmark",
+        "meaning": "জন্মদাগ"
+      },
+      {
+        "word": "Pore",
+        "meaning": "ত্বকের রন্ধ্র"
+      },
+      {
+        "word": "Skin",
+        "meaning": "ত্বক"
+      },
+      {
+        "word": "Complexion",
+        "meaning": "গায়ের রং ও ত্বকের সামগ্রিক চেহারা"
+      },
+      {
+        "word": "Ear",
+        "meaning": "কান"
+      },
+      {
+        "word": "Earlobe",
+        "meaning": "কানের লতি"
+      },
+      {
+        "word": "Outer ear",
+        "meaning": "বাইরের কান"
+      },
+      {
+        "word": "Ear canal",
+        "meaning": "কানের নালি"
+      },
+      {
+        "word": "Earwax",
+        "meaning": "কানের ময়লা"
+      },
+      {
+        "word": "Eardrum",
+        "meaning": "কর্ণপটহ"
+      },
+      {
+        "word": "Middle ear",
+        "meaning": "মধ্যকর্ণ"
+      },
+      {
+        "word": "Inner ear",
+        "meaning": "অন্তঃকর্ণ"
+      },
+      {
+        "word": "Helix",
+        "meaning": "কানের বাইরের বাঁকানো প্রান্ত"
+      },
+      {
+        "word": "Antihelix",
+        "meaning": "কানের ভেতরের বাঁকানো প্রান্ত"
+      },
+      {
+        "word": "Tragus",
+        "meaning": "কানের ছিদ্রের সামনের ছোট উঁচু অংশ"
+      },
+      {
+        "word": "Antitragus",
+        "meaning": "কানের লতির ওপরের ছোট উঁচু অংশ"
+      },
+      {
+        "word": "Concha",
+        "meaning": "কানের বাইরের অংশের গর্ত"
+      },
+      {
+        "word": "Mastoid",
+        "meaning": "কানের পেছনের খুলির উঁচু হাড়ের অংশ"
+      },
+      {
+        "word": "Hearing nerve",
+        "meaning": "শ্রবণস্নায়ু"
+      },
+      {
+        "word": "Mouth",
+        "meaning": "মুখ"
+      },
+      {
+        "word": "Oral cavity",
+        "meaning": "মুখগহ্বর"
+      },
+      {
+        "word": "Lips",
+        "meaning": "ঠোঁট"
+      },
+      {
+        "word": "Upper lip",
+        "meaning": "ওপরের ঠোঁট"
+      },
+      {
+        "word": "Lower lip",
+        "meaning": "নিচের ঠোঁট"
+      },
+      {
+        "word": "Cupid's bow",
+        "meaning": "ওপরের ঠোঁটের মাঝের ধনুকাকৃতির বাঁক"
+      },
+      {
+        "word": "Philtrum",
+        "meaning": "নাক ও ওপরের ঠোঁটের মাঝের খাঁজ"
+      },
+      {
+        "word": "Mouth corner",
+        "meaning": "ঠোঁটের কোণ"
+      },
+      {
+        "word": "Gums",
+        "meaning": "মাড়ি"
+      },
+      {
+        "word": "Teeth",
+        "meaning": "দাঁত"
+      },
+      {
+        "word": "Tooth",
+        "meaning": "দাঁত"
+      },
+      {
+        "word": "Incisors",
+        "meaning": "কর্তনকারী সামনের দাঁত"
+      },
+      {
+        "word": "Canines",
+        "meaning": "শ্বদন্ত"
+      },
+      {
+        "word": "Premolars",
+        "meaning": "অগ্রপেষক দাঁত"
+      },
+      {
+        "word": "Molars",
+        "meaning": "পেষক দাঁত"
+      },
+      {
+        "word": "Wisdom teeth",
+        "meaning": "আক্কেল দাঁত"
+      },
+      {
+        "word": "Enamel",
+        "meaning": "দাঁতের এনামেল"
+      },
+      {
+        "word": "Dentin",
+        "meaning": "দাঁতের ডেন্টিন স্তর"
+      },
+      {
+        "word": "Dental pulp",
+        "meaning": "দাঁতের ভেতরের নরম অংশ"
+      },
+      {
+        "word": "Root of the tooth",
+        "meaning": "দাঁতের শিকড়"
+      },
+      {
+        "word": "Crown of the tooth",
+        "meaning": "দাঁতের মুকুট"
+      },
+      {
+        "word": "Tongue",
+        "meaning": "জিহ্বা"
+      },
+      {
+        "word": "Tip of the tongue",
+        "meaning": "জিহ্বার ডগা"
+      },
+      {
+        "word": "Tongue dorsum",
+        "meaning": "জিহ্বার ওপরের পৃষ্ঠ"
+      },
+      {
+        "word": "Taste buds",
+        "meaning": "স্বাদকোরক"
+      },
+      {
+        "word": "Frenulum of the tongue",
+        "meaning": "জিহ্বার নিচের সংযোগকারী পাতলা ঝিল্লি"
+      },
+      {
+        "word": "Palate",
+        "meaning": "তালু"
+      },
+      {
+        "word": "Hard palate",
+        "meaning": "শক্ত তালু"
+      },
+      {
+        "word": "Soft palate",
+        "meaning": "নরম তালু"
+      },
+      {
+        "word": "Uvula",
+        "meaning": "আলজিহ্বা"
+      },
+      {
+        "word": "Tonsils",
+        "meaning": "টনসিল"
+      },
+      {
+        "word": "Salivary glands",
+        "meaning": "লালাগ্রন্থি"
+      },
+      {
+        "word": "Saliva",
+        "meaning": "লালা"
+      },
+      {
+        "word": "Jaw",
+        "meaning": "চোয়াল"
+      },
+      {
+        "word": "Upper jaw",
+        "meaning": "ওপরের চোয়াল"
+      },
+      {
+        "word": "Lower jaw",
+        "meaning": "নিচের চোয়াল"
+      },
+      {
+        "word": "Mandible",
+        "meaning": "নিম্ন চোয়ালের হাড়"
+      },
+      {
+        "word": "Maxilla",
+        "meaning": "ঊর্ধ্ব চোয়ালের হাড়"
+      },
+      {
+        "word": "Chin",
+        "meaning": "থুতনি"
+      },
+      {
+        "word": "Jawline",
+        "meaning": "চোয়ালের রেখা"
+      },
+      {
+        "word": "Temporomandibular joint",
+        "meaning": "চোয়ালের সন্ধি"
+      },
+      {
+        "word": "Facial muscles",
+        "meaning": "মুখের পেশি"
+      },
+      {
+        "word": "Masseter",
+        "meaning": "চোয়ালের শক্তিশালী পেশি"
+      },
+      {
+        "word": "Buccinator",
+        "meaning": "গালের পেশি"
+      },
+      {
+        "word": "Nasolabial fold",
+        "meaning": "নাক থেকে মুখের কোণ পর্যন্ত ভাঁজ"
+      },
+      {
+        "word": "Marionette line",
+        "meaning": "মুখের কোণ থেকে থুতনির দিকে নামা ভাঁজ"
+      },
+      {
+        "word": "Expression lines",
+        "meaning": "মুখভঙ্গিজনিত রেখা"
+      },
+      {
+        "word": "Beard",
+        "meaning": "দাড়ি"
+      },
+      {
+        "word": "Mustache",
+        "meaning": "গোঁফ"
+      },
+      {
+        "word": "Sideburns",
+        "meaning": "কানের সামনের দিকের চুল"
+      },
+      {
+        "word": "Stubble",
+        "meaning": "সদ্য গজানো ছোট দাড়ি"
+      },
+      {
+        "word": "Mouth opening",
+        "meaning": "মুখের খোলা অংশ"
+      },
+      {
+        "word": "Throat",
+        "meaning": "গলা"
+      },
+      {
+        "word": "Pharynx",
+        "meaning": "গলবিল"
+      },
+      {
+        "word": "Larynx",
+        "meaning": "স্বরযন্ত্র"
+      },
+      {
+        "word": "Adam's apple",
+        "meaning": "গলার সামনের উঁচু অংশ"
+      },
+      {
+        "word": "Epiglottis",
+        "meaning": "শ্বাসনালির মুখের ঢাকনাসদৃশ তরুণাস্থি"
+      },
+      {
+        "word": "Vocal cords",
+        "meaning": "স্বরতন্ত্রী"
+      },
+      {
+        "word": "Voice box",
+        "meaning": "স্বরযন্ত্র"
+      },
+      {
+        "word": "Neck",
+        "meaning": "ঘাড়"
+      },
+      {
+        "word": "Nape",
+        "meaning": "ঘাড়ের পেছনের অংশ"
+      },
+      {
+        "word": "Front of the neck",
+        "meaning": "ঘাড়ের সামনের অংশ"
+      },
+      {
+        "word": "Back of the neck",
+        "meaning": "ঘাড়ের পেছনের অংশ"
+      },
+      {
+        "word": "Side of the neck",
+        "meaning": "ঘাড়ের পাশ"
+      },
+      {
+        "word": "Neck muscles",
+        "meaning": "ঘাড়ের পেশি"
+      },
+      {
+        "word": "Sternocleidomastoid",
+        "meaning": "ঘাড়ের বড় পেশি"
+      },
+      {
+        "word": "Trapezius",
+        "meaning": "ঘাড় ও ওপরের পিঠের পেশি"
+      },
+      {
+        "word": "Hyoid bone",
+        "meaning": "জিহ্বার গোড়ার কাছে থাকা হাড়"
+      },
+      {
+        "word": "Cervical vertebrae",
+        "meaning": "ঘাড়ের কশেরুকা"
+      },
+      {
+        "word": "Thyroid gland",
+        "meaning": "থাইরয়েড গ্রন্থি"
+      },
+      {
+        "word": "Parathyroid glands",
+        "meaning": "প্যারাথাইরয়েড গ্রন্থি"
+      },
+      {
+        "word": "Carotid artery",
+        "meaning": "ক্যারোটিড ধমনি"
+      },
+      {
+        "word": "Jugular vein",
+        "meaning": "জুগুলার শিরা"
+      },
+      {
+        "word": "Windpipe",
+        "meaning": "শ্বাসনালি"
+      },
+      {
+        "word": "Oesophagus",
+        "meaning": "খাদ্যনালি"
+      },
+      {
+        "word": "Esophagus",
+        "meaning": "খাদ্যনালি"
+      },
+      {
+        "word": "Shoulder",
+        "meaning": "কাঁধ"
+      },
+      {
+        "word": "Shoulders",
+        "meaning": "কাঁধদুটি"
+      },
+      {
+        "word": "Shoulder blade",
+        "meaning": "কাঁধের পেছনের চ্যাপ্টা হাড়"
+      },
+      {
+        "word": "Scapula",
+        "meaning": "অংসফলক"
+      },
+      {
+        "word": "Collarbone",
+        "meaning": "কলারবোন / কণ্ঠাস্থি"
+      },
+      {
+        "word": "Clavicle",
+        "meaning": "কণ্ঠাস্থি"
+      },
+      {
+        "word": "Acromion",
+        "meaning": "কাঁধের ওপরের হাড়ের উঁচু অংশ"
+      },
+      {
+        "word": "Rotator cuff",
+        "meaning": "কাঁধের সন্ধি স্থিতিশীল রাখা পেশি ও টেন্ডনের সমষ্টি"
+      },
+      {
+        "word": "Deltoid",
+        "meaning": "কাঁধের পেশি"
+      },
+      {
+        "word": "Armpit",
+        "meaning": "বগল"
+      },
+      {
+        "word": "Axilla",
+        "meaning": "বগল বা অক্ষীয় অঞ্চল"
+      },
+      {
+        "word": "Armpit hair",
+        "meaning": "বগলের লোম"
+      },
+      {
+        "word": "Upper arm",
+        "meaning": "বাহুর ওপরের অংশ"
+      },
+      {
+        "word": "Arm",
+        "meaning": "বাহু"
+      },
+      {
+        "word": "Biceps",
+        "meaning": "বাহুর সামনের পেশি"
+      },
+      {
+        "word": "Triceps",
+        "meaning": "বাহুর পেছনের পেশি"
+      },
+      {
+        "word": "Humerus",
+        "meaning": "বাহুর ওপরের হাড়"
+      },
+      {
+        "word": "Elbow",
+        "meaning": "কনুই"
+      },
+      {
+        "word": "Elbow joint",
+        "meaning": "কনুইয়ের সন্ধি"
+      },
+      {
+        "word": "Olecranon",
+        "meaning": "কনুইয়ের পেছনের উঁচু হাড়ের অংশ"
+      },
+      {
+        "word": "Forearm",
+        "meaning": "কনুই থেকে কবজি পর্যন্ত বাহুর অংশ"
+      },
+      {
+        "word": "Radius",
+        "meaning": "অগ্রবাহুর বুড়ো আঙুলের পাশের হাড়"
+      },
+      {
+        "word": "Ulna",
+        "meaning": "অগ্রবাহুর কনিষ্ঠ আঙুলের পাশের হাড়"
+      },
+      {
+        "word": "Forearm muscles",
+        "meaning": "অগ্রবাহুর পেশি"
+      },
+      {
+        "word": "Wrist",
+        "meaning": "কবজি"
+      },
+      {
+        "word": "Wrist joint",
+        "meaning": "কবজির সন্ধি"
+      },
+      {
+        "word": "Carpal bones",
+        "meaning": "কবজির ছোট হাড়গুলো"
+      },
+      {
+        "word": "Hand",
+        "meaning": "হাত"
+      },
+      {
+        "word": "Palm",
+        "meaning": "হাতের তালু"
+      },
+      {
+        "word": "Back of the hand",
+        "meaning": "হাতের পিঠ"
+      },
+      {
+        "word": "Knuckles",
+        "meaning": "আঙুলের গাঁট"
+      },
+      {
+        "word": "Metacarpals",
+        "meaning": "হাতের তালুর হাড়গুলো"
+      },
+      {
+        "word": "Finger",
+        "meaning": "হাতের আঙুল"
+      },
+      {
+        "word": "Fingers",
+        "meaning": "হাতের আঙুলগুলো"
+      },
+      {
+        "word": "Thumb",
+        "meaning": "বুড়ো আঙুল"
+      },
+      {
+        "word": "Index finger",
+        "meaning": "তর্জনী"
+      },
+      {
+        "word": "Middle finger",
+        "meaning": "মধ্যমা"
+      },
+      {
+        "word": "Ring finger",
+        "meaning": "অনামিকা"
+      },
+      {
+        "word": "Little finger",
+        "meaning": "কনিষ্ঠা"
+      },
+      {
+        "word": "Fingertip",
+        "meaning": "আঙুলের ডগা"
+      },
+      {
+        "word": "Fingerprint",
+        "meaning": "আঙুলের ছাপ"
+      },
+      {
+        "word": "Finger pad",
+        "meaning": "আঙুলের ডগার নরম অংশ"
+      },
+      {
+        "word": "Finger joint",
+        "meaning": "আঙুলের সন্ধি"
+      },
+      {
+        "word": "Proximal phalanx",
+        "meaning": "আঙুলের গোড়ার দিকের হাড়"
+      },
+      {
+        "word": "Middle phalanx",
+        "meaning": "আঙুলের মাঝের হাড়"
+      },
+      {
+        "word": "Distal phalanx",
+        "meaning": "আঙুলের ডগার হাড়"
+      },
+      {
+        "word": "Nail",
+        "meaning": "নখ"
+      },
+      {
+        "word": "Fingernail",
+        "meaning": "হাতের নখ"
+      },
+      {
+        "word": "Nail plate",
+        "meaning": "নখের শক্ত দৃশ্যমান অংশ"
+      },
+      {
+        "word": "Nail bed",
+        "meaning": "নখের নিচের ত্বক"
+      },
+      {
+        "word": "Cuticle",
+        "meaning": "নখের গোড়ার পাতলা ত্বক"
+      },
+      {
+        "word": "Lunula",
+        "meaning": "নখের গোড়ার সাদা অর্ধচন্দ্রাকার অংশ"
+      },
+      {
+        "word": "Nail fold",
+        "meaning": "নখের চারপাশের ত্বকের ভাঁজ"
+      },
+      {
+        "word": "Hand crease",
+        "meaning": "হাতের তালুর রেখা"
+      },
+      {
+        "word": "Palm lines",
+        "meaning": "হাতের তালুর রেখাগুলো"
+      },
+      {
+        "word": "Thenar eminence",
+        "meaning": "বুড়ো আঙুলের গোড়ার মাংসল অংশ"
+      },
+      {
+        "word": "Hypothenar eminence",
+        "meaning": "কনিষ্ঠ আঙুলের গোড়ার মাংসল অংশ"
+      },
+      {
+        "word": "Webbing between fingers",
+        "meaning": "আঙুলের মাঝের সংযুক্ত ত্বক"
+      },
+      {
+        "word": "Chest",
+        "meaning": "বুক"
+      },
+      {
+        "word": "Thorax",
+        "meaning": "বক্ষদেশ"
+      },
+      {
+        "word": "Breast",
+        "meaning": "স্তন"
+      },
+      {
+        "word": "Breasts",
+        "meaning": "স্তনদ্বয়"
+      },
+      {
+        "word": "Nipple",
+        "meaning": "স্তনবৃন্ত"
+      },
+      {
+        "word": "Areola",
+        "meaning": "স্তনবৃন্তের চারপাশের গাঢ় বর্ণের অংশ"
+      },
+      {
+        "word": "Breast tissue",
+        "meaning": "স্তনের টিস্যু"
+      },
+      {
+        "word": "Mammary gland",
+        "meaning": "স্তনগ্রন্থি"
+      },
+      {
+        "word": "Rib cage",
+        "meaning": "পাঁজরের খাঁচা"
+      },
+      {
+        "word": "Ribs",
+        "meaning": "পাঁজরের হাড়গুলো"
+      },
+      {
+        "word": "Sternum",
+        "meaning": "বুকের মাঝের হাড়"
+      },
+      {
+        "word": "Breastbone",
+        "meaning": "বুকের মাঝের হাড়"
+      },
+      {
+        "word": "Intercostal muscles",
+        "meaning": "পাঁজরের মধ্যবর্তী পেশি"
+      },
+      {
+        "word": "Pectoral muscles",
+        "meaning": "বুকের পেশি"
+      },
+      {
+        "word": "Pectoralis major",
+        "meaning": "বুকের বড় পেশি"
+      },
+      {
+        "word": "Pectoralis minor",
+        "meaning": "বুকের ছোট পেশি"
+      },
+      {
+        "word": "Cleavage",
+        "meaning": "স্তনদ্বয়ের মধ্যবর্তী খাঁজ"
+      },
+      {
+        "word": "Décolletage",
+        "meaning": "গলা ও বুকের ওপরের খোলা অংশ"
+      },
+      {
+        "word": "Midriff",
+        "meaning": "বুক ও কোমরের মাঝের অংশ"
+      },
+      {
+        "word": "Abdomen",
+        "meaning": "উদর / পেট"
+      },
+      {
+        "word": "Belly",
+        "meaning": "পেট"
+      },
+      {
+        "word": "Belly button",
+        "meaning": "নাভি"
+      },
+      {
+        "word": "Navel",
+        "meaning": "নাভি"
+      },
+      {
+        "word": "Abdominal wall",
+        "meaning": "পেটের পেশি ও টিস্যুর প্রাচীর"
+      },
+      {
+        "word": "Abdominal muscles",
+        "meaning": "পেটের পেশি"
+      },
+      {
+        "word": "Rectus abdominis",
+        "meaning": "পেটের সামনের লম্বা পেশি"
+      },
+      {
+        "word": "Obliques",
+        "meaning": "পেটের পাশের পেশি"
+      },
+      {
+        "word": "Transverse abdominis",
+        "meaning": "পেটের গভীর আড়াআড়ি পেশি"
+      },
+      {
+        "word": "Six-pack",
+        "meaning": "দৃশ্যমান খণ্ডিত পেটের পেশি"
+      },
+      {
+        "word": "Waist",
+        "meaning": "কোমর"
+      },
+      {
+        "word": "Flank",
+        "meaning": "কোমরের পাশের অংশ"
+      },
+      {
+        "word": "Love handles",
+        "meaning": "কোমরের দুই পাশের অতিরিক্ত চর্বি"
+      },
+      {
+        "word": "Hip",
+        "meaning": "নিতম্বের পাশের সন্ধি অঞ্চল"
+      },
+      {
+        "word": "Hips",
+        "meaning": "দুই পাশের নিতম্ব অঞ্চল"
+      },
+      {
+        "word": "Pelvis",
+        "meaning": "শ্রোণি"
+      },
+      {
+        "word": "Pelvic bone",
+        "meaning": "শ্রোণির হাড়"
+      },
+      {
+        "word": "Ilium",
+        "meaning": "শ্রোণির ওপরের বড় হাড়ের অংশ"
+      },
+      {
+        "word": "Iliac crest",
+        "meaning": "শ্রোণির হাড়ের ওপরের কিনারা"
+      },
+      {
+        "word": "Pubic bone",
+        "meaning": "জঙ্ঘাস্থি / শ্রোণির সামনের হাড়"
+      },
+      {
+        "word": "Ischium",
+        "meaning": "শ্রোণির নিচের পশ্চাৎ অংশের হাড়"
+      },
+      {
+        "word": "Sacrum",
+        "meaning": "মেরুদণ্ডের গোড়ার ত্রিকোণাকার হাড়"
+      },
+      {
+        "word": "Coccyx",
+        "meaning": "লেজের হাড়"
+      },
+      {
+        "word": "Groin",
+        "meaning": "কুঁচকি"
+      },
+      {
+        "word": "Inguinal region",
+        "meaning": "কুঁচকির অঞ্চল"
+      },
+      {
+        "word": "Inguinal ligament",
+        "meaning": "কুঁচকির লিগামেন্ট"
+      },
+      {
+        "word": "Perineum",
+        "meaning": "যৌনাঙ্গ ও পায়ুপথের মধ্যবর্তী অঞ্চল"
+      },
+      {
+        "word": "Buttocks",
+        "meaning": "নিতম্ব"
+      },
+      {
+        "word": "Buttock",
+        "meaning": "নিতম্বের এক পাশ"
+      },
+      {
+        "word": "Gluteal muscles",
+        "meaning": "নিতম্বের পেশি"
+      },
+      {
+        "word": "Gluteus maximus",
+        "meaning": "নিতম্বের বড় পেশি"
+      },
+      {
+        "word": "Gluteus medius",
+        "meaning": "নিতম্বের মাঝারি পেশি"
+      },
+      {
+        "word": "Gluteus minimus",
+        "meaning": "নিতম্বের ছোট পেশি"
+      },
+      {
+        "word": "Back",
+        "meaning": "পিঠ"
+      },
+      {
+        "word": "Upper back",
+        "meaning": "পিঠের ওপরের অংশ"
+      },
+      {
+        "word": "Middle back",
+        "meaning": "পিঠের মাঝের অংশ"
+      },
+      {
+        "word": "Lower back",
+        "meaning": "পিঠের নিচের অংশ"
+      },
+      {
+        "word": "Spine",
+        "meaning": "মেরুদণ্ড"
+      },
+      {
+        "word": "Vertebral column",
+        "meaning": "কশেরুকাস্তম্ভ"
+      },
+      {
+        "word": "Vertebra",
+        "meaning": "মেরুদণ্ডের একটি কশেরুকা"
+      },
+      {
+        "word": "Vertebrae",
+        "meaning": "মেরুদণ্ডের কশেরুকাগুলো"
+      },
+      {
+        "word": "Intervertebral disc",
+        "meaning": "কশেরুকার মধ্যবর্তী চাকতি"
+      },
+      {
+        "word": "Spinal cord",
+        "meaning": "সুষুম্নাকাণ্ড"
+      },
+      {
+        "word": "Spinal canal",
+        "meaning": "মেরুদণ্ডের নালি"
+      },
+      {
+        "word": "Cervical spine",
+        "meaning": "ঘাড়ের মেরুদণ্ড"
+      },
+      {
+        "word": "Thoracic spine",
+        "meaning": "বুকের অংশের মেরুদণ্ড"
+      },
+      {
+        "word": "Lumbar spine",
+        "meaning": "কোমরের মেরুদণ্ড"
+      },
+      {
+        "word": "Facet joint",
+        "meaning": "কশেরুকার ছোট সন্ধি"
+      },
+      {
+        "word": "Spinal ligament",
+        "meaning": "মেরুদণ্ডের লিগামেন্ট"
+      },
+      {
+        "word": "Erector spinae",
+        "meaning": "মেরুদণ্ড সোজা রাখার পেশি"
+      },
+      {
+        "word": "Latissimus dorsi",
+        "meaning": "পিঠের প্রশস্ত পেশি"
+      },
+      {
+        "word": "Rhomboids",
+        "meaning": "কাঁধের পাতার মাঝের পেশি"
+      },
+      {
+        "word": "Lower back muscles",
+        "meaning": "কোমরের পেছনের পেশি"
+      },
+      {
+        "word": "Back dimples",
+        "meaning": "পিঠের নিচের দিকে কোমরের কাছে ছোট গর্ত"
+      },
+      {
+        "word": "Flank muscles",
+        "meaning": "কোমরের পাশের পেশি"
+      },
+      {
+        "word": "Arms",
+        "meaning": "বাহুদ্বয়"
+      },
+      {
+        "word": "Limbs",
+        "meaning": "অঙ্গপ্রত্যঙ্গ"
+      },
+      {
+        "word": "Upper limbs",
+        "meaning": "ওপরের অঙ্গপ্রত্যঙ্গ"
+      },
+      {
+        "word": "Lower limbs",
+        "meaning": "নিচের অঙ্গপ্রত্যঙ্গ"
+      },
+      {
+        "word": "Internal organs",
+        "meaning": "অভ্যন্তরীণ অঙ্গ"
+      },
+      {
+        "word": "Heart",
+        "meaning": "হৃৎপিণ্ড"
+      },
+      {
+        "word": "Aorta",
+        "meaning": "মহাধমনি"
+      },
+      {
+        "word": "Arteries",
+        "meaning": "ধমনিগুলো"
+      },
+      {
+        "word": "Veins",
+        "meaning": "শিরাগুলো"
+      },
+      {
+        "word": "Capillaries",
+        "meaning": "কৈশিক রক্তনালিগুলো"
+      },
+      {
+        "word": "Blood",
+        "meaning": "রক্ত"
+      },
+      {
+        "word": "Blood vessels",
+        "meaning": "রক্তনালি"
+      },
+      {
+        "word": "Lungs",
+        "meaning": "ফুসফুস"
+      },
+      {
+        "word": "Bronchi",
+        "meaning": "শ্বাসনালির প্রধান শাখাগুলো"
+      },
+      {
+        "word": "Bronchioles",
+        "meaning": "ক্ষুদ্র শ্বাসনালিগুলো"
+      },
+      {
+        "word": "Alveoli",
+        "meaning": "ফুসফুসের বায়ুথলি"
+      },
+      {
+        "word": "Diaphragm",
+        "meaning": "মধ্যচ্ছদা"
+      },
+      {
+        "word": "Pleura",
+        "meaning": "ফুসফুসের আবরণী ঝিল্লি"
+      },
+      {
+        "word": "Trachea",
+        "meaning": "শ্বাসনালি"
+      },
+      {
+        "word": "Oesophagus",
+        "meaning": "খাদ্যনালি"
+      },
+      {
+        "word": "Esophagus",
+        "meaning": "খাদ্যনালি"
+      },
+      {
+        "word": "Stomach",
+        "meaning": "পাকস্থলী"
+      },
+      {
+        "word": "Liver",
+        "meaning": "যকৃৎ"
+      },
+      {
+        "word": "Gallbladder",
+        "meaning": "পিত্তথলি"
+      },
+      {
+        "word": "Pancreas",
+        "meaning": "অগ্ন্যাশয়"
+      },
+      {
+        "word": "Spleen",
+        "meaning": "প্লীহা"
+      },
+      {
+        "word": "Small intestine",
+        "meaning": "ক্ষুদ্রান্ত্র"
+      },
+      {
+        "word": "Duodenum",
+        "meaning": "গ্রহণী"
+      },
+      {
+        "word": "Jejunum",
+        "meaning": "ক্ষুদ্রান্ত্রের মধ্যবর্তী অংশ"
+      },
+      {
+        "word": "Ileum",
+        "meaning": "ক্ষুদ্রান্ত্রের শেষ অংশ"
+      },
+      {
+        "word": "Large intestine",
+        "meaning": "বৃহদন্ত্র"
+      },
+      {
+        "word": "Colon",
+        "meaning": "কোলন / বৃহদন্ত্রের প্রধান অংশ"
+      },
+      {
+        "word": "Ascending colon",
+        "meaning": "ঊর্ধ্বগামী কোলন"
+      },
+      {
+        "word": "Transverse colon",
+        "meaning": "আড়াআড়ি কোলন"
+      },
+      {
+        "word": "Descending colon",
+        "meaning": "নিম্নগামী কোলন"
+      },
+      {
+        "word": "Sigmoid colon",
+        "meaning": "সিগময়েড কোলন"
+      },
+      {
+        "word": "Cecum",
+        "meaning": "বৃহদন্ত্রের শুরুর থলির মতো অংশ"
+      },
+      {
+        "word": "Appendix",
+        "meaning": "অ্যাপেন্ডিক্স"
+      },
+      {
+        "word": "Rectum",
+        "meaning": "মলাশয়"
+      },
+      {
+        "word": "Anus",
+        "meaning": "পায়ুপথ"
+      },
+      {
+        "word": "Kidneys",
+        "meaning": "বৃক্ক / কিডনি"
+      },
+      {
+        "word": "Ureters",
+        "meaning": "মূত্রবাহী নালি"
+      },
+      {
+        "word": "Urinary bladder",
+        "meaning": "মূত্রথলি"
+      },
+      {
+        "word": "Urethra",
+        "meaning": "মূত্রনালি"
+      },
+      {
+        "word": "Adrenal glands",
+        "meaning": "অ্যাড্রিনাল গ্রন্থি"
+      },
+      {
+        "word": "Reproductive organs",
+        "meaning": "প্রজনন অঙ্গ"
+      },
+      {
+        "word": "Brain",
+        "meaning": "মস্তিষ্ক"
+      },
+      {
+        "word": "Cerebrum",
+        "meaning": "গুরুমস্তিষ্ক"
+      },
+      {
+        "word": "Cerebellum",
+        "meaning": "লঘুমস্তিষ্ক"
+      },
+      {
+        "word": "Brainstem",
+        "meaning": "মস্তিষ্ককাণ্ড"
+      },
+      {
+        "word": "Hypothalamus",
+        "meaning": "হাইপোথ্যালামাস"
+      },
+      {
+        "word": "Pituitary gland",
+        "meaning": "পিটুইটারি গ্রন্থি"
+      },
+      {
+        "word": "Pineal gland",
+        "meaning": "পিনিয়াল গ্রন্থি"
+      },
+      {
+        "word": "Thalamus",
+        "meaning": "থ্যালামাস"
+      },
+      {
+        "word": "Meninges",
+        "meaning": "মস্তিষ্ক ও সুষুম্নাকাণ্ডের আবরণী ঝিল্লি"
+      },
+      {
+        "word": "Cerebrospinal fluid",
+        "meaning": "মস্তিষ্ক-মেরুরস"
+      },
+      {
+        "word": "Nerves",
+        "meaning": "স্নায়ু"
+      },
+      {
+        "word": "Nervous system",
+        "meaning": "স্নায়ুতন্ত্র"
+      },
+      {
+        "word": "Peripheral nerves",
+        "meaning": "প্রান্তীয় স্নায়ু"
+      },
+      {
+        "word": "Lymph nodes",
+        "meaning": "লসিকাগ্রন্থি"
+      },
+      {
+        "word": "Lymphatic vessels",
+        "meaning": "লসিকানালি"
+      },
+      {
+        "word": "Lymph",
+        "meaning": "লসিকা"
+      },
+      {
+        "word": "Thymus",
+        "meaning": "থাইমাস গ্রন্থি"
+      },
+      {
+        "word": "Bone marrow",
+        "meaning": "অস্থিমজ্জা"
+      },
+      {
+        "word": "Thyroid",
+        "meaning": "থাইরয়েড গ্রন্থি"
+      },
+      {
+        "word": "Parathyroids",
+        "meaning": "প্যারাথাইরয়েড গ্রন্থিগুলো"
+      },
+      {
+        "word": "Tendons",
+        "meaning": "টেন্ডন / পেশি ও হাড় সংযোগকারী তন্তু"
+      },
+      {
+        "word": "Ligaments",
+        "meaning": "লিগামেন্ট / হাড়ের সংযোগকারী তন্তু"
+      },
+      {
+        "word": "Cartilage",
+        "meaning": "তরুণাস্থি"
+      },
+      {
+        "word": "Joints",
+        "meaning": "সন্ধিগুলো"
+      },
+      {
+        "word": "Fascia",
+        "meaning": "পেশি ও অঙ্গের চারপাশের সংযোজক টিস্যু"
+      },
+      {
+        "word": "Muscles",
+        "meaning": "পেশিগুলো"
+      },
+      {
+        "word": "Skeletal muscles",
+        "meaning": "কঙ্কালপেশি"
+      },
+      {
+        "word": "Smooth muscles",
+        "meaning": "মসৃণ পেশি"
+      },
+      {
+        "word": "Cardiac muscle",
+        "meaning": "হৃৎপেশি"
+      },
+      {
+        "word": "Skin",
+        "meaning": "ত্বক"
+      },
+      {
+        "word": "Epidermis",
+        "meaning": "ত্বকের বহিঃস্তর"
+      },
+      {
+        "word": "Dermis",
+        "meaning": "ত্বকের মধ্যস্তর"
+      },
+      {
+        "word": "Hypodermis",
+        "meaning": "ত্বকের নিচের স্তর"
+      },
+      {
+        "word": "Subcutaneous fat",
+        "meaning": "ত্বকের নিচের চর্বি"
+      },
+      {
+        "word": "Sweat glands",
+        "meaning": "ঘর্মগ্রন্থি"
+      },
+      {
+        "word": "Sebaceous glands",
+        "meaning": "তেলগ্রন্থি"
+      },
+      {
+        "word": "Sweat",
+        "meaning": "ঘাম"
+      },
+      {
+        "word": "Body hair",
+        "meaning": "শরীরের লোম"
+      },
+      {
+        "word": "Hair follicle",
+        "meaning": "লোমকূপ"
+      },
+      {
+        "word": "Nerves in the skin",
+        "meaning": "ত্বকের স্নায়ু"
+      },
+      {
+        "word": "Thigh",
+        "meaning": "ঊরু"
+      },
+      {
+        "word": "Thighs",
+        "meaning": "ঊরুদ্বয়"
+      },
+      {
+        "word": "Femur",
+        "meaning": "ঊরুর হাড়"
+      },
+      {
+        "word": "Quadriceps",
+        "meaning": "ঊরুর সামনের পেশিগুলো"
+      },
+      {
+        "word": "Hamstrings",
+        "meaning": "ঊরুর পেছনের পেশিগুলো"
+      },
+      {
+        "word": "Adductors",
+        "meaning": "ঊরুর ভেতরের পেশিগুলো"
+      },
+      {
+        "word": "Iliotibial band",
+        "meaning": "ঊরুর বাইরের দিকের শক্ত তন্তুময় ব্যান্ড"
+      },
+      {
+        "word": "Hip flexors",
+        "meaning": "নিতম্ব ভাঁজ করার পেশিগুলো"
+      },
+      {
+        "word": "Knee",
+        "meaning": "হাঁটু"
+      },
+      {
+        "word": "Knee joint",
+        "meaning": "হাঁটুর সন্ধি"
+      },
+      {
+        "word": "Kneecap",
+        "meaning": "হাঁটুর সামনের হাড়"
+      },
+      {
+        "word": "Patella",
+        "meaning": "হাঁটুর সামনের হাড়"
+      },
+      {
+        "word": "Patellar tendon",
+        "meaning": "হাঁটুর নিচের টেন্ডন"
+      },
+      {
+        "word": "Quadriceps tendon",
+        "meaning": "হাঁটুর ওপরের টেন্ডন"
+      },
+      {
+        "word": "Meniscus",
+        "meaning": "হাঁটুর সন্ধির অর্ধচন্দ্রাকার তরুণাস্থি"
+      },
+      {
+        "word": "Anterior cruciate ligament",
+        "meaning": "হাঁটুর সামনের ক্রুশাকার লিগামেন্ট"
+      },
+      {
+        "word": "Posterior cruciate ligament",
+        "meaning": "হাঁটুর পেছনের ক্রুশাকার লিগামেন্ট"
+      },
+      {
+        "word": "Medial collateral ligament",
+        "meaning": "হাঁটুর ভেতরের পাশের লিগামেন্ট"
+      },
+      {
+        "word": "Lateral collateral ligament",
+        "meaning": "হাঁটুর বাইরের পাশের লিগামেন্ট"
+      },
+      {
+        "word": "Popliteal fossa",
+        "meaning": "হাঁটুর পেছনের খাঁজ"
+      },
+      {
+        "word": "Shin",
+        "meaning": "পায়ের সামনের নিচের অংশ"
+      },
+      {
+        "word": "Shinbone",
+        "meaning": "পায়ের সামনের বড় হাড়"
+      },
+      {
+        "word": "Tibia",
+        "meaning": "পায়ের নিচের ভেতরের বড় হাড়"
+      },
+      {
+        "word": "Fibula",
+        "meaning": "পায়ের নিচের বাইরের সরু হাড়"
+      },
+      {
+        "word": "Calf",
+        "meaning": "পায়ের পেছনের নিচের মাংসল অংশ"
+      },
+      {
+        "word": "Calf muscles",
+        "meaning": "পায়ের পেছনের নিচের পেশি"
+      },
+      {
+        "word": "Gastrocnemius",
+        "meaning": "পিণ্ডলির ওপরের বড় পেশি"
+      },
+      {
+        "word": "Soleus",
+        "meaning": "পিণ্ডলির গভীর পেশি"
+      },
+      {
+        "word": "Achilles tendon",
+        "meaning": "গোড়ালির পেছনের অ্যাকিলিস টেন্ডন"
+      },
+      {
+        "word": "Ankle",
+        "meaning": "গোড়ালি"
+      },
+      {
+        "word": "Ankle joint",
+        "meaning": "গোড়ালির সন্ধি"
+      },
+      {
+        "word": "Lateral malleolus",
+        "meaning": "গোড়ালির বাইরের হাড়ের উঁচু অংশ"
+      },
+      {
+        "word": "Medial malleolus",
+        "meaning": "গোড়ালির ভেতরের হাড়ের উঁচু অংশ"
+      },
+      {
+        "word": "Heel",
+        "meaning": "গোড়ালি / পায়ের পেছনের অংশ"
+      },
+      {
+        "word": "Heel bone",
+        "meaning": "গোড়ালির হাড়"
+      },
+      {
+        "word": "Calcaneus",
+        "meaning": "গোড়ালির বড় হাড়"
+      },
+      {
+        "word": "Foot",
+        "meaning": "পা"
+      },
+      {
+        "word": "Feet",
+        "meaning": "পা-দুটি"
+      },
+      {
+        "word": "Instep",
+        "meaning": "পায়ের ওপরের মাঝের উঁচু অংশ"
+      },
+      {
+        "word": "Arch of the foot",
+        "meaning": "পায়ের পাতার বাঁক"
+      },
+      {
+        "word": "Sole",
+        "meaning": "পায়ের তলা"
+      },
+      {
+        "word": "Ball of the foot",
+        "meaning": "আঙুলের গোড়ার দিকের পায়ের তলার মাংসল অংশ"
+      },
+      {
+        "word": "Foot dorsum",
+        "meaning": "পায়ের ওপরের পৃষ্ঠ"
+      },
+      {
+        "word": "Metatarsals",
+        "meaning": "পায়ের পাতার মধ্যবর্তী হাড়গুলো"
+      },
+      {
+        "word": "Tarsal bones",
+        "meaning": "গোড়ালির কাছের হাড়গুলো"
+      },
+      {
+        "word": "Talus",
+        "meaning": "গোড়ালির সন্ধির হাড়"
+      },
+      {
+        "word": "Navicular",
+        "meaning": "পায়ের পাতার ভেতরের দিকের হাড়"
+      },
+      {
+        "word": "Cuboid",
+        "meaning": "পায়ের পাতার বাইরের দিকের হাড়"
+      },
+      {
+        "word": "Cuneiform bones",
+        "meaning": "পায়ের পাতার তিনটি ছোট হাড়"
+      },
+      {
+        "word": "Toe",
+        "meaning": "পায়ের আঙুল"
+      },
+      {
+        "word": "Toes",
+        "meaning": "পায়ের আঙুলগুলো"
+      },
+      {
+        "word": "Big toe",
+        "meaning": "পায়ের বুড়ো আঙুল"
+      },
+      {
+        "word": "Great toe",
+        "meaning": "পায়ের বুড়ো আঙুল"
+      },
+      {
+        "word": "Second toe",
+        "meaning": "পায়ের দ্বিতীয় আঙুল"
+      },
+      {
+        "word": "Middle toe",
+        "meaning": "পায়ের মাঝের আঙুল"
+      },
+      {
+        "word": "Fourth toe",
+        "meaning": "পায়ের চতুর্থ আঙুল"
+      },
+      {
+        "word": "Little toe",
+        "meaning": "পায়ের কনিষ্ঠ আঙুল"
+      },
+      {
+        "word": "Toenail",
+        "meaning": "পায়ের নখ"
+      },
+      {
+        "word": "Toenails",
+        "meaning": "পায়ের নখগুলো"
+      },
+      {
+        "word": "Toe joint",
+        "meaning": "পায়ের আঙুলের সন্ধি"
+      },
+      {
+        "word": "Toe pad",
+        "meaning": "পায়ের আঙুলের ডগার নরম অংশ"
+      },
+      {
+        "word": "Toe webbing",
+        "meaning": "পায়ের আঙুলের মাঝের সংযুক্ত ত্বক"
+      },
+      {
+        "word": "Interdigital space",
+        "meaning": "আঙুলের মধ্যবর্তী ফাঁক"
+      },
+      {
+        "word": "Plantar fascia",
+        "meaning": "পায়ের তলার শক্ত তন্তুময় আবরণ"
+      },
+      {
+        "word": "Plantar surface",
+        "meaning": "পায়ের তলার পৃষ্ঠ"
+      },
+      {
+        "word": "Dorsal surface of the foot",
+        "meaning": "পায়ের ওপরের পৃষ্ঠ"
+      },
+      {
+        "word": "Metatarsophalangeal joint",
+        "meaning": "পায়ের আঙুল ও পাতার হাড়ের সংযোগস্থল"
+      },
+      {
+        "word": "Phalanges of the foot",
+        "meaning": "পায়ের আঙুলের হাড়গুলো"
+      },
+      {
+        "word": "Sesamoid bones",
+        "meaning": "টেন্ডনের মধ্যে থাকা ছোট হাড়গুলো"
+      },
+      {
+        "word": "Foot pad",
+        "meaning": "পায়ের তলার মাংসল অংশ"
+      },
+      {
+        "word": "Foot arch",
+        "meaning": "পায়ের পাতার বাঁক"
+      },
+      {
+        "word": "Heel pad",
+        "meaning": "গোড়ালির নিচের নরম মাংসল অংশ"
+      },
+      {
+        "word": "Ankle ligament",
+        "meaning": "গোড়ালির লিগামেন্ট"
+      },
+      {
+        "word": "Foot tendon",
+        "meaning": "পায়ের টেন্ডন"
+      },
+      {
+        "word": "Plantar muscles",
+        "meaning": "পায়ের তলার পেশিগুলো"
+      },
+      {
+        "word": "Foot muscles",
+        "meaning": "পায়ের পেশিগুলো"
+      },
+      {
+        "word": "Skin of the foot",
+        "meaning": "পায়ের ত্বক"
+      },
+      {
+        "word": "Callus",
+        "meaning": "ঘর্ষণে তৈরি শক্ত চামড়া"
+      },
+      {
+        "word": "Corn",
+        "meaning": "চাপের কারণে তৈরি শক্ত ছোট চামড়ার অংশ"
+      },
+      {
+        "word": "Blister",
+        "meaning": "ফোসকা"
+      },
+      {
+        "word": "Cracked heel",
+        "meaning": "ফাটা গোড়ালি"
+      },
+      {
+        "word": "Foot sole crease",
+        "meaning": "পায়ের তলার রেখা"
+      },
+      {
+        "word": "Body posture",
+        "meaning": "শরীরের ভঙ্গি"
+      },
+      {
+        "word": "Body shape",
+        "meaning": "শরীরের গঠন"
+      },
+      {
+        "word": "Body frame",
+        "meaning": "শরীরের কাঠামো"
+      },
+      {
+        "word": "Body contour",
+        "meaning": "শরীরের বাহ্যিক রেখা"
+      },
+      {
+        "word": "Body proportion",
+        "meaning": "শরীরের অঙ্গগুলোর আনুপাতিক গঠন"
+      },
+      {
+        "word": "Body mass",
+        "meaning": "শরীরের ভর"
+      },
+      {
+        "word": "Body weight",
+        "meaning": "শরীরের ওজন"
+      },
+      {
+        "word": "Height",
+        "meaning": "উচ্চতা"
+      },
+      {
+        "word": "Stature",
+        "meaning": "দেহের উচ্চতা"
+      },
+      {
+        "word": "Waistline",
+        "meaning": "কোমরের রেখা"
+      },
+      {
+        "word": "Shoulder width",
+        "meaning": "কাঁধের প্রস্থ"
+      },
+      {
+        "word": "Chest circumference",
+        "meaning": "বুকের পরিধি"
+      },
+      {
+        "word": "Waist circumference",
+        "meaning": "কোমরের পরিধি"
+      },
+      {
+        "word": "Hip circumference",
+        "meaning": "নিতম্বের পরিধি"
+      },
+      {
+        "word": "Limb",
+        "meaning": "অঙ্গপ্রত্যঙ্গ"
+      },
+      {
+        "word": "Joint",
+        "meaning": "সন্ধি"
+      },
+      {
+        "word": "Bone",
+        "meaning": "হাড়"
+      },
+      {
+        "word": "Muscle",
+        "meaning": "পেশি"
+      },
+      {
+        "word": "Tendon",
+        "meaning": "পেশি ও হাড় সংযোগকারী তন্তু"
+      },
+      {
+        "word": "Ligament",
+        "meaning": "হাড়ের সঙ্গে হাড় সংযোগকারী তন্তু"
+      },
+      {
+        "word": "Cartilage",
+        "meaning": "তরুণাস্থি"
+      },
+      {
+        "word": "Nerve",
+        "meaning": "স্নায়ু"
+      },
+      {
+        "word": "Blood vessel",
+        "meaning": "রক্তনালি"
+      },
+      {
+        "word": "Gland",
+        "meaning": "গ্রন্থি"
+      },
+      {
+        "word": "Tissue",
+        "meaning": "কলা"
+      },
+      {
+        "word": "Cell",
+        "meaning": "কোষ"
       }
     ]
   }
