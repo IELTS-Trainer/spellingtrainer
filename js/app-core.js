@@ -61,7 +61,8 @@
         select.innerHTML = '';
         Object.keys(data.library || {}).forEach(category => {
             const option = document.createElement('option');
-            option.value = option.textContent = category;
+            option.value = category;
+            option.textContent = categoryOptionLabel(category);
             select.appendChild(option);
         });
         document.getElementById('voiceCategoryBox').style.display = 'none';

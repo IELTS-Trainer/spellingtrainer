@@ -1,4 +1,4 @@
-function openTypingSetup(){let s=document.getElementById('typingCategory');s.innerHTML='';Object.keys(data.library||{}).forEach(c=>{let o=document.createElement('option');o.value=c;o.textContent=c;s.appendChild(o)});document.getElementById('typingCategoryBox').style.display='none';showView('typingSetup')}
+function openTypingSetup(){let s=document.getElementById('typingCategory');s.innerHTML='';Object.keys(data.library||{}).forEach(c=>{let o=document.createElement('option');o.value=c;o.textContent=categoryOptionLabel(c);s.appendChild(o)});document.getElementById('typingCategoryBox').style.display='none';showView('typingSetup')}
 function selectTypingLevel(l){if(l===1){if(!Object.keys(data.library||{}).length)return alert('Add words first.');document.getElementById('typingCategoryBox').style.display='block'}else beginTypingGame(2)}
 function beginTypingGame(level, requestedCategory) {
         let category = '';
@@ -13,6 +13,7 @@ function beginTypingGame(level, requestedCategory) {
         }
         typingSession = {words, index:0, level, category, score:0, mistakes:0};
         const label = level === 1 ? 'Typing Climb · ' + category : 'Typing Climb · Random Mix';
+        if (level === 1) recordCategoryPractice(category);
         const now = new Date();
         if (!data.history) data.history = [];
         data.history.push({category:label, date:now.toLocaleDateString([], {weekday:'short',month:'short',day:'numeric'}) + ' at ' + now.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'})});
@@ -53,7 +54,7 @@ function showTypingWord() {
         Object.keys(data.library || {}).forEach(category => {
             const option = document.createElement('option');
             option.value = category;
-            option.textContent = category;
+            option.textContent = categoryOptionLabel(category);
             select.appendChild(option);
         });
         select.value = typingSession.category;

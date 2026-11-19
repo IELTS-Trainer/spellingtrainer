@@ -26,6 +26,10 @@
         .history-section { padding: 0 30px 30px 30px; margin-top: 10px; }
         .history-title { font-size: 1.1rem; color: #475569; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
         .history-item { background: #f1f5f9; padding: 12px; border-radius: 8px; margin-bottom: 8px; border-left: 4px solid var(--primary); font-size: 0.9rem; display: flex; justify-content: space-between; align-items: center; }
+.saved-word-label { display:flex; flex-direction:column; gap:3px; min-width:0; }
+.saved-word-meaning { color:#64748b; font-size:.88rem; }
+.saved-word-syllables { color:#64748b; font-size:.82rem; }
+.category-revised-count { color:#64748b; font-size:.82rem; }
         .history-date { color: #64748b; font-size: 0.8rem; }
 
         .view { padding: 30px; display: none; }

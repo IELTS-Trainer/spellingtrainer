@@ -42,6 +42,7 @@ function exportUserData() {
         revision: data.revision || [],
         learned: data.learned || [],
         history: data.history || [],
+        categoryPracticeCounts: data.categoryPracticeCounts || {},
         settings: data.settings || {}
     };
     const blob = new Blob([JSON.stringify(backup, null, 2)], {type: 'application/json'});
@@ -94,6 +95,10 @@ function importUserData(event) {
             data.history = backup.history
                 .filter(item => item && typeof item === 'object')
                 .map(item => ({category: String(item.category || ''), date: String(item.date || '')}));
+            if (backup.categoryPracticeCounts && typeof backup.categoryPracticeCounts === 'object' && !Array.isArray(backup.categoryPracticeCounts)) {
+                data.categoryPracticeCounts = Object.fromEntries(Object.entries(backup.categoryPracticeCounts)
+                    .map(([category, count]) => [category, Math.max(0, Math.floor(Number(count) || 0))]));
+            }
 
             const settings = backup.settings;
             const bounded = (value, min, max, fallback) => {

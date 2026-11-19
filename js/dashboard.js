@@ -50,7 +50,7 @@
         words.forEach(word => {
             const item = document.createElement('div');
             item.className = 'history-item';
-            item.textContent = word;
+            item.appendChild(createSavedWordLabel(word, true));
             list.appendChild(item);
         });
     }
@@ -78,7 +78,7 @@
         words.slice().reverse().forEach(word => {
             const item = document.createElement('div');
             item.className = 'history-item';
-            item.textContent = word;
+            item.appendChild(createSavedWordLabel(word));
             list.appendChild(item);
         });
     }
@@ -104,8 +104,7 @@ function renderDashboardBookmarks() {
         values.slice().reverse().forEach(word => {
             const row = document.createElement('div');
             row.className = 'history-item';
-            const text = document.createElement('span');
-            text.textContent = word;
+            const text = createSavedWordLabel(word, true);
             const remove = document.createElement('button');
             remove.type = 'button';
             remove.className = 'history-action';
@@ -121,6 +120,31 @@ function renderDashboardBookmarks() {
     render(homeList, words.slice(-5));
     render(pageList, words);
 }
+
+function createSavedWordLabel(word, includeSyllables = false) {
+    const label = document.createElement('span');
+    label.className = 'saved-word-label';
+    const wordText = document.createElement('span');
+    wordText.textContent = word;
+    label.appendChild(wordText);
+    const meaning = findWordMeaning(word);
+    if (meaning) {
+        const meaningText = document.createElement('span');
+        meaningText.className = 'saved-word-meaning';
+        meaningText.lang = 'bn';
+        meaningText.textContent = meaning;
+        label.appendChild(meaningText);
+    }
+    if (includeSyllables) {
+        const syllables = typeof syllabifyPhrase === 'function' ? syllabifyPhrase(word) : [word];
+        const syllableText = document.createElement('span');
+        syllableText.className = 'saved-word-syllables';
+        syllableText.textContent = 'Syllables: ' + syllables.join(' · ');
+        label.appendChild(syllableText);
+    }
+    return label;
+}
+
 function practiceBookmarkedWords() {
     const words = Array.isArray(data.bookmarks) ? [...data.bookmarks] : [];
     if (!words.length) return alert('No bookmarked words to practise yet.');

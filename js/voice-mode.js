@@ -24,6 +24,7 @@ function startMode(mode) {
 
         if(session.words.length === 0) return alert("No words found.");
         session.mistakes = 0;
+        if (mode === 'regular') recordCategoryPractice(catName);
 
         const now = new Date();
         const dateStr = now.toLocaleDateString([], { weekday: 'short', month: 'short', day: 'numeric' });

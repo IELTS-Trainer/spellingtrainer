@@ -26,6 +26,30 @@
     function wordMeaning(entry) { return normalizeLibraryEntry(entry).meaning; }
     function libraryWords(category) { return (data.library?.[category] || []).map(wordText); }
     function allLibraryWords() { return Object.values(data.library || {}).flat().map(wordText); }
+    function categoryWordSet(category) {
+        return new Set(libraryWords(category).map(word => word.toLocaleLowerCase()));
+    }
+    function countWordsInCategory(category, words) {
+        const categoryWords = categoryWordSet(category);
+        return new Set((Array.isArray(words) ? words : [])
+            .map(word => String(word || '').trim().toLocaleLowerCase())
+            .filter(word => categoryWords.has(word))).size;
+    }
+    function getCategoryStats(category) {
+        return {
+            revised: Math.max(0, Number(data.categoryPracticeCounts?.[category]) || 0),
+            mistakes: countWordsInCategory(category, Object.keys(data.mistakes || {})),
+            bookmarked: countWordsInCategory(category, data.bookmarks)
+        };
+    }
+    function categoryOptionLabel(category) {
+        const stats = getCategoryStats(category);
+        return category + ' · Revised: ' + stats.revised + ' · On Mistakes: ' + stats.mistakes + ' · Bookmarked: ' + stats.bookmarked;
+    }
+    function recordCategoryPractice(category) {
+        if (!Object.prototype.hasOwnProperty.call(data.library || {}, category)) return;
+        data.categoryPracticeCounts[category] = (Number(data.categoryPracticeCounts[category]) || 0) + 1;
+    }
     function findWordMeaning(word) {
         const key = String(word || '').trim().toLocaleLowerCase();
         for (const entries of Object.values(data.library || {})) {
@@ -36,6 +60,19 @@
     }
     data.library = normalizeLibrary(data.library && Object.keys(data.library).length ? data.library : starterLibrary);
     data.bookmarks = Array.isArray(data.bookmarks) ? [...new Set(data.bookmarks.map(wordText).filter(Boolean))] : [];
+    if (data.categoryPracticeCounts && typeof data.categoryPracticeCounts === 'object' && !Array.isArray(data.categoryPracticeCounts)) {
+        data.categoryPracticeCounts = Object.fromEntries(Object.entries(data.categoryPracticeCounts)
+            .map(([category, count]) => [category, Math.max(0, Math.floor(Number(count) || 0))]));
+    } else {
+        data.categoryPracticeCounts = {};
+        (Array.isArray(data.history) ? data.history : []).forEach(item => {
+            let category = String(item?.category || '');
+            if (category.startsWith('Typing Climb · ')) category = category.slice('Typing Climb · '.length);
+            if (Object.prototype.hasOwnProperty.call(data.library, category)) {
+                data.categoryPracticeCounts[category] = (data.categoryPracticeCounts[category] || 0) + 1;
+            }
+        });
+    }
     const lastWordForTools = Object.create(null);
     function isWordBookmarked(word) { return data.bookmarks.some(item => item.toLocaleLowerCase() === String(word).toLocaleLowerCase()); }
     function toggleWordBookmark(word) {

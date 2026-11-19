@@ -79,6 +79,11 @@ function renderLibrary() {
         const name = document.createElement("strong");
         name.textContent = category;
         info.append(name, document.createTextNode(" (" + data.library[category].length + " words)"));
+        const stats = getCategoryStats(category);
+        const summary = document.createElement("span");
+        summary.className = "category-revised-count";
+        summary.textContent = " · Revised: " + stats.revised + " · On Mistakes: " + stats.mistakes + " · Bookmarked: " + stats.bookmarked;
+        info.appendChild(summary);
         if (Array.isArray(data.newLibraryCategories) && data.newLibraryCategories.includes(category)) {
             const badge = document.createElement("span");
             badge.className = "shared-library-new-badge";
@@ -276,7 +281,8 @@ function openPracticeSetup() {
     if (!categories.length) return alert("Library empty.");
     categories.forEach(category => {
         const option = document.createElement("option");
-        option.value = option.textContent = category;
+        option.value = category;
+        option.textContent = categoryOptionLabel(category);
         select.appendChild(option);
     });
     showView("practiceSetup");
